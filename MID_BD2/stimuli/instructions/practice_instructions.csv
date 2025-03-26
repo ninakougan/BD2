@@ -1,0 +1,13 @@
+﻿instructions,images
+"""We will now practice the Money Game that you will be doing in the scanner.\n\n\n\nYourgoal is to win money and avoid losing money.\n\n\n\nThis game has many rounds.\n\nEvery round has the same basic order of events.""",none
+"""First you will see a cross in the middle of the screen, like this:\n\n+\n\nThis means you should focus on the screen and get ready to play. "",",none
+"""Next you will see a cue that tells you if you can win or lose monye.\n\nIt will also tell you how much money you can win or lose for that round.\n\nHere are the 6 possibilities:\n\n"",",example_cues
+"""Then, you will see another cross in the middle of the screen:\n\n\n\n+""",none
+"""Next, a small solid WHITE TRIANGLE will appear VERY BRIEFLY on the screen:\n\n \n\n \n\n \n\n \n\nTo win money or avoid losing money you need to press the button while the solid WHITE TRIANGLE is on the screen.""",probe.png
+"""For WIN CIRCLES, pressing the button while the solid white triangle is on the screen means you will WIN money.\n\n\n\n\n\nIf you press too late, you will MISS WINNING money.""",example_cues_reward
+"""For LOSE SQUARES, pressing the button while the solid white triangle is on the screen means you will NOT LOSE money.\n\n\n\n\n\nIf you press too late, you WILL LOSE money.\n\n""",example_cues_loss
+"""Make sure to try and respond to all trials, including $0.00 trials\n\n\n\n\n\n""",example_cues_neut
+"""We will let you know if you pressed the button in time and if you won or lost money for that round\n\n\n\n\n\n\n\n\n\n""",feedback_table.png
+"""During each round, this is the order that you will see things happen:\n\n\n\n""",task_order
+"""Major points to remember:\n\n\n\n1. Do not press the button on the win circles, lose squares, or the crosses. Just respond to the SOLID WHITE TRIANGLES.\n\n\n\n2. Try to press the button EVERY time you see the solid white triangle.\n\n\n\n3. The SOLID WHITE TRIANGLE appears VERY BRIEFLY, so you will have to press the button QUICKLY whe you see it.\n\n\n\n4. Things move fast in this game, so you will want to keep your finger on the button, ready to respond.""",none
+"""Any Questions?\n\nPlease ask them now.""",none
