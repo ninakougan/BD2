@@ -107,7 +107,7 @@ expInfo = {
     'participant': '',
     'session': '1',
     'fMRI? (yes or no)': 'yes',
-    'fMRI trigger on TTL? (yes or no)': 'no',
+    'fMRI trigger on TTL? (yes or no)': 'yes',
     'fMRI reverse screen? (yes or no)': 'no',
     'start run (0-2)': '0',
     'task screen': '2',
