@@ -386,7 +386,7 @@ instructPrompt = visual.TextStim(win=win, font='Arial', pos=(0, yScr/10),
                                  height=fontH, wrapWidth=wrapW, 
                                  color=text_color, flipHoriz=flipHoriz);
 if fmri:
-    endInstructions = "When you are ready to begin the task, place your finger on any button and notify the experimenter."
+    endInstructions = "When you are ready to begin the task, place your finger on the button and notify the experimenter."
 else:
     endInstructions = "Get Ready!"
 
@@ -567,7 +567,7 @@ while run < num_runs:
     "Make sure to try and respond to all trials, including $0.00 trials\n\n\n\n\n\n",
     "We will let you know if you pressed the button in time and if you won or lost money for that round\n\n\n\n\n\n",
     "During each round, this is the order that you will see things happen:\n\n\n\n\n\n\n\n\n\n",
-    "Major points to remember:\n\n1. Do not press the button on the win circles, lose squares, or the crosses. Just respond to the SOLID WHITE TRIANGLES.\n\n2. Try to press the button EVERY time you see the solid white triangle.\n\n3. The SOLID WHITE TRIANGLE appears VERY BRIEFLY, so you will have to press the button QUICKLY whe you see it.\n\n4. Things move fast in this game, so you will want to keep your finger on the button, ready to respond.",
+    "Major points to remember:\n\n1. Do not press the button on the win circles, lose squares, or the crosses. Just respond to the SOLID WHITE TRIANGLES.\n\n2. Try to press the button EVERY time you see the solid white triangle.\n\n3. The SOLID WHITE TRIANGLE appears VERY BRIEFLY, so you will have to press the button QUICKLY when you see it.\n\n4. Things move fast in this game, so you will want to keep your finger on the button, ready to respond.",
     "Any Questions?\n\nPlease ask them now."]
     
     display_instructions_file(inst_file, instructions, run)
