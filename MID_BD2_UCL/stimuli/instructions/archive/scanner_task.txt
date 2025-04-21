@@ -1,0 +1,2 @@
+Instructions... \n \n Your goals is to make as much money as possible. \n \n Remember: \n WIN CIRCLES = win money \n LOSE SQUARES = lose money \n \n QUICKLY press the button with your pointer finger when you see the solid white square. \n \n You will get feedback on whether you pressed the button in time and if you won or lost money. 
+During each round, this is the order that you will see things happen: \n \n [picture]
