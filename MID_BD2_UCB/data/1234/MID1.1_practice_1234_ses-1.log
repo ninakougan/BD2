@@ -1,0 +1,188 @@
+14.5806 	WARNING 	Monitor specification not found. Creating a temporary one...
+14.5909 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1728, 1117]. Using actual size
+16.0490 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+16.0497 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff0105d2910>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff0105d28b0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff0105d2730>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7ff0106ad0a0>, multiSample=False, name='window1', numSamples=2, pos=[432.0, 279.25], screen=0, size=array([3456, 2234]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=False, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.0500 	EXP 	window1: mouseVisible = True
+16.0501 	EXP 	window1: backgroundImage = None
+16.0501 	EXP 	window1: backgroundFit = 'cover'
+16.0518 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+16.0518 	EXP 	window1: recordFrameIntervals = False
+16.1671 	EXP 	window1: recordFrameIntervals = True
+16.5511 	EXP 	Screen (0) actual frame rate measured at 59.64Hz
+16.5512 	EXP 	window1: recordFrameIntervals = True
+16.5515 	EXP 	window1: mouseVisible = True
+16.5880 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.        , -0.33333333]), rgb=UNKNOWN, text='Press the button to continue.', units='height', win=Window(...), wrapWidth=1)
+16.5882 	EXP 	window1: mouseVisible = True
+16.5915 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+16.5916 	EXP 	window1: mouseVisible = True
+16.5981 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.1851851851851851)
+16.5982 	EXP 	window1: mouseVisible = True
+16.6099 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='Hello World', units='height', win=Window(...), wrapWidth=1.1851851851851851)
+16.6100 	EXP 	window1: mouseVisible = True
+16.6161 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Get Ready!', units='height', win=Window(...), wrapWidth=1.1851851851851851)
+16.6162 	EXP 	window1: mouseVisible = True
+16.6239 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='The task will begin momentarily. Get ready...', units='height', win=Window(...), wrapWidth=1)
+16.6240 	EXP 	window1: mouseVisible = True
+16.6292 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.1851851851851851)
+16.6294 	EXP 	window1: mouseVisible = True
+16.6977 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/reward_neut.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+16.6979 	EXP 	window1: mouseVisible = True
+16.7150 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/reward_low.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+16.7151 	EXP 	window1: mouseVisible = True
+16.7328 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/reward_high.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+16.7329 	EXP 	window1: mouseVisible = True
+16.7494 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/loss_neut.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+16.7495 	EXP 	window1: mouseVisible = True
+16.7662 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/loss_low.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+16.7663 	EXP 	window1: mouseVisible = True
+16.7829 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/loss_high.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+16.7842 	EXP 	window1: mouseVisible = True
+16.7855 	EXP 	Created unnamed Polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+16.7856 	EXP 	window1: mouseVisible = True
+16.7911 	EXP 	Created trial_feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.09, italic=False, languageStyle='LTR', name='trial_feedback', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Trial:', units='height', win=Window(...), wrapWidth=1)
+16.7912 	EXP 	window1: mouseVisible = True
+16.7949 	EXP 	Created exp_feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.09, italic=False, languageStyle='LTR', name='exp_feedback', opacity=1.0, ori=0, pos=array([ 0.    , -0.0625]), rgb=UNKNOWN, text='Total:', units='height', win=Window(...), wrapWidth=1)
+16.7950 	EXP 	window1: mouseVisible = True
+16.8018 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+16.8019 	EXP 	window1: mouseVisible = True
+16.8041 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Get ready', units='height', win=Window(...), wrapWidth=1)
+16.8041 	EXP 	window1: mouseVisible = True
+16.8073 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Please wait\n\n', units='height', win=Window(...), wrapWidth=1)
+16.8910 	EXP 	window1: mouseVisible = False
+16.9169 	WARNING 	t of last frame was 365.91ms (=1/2)
+16.9169 	EXP 	unnamed TextStim: height = 0.04
+16.9169 	EXP 	unnamed TextStim: height = 0.04
+16.9169 	EXP 	unnamed TextStim: height = 0.04
+16.9169 	EXP 	unnamed TextStim: text = 'We will now practice the Money Game that you will be doing in the scanner.\n\nYour goal is to win money and avoid losing money.\n\n\n\nThis game has many rounds.\n\nEvery round has the same basic order of events.'
+33.6673 	DATA 	Keypress: lcommand
+33.7257 	DATA 	Keypress: lshift
+37.2187 	DATA 	Keypress: 1
+37.2455 	WARNING 	t of last frame was 20328.50ms (=1/0)
+37.2455 	EXP 	unnamed TextStim: height = 0.04
+37.2455 	EXP 	unnamed TextStim: height = 0.04
+37.2455 	EXP 	unnamed TextStim: height = 0.04
+37.2455 	EXP 	unnamed TextStim: text = 'First you will see a cross in the middle of the screen, like this:\n\n+\n\nThis means you should focus on the screen and get ready to play. '
+41.9448 	DATA 	Keypress: lcommand
+42.0160 	DATA 	Keypress: lshift
+43.8025 	DATA 	Keypress: 1
+43.8241 	WARNING 	t of last frame was 6578.68ms (=1/0)
+43.8241 	EXP 	unnamed TextStim: height = 0.04
+43.8241 	EXP 	unnamed TextStim: height = 0.04
+43.8241 	EXP 	unnamed TextStim: height = 0.04
+43.8241 	EXP 	unnamed TextStim: text = 'Next you will see a cue that tells you if you can win or lose money.\nIt will also tell you how much money you can win or lose for that round.\n\nHere are the 6 possibilities:\n\n\n\n\n\n\n'
+48.6990 	DATA 	Keypress: lcommand
+48.7890 	DATA 	Keypress: lshift
+51.5041 	DATA 	Keypress: 6
+51.5154 	WARNING 	t of last frame was 7691.29ms (=1/0)
+51.5154 	EXP 	unnamed TextStim: height = 0.04
+51.5154 	EXP 	unnamed TextStim: height = 0.04
+51.5154 	EXP 	unnamed TextStim: height = 0.04
+51.5154 	EXP 	unnamed TextStim: text = 'Then, you will see another cross in the middle of the screen:\n\n\n\n+'
+53.1248 	DATA 	Keypress: lcommand
+53.2247 	DATA 	Keypress: lshift
+54.1922 	DATA 	Keypress: 6
+54.2017 	EXP 	window1: mouseVisible = True
+54.2031 	EXP 	Created unnamed Polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+54.2191 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+54.2191 	EXP 	unnamed TextStim: height = 0.04
+54.2191 	EXP 	unnamed TextStim: height = 0.04
+54.2191 	EXP 	unnamed TextStim: height = 0.04
+54.2191 	EXP 	unnamed TextStim: text = 'Next, a solid WHITE TRIANGLE will appear VERY BRIEFLY on the screen:\n\n \n\n \n\n \n\nTo win money or avoid losing money you need to press the button while the solid WHITE TRIANGLE is on the screen.'
+55.9578 	DATA 	Keypress: lcommand
+56.0297 	DATA 	Keypress: lshift
+60.3304 	DATA 	Keypress: 6
+60.3465 	EXP 	unnamed TextStim: height = 0.04
+60.3465 	EXP 	unnamed TextStim: height = 0.04
+60.3465 	EXP 	unnamed TextStim: height = 0.04
+60.3465 	EXP 	unnamed TextStim: text = 'For WIN CIRCLES, pressing the button while the solid white triangle is on the screen means you will WIN money.\n\nIf you press too late, you will MISS WINNING money.\n\n\n\n\n\n\n\n'
+62.9972 	DATA 	Keypress: 2
+63.0049 	EXP 	window1: mouseVisible = True
+63.0064 	EXP 	Created unnamed Polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+63.0130 	EXP 	unnamed TextStim: height = 0.04
+63.0130 	EXP 	unnamed TextStim: height = 0.04
+63.0130 	EXP 	unnamed TextStim: height = 0.04
+63.0130 	EXP 	unnamed TextStim: text = 'Next, a solid WHITE TRIANGLE will appear VERY BRIEFLY on the screen:\n\n \n\n \n\n \n\nTo win money or avoid losing money you need to press the button while the solid WHITE TRIANGLE is on the screen.'
+63.6690 	DATA 	Keypress: 6
+63.6809 	EXP 	unnamed TextStim: height = 0.04
+63.6809 	EXP 	unnamed TextStim: height = 0.04
+63.6809 	EXP 	unnamed TextStim: height = 0.04
+63.6809 	EXP 	unnamed TextStim: text = 'For WIN CIRCLES, pressing the button while the solid white triangle is on the screen means you will WIN money.\n\nIf you press too late, you will MISS WINNING money.\n\n\n\n\n\n\n\n'
+66.6923 	DATA 	Keypress: lcommand
+66.7610 	DATA 	Keypress: lshift
+67.7992 	DATA 	Keypress: 6
+67.8132 	EXP 	unnamed TextStim: height = 0.04
+67.8132 	EXP 	unnamed TextStim: height = 0.04
+67.8132 	EXP 	unnamed TextStim: height = 0.04
+67.8132 	EXP 	unnamed TextStim: text = 'For LOSE SQUARES, pressing the button while the solid white triangle is on the screen means you will NOT LOSE money.\n\nIf you press too late, you WILL LOSE money.\n\n\n\n\n\n\n\n'
+76.8976 	DATA 	Keypress: lcommand
+76.9759 	DATA 	Keypress: lshift
+81.1459 	DATA 	Keypress: 6
+81.1591 	EXP 	unnamed TextStim: height = 0.04
+81.1591 	EXP 	unnamed TextStim: height = 0.04
+81.1591 	EXP 	unnamed TextStim: height = 0.04
+81.1591 	EXP 	unnamed TextStim: text = 'Make sure to try and respond to every triangle, including for the $0.00 rounds\n\n\n\n\n\n'
+89.7324 	DATA 	Keypress: 6
+89.7379 	EXP 	window1: mouseVisible = True
+89.7473 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/instructions/feedback_table.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.05]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+89.7541 	EXP 	unnamed TextStim: height = 0.04
+89.7541 	EXP 	unnamed TextStim: height = 0.04
+89.7541 	EXP 	unnamed TextStim: height = 0.04
+89.7541 	EXP 	unnamed TextStim: text = 'We will let you know if you pressed the button in time and if you won or lost money for that round\n\n\n\n\n\n'
+92.2979 	DATA 	Keypress: 6
+92.3028 	EXP 	window1: mouseVisible = True
+92.3067 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-0.65,  0.15]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+92.3068 	EXP 	window1: mouseVisible = True
+92.3249 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/reward_high.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([-0.35,  0.15]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+92.3250 	EXP 	window1: mouseVisible = True
+92.3267 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-0.15,  0.15]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+92.3269 	EXP 	window1: mouseVisible = True
+92.3281 	EXP 	Created unnamed Polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=0.0, pos=array([0.15, 0.15]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+92.3282 	EXP 	window1: mouseVisible = True
+92.3299 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0.35, 0.15]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+92.3300 	EXP 	window1: mouseVisible = True
+92.3343 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0.65, 0.15]), rgb=UNKNOWN, text='Hit!\n+$5.00', units='height', win=Window(...), wrapWidth=1)
+92.3344 	EXP 	window1: mouseVisible = True
+92.3383 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-0.65, -0.15]), rgb=UNKNOWN, text='Pay attention', units='height', win=Window(...), wrapWidth=0.15)
+92.3383 	EXP 	window1: mouseVisible = True
+92.3424 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-0.35, -0.15]), rgb=UNKNOWN, text="Cue: don't respond yet", units='height', win=Window(...), wrapWidth=0.15)
+92.3425 	EXP 	window1: mouseVisible = True
+92.3445 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-0.15, -0.15]), rgb=UNKNOWN, text='Pay attention', units='height', win=Window(...), wrapWidth=0.15)
+92.3446 	EXP 	window1: mouseVisible = True
+92.3487 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.15, -0.15]), rgb=UNKNOWN, text='Respond when solid triangle is on screen', units='height', win=Window(...), wrapWidth=0.15)
+92.3487 	EXP 	window1: mouseVisible = True
+92.3507 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.35, -0.15]), rgb=UNKNOWN, text='Pay attention', units='height', win=Window(...), wrapWidth=0.15)
+92.3508 	EXP 	window1: mouseVisible = True
+92.3531 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.65, -0.15]), rgb=UNKNOWN, text='Feedback', units='height', win=Window(...), wrapWidth=0.15)
+92.3660 	EXP 	unnamed TextStim: height = 0.04
+92.3660 	EXP 	unnamed TextStim: height = 0.04
+92.3660 	EXP 	unnamed TextStim: height = 0.04
+92.3660 	EXP 	unnamed TextStim: text = 'During each round, this is the order that you will see things happen:\n\n\n\n\n\n\n\n\n\n'
+95.7501 	DATA 	Keypress: 6
+95.8245 	EXP 	unnamed TextStim: height = 0.04
+95.8245 	EXP 	unnamed TextStim: height = 0.04
+95.8245 	EXP 	unnamed TextStim: height = 0.04
+95.8245 	EXP 	unnamed TextStim: text = 'Major points to remember:\n\n1. Do not press the button on the win circles, lose squares, or the crosses. Just respond to the SOLID WHITE TRIANGLES.\n\n2. Try to press the button EVERY time you see the solid white triangle.\n\n3. The SOLID WHITE TRIANGLE appears VERY BRIEFLY, so you will have to press the button QUICKLY when you see it.\n\n4. Things move fast in this game, so you will want to keep your finger on the button, ready to respond.'
+98.1942 	DATA 	Keypress: 6
+98.2052 	EXP 	unnamed TextStim: height = 0.04
+98.2052 	EXP 	unnamed TextStim: height = 0.04
+98.2052 	EXP 	unnamed TextStim: height = 0.04
+98.2052 	EXP 	unnamed TextStim: text = 'Any Questions?\n\nPlease ask them now.'
+100.3167 	DATA 	Keypress: 6
+100.8367 	DATA 	Keypress: escape
+102.0178 	DATA 	Mouse: Left button down, pos=(1388,0)
+102.1340 	DATA 	Mouse:  Left button up, pos=(1388,0)
+102.2295 	DATA 	Keypress: escape
+102.4386 	DATA 	Keypress: escape
+102.6057 	DATA 	Keypress: escape
+102.7543 	DATA 	Keypress: escape
+102.9151 	DATA 	Keypress: escape
+103.0669 	DATA 	Keypress: escape
+103.3128 	DATA 	Keypress: escape
+105.1752 	DATA 	Keypress: return
+106.0026 	DATA 	Keypress: escape
+106.0028 	WARNING 	Escape pressed, exiting early!
+106.0028 	WARNING 	Total earnings: 0
+106.0301 	EXP 	window1: mouseVisible = True

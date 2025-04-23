@@ -564,8 +564,8 @@ while run < num_runs:
     "Next, a solid WHITE TRIANGLE will appear VERY BRIEFLY on the screen:\n\n \n\n \n\n \n\nTo win money or avoid losing money you need to press the button while the solid WHITE TRIANGLE is on the screen.",
     "For WIN CIRCLES, pressing the button while the solid white triangle is on the screen means you will WIN money.\n\nIf you press too late, you will MISS WINNING money.\n\n\n\n\n\n\n\n",
     "For LOSE SQUARES, pressing the button while the solid white triangle is on the screen means you will NOT LOSE money.\n\nIf you press too late, you WILL LOSE money.\n\n\n\n\n\n\n\n",
-    "Make sure to try and respond to every triangle, including for the $0.00 rounds\n\n\n\n\n\n",
-    "We will let you know if you pressed the button in time and if you won or lost money for that round\n\n\n\n\n\n",
+    "Make sure to try and respond to every triangle, including for the $0.00 rounds.\n\n\n\n\n\n",
+    "We will let you know if you pressed the button in time and if you won or lost money for that round.\n\n\n\n\n\n",
     "During each round, this is the order that you will see things happen:\n\n\n\n\n\n\n\n\n\n",
     "Major points to remember:\n\n1. Do not press the button on the win circles, lose squares, or the crosses. Just respond to the SOLID WHITE TRIANGLES.\n\n2. Try to press the button EVERY time you see the solid white triangle.\n\n3. The SOLID WHITE TRIANGLE appears VERY BRIEFLY, so you will have to press the button QUICKLY when you see it.\n\n4. Things move fast in this game, so you will want to keep your finger on the button, ready to respond.",
     "Any Questions?\n\nPlease ask them now."]
