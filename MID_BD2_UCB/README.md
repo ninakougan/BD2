@@ -1,5 +1,5 @@
 # MID for BD2 Protocol
-# Last Updated 03/25/25 by Nina Kougan (ninakougan@u.northwestern.edu)
+# Last Updated 04/23/25 by Nina Kougan (ninakougan@u.northwestern.edu)
 
 ## Basic Info
 
