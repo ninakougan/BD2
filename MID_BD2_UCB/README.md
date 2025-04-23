@@ -4,7 +4,7 @@
 ## Basic Info
 
 ### Directories
-MID_BD2 \
+MID_BD2_UCB \
 ├── code \
 ├── data \
 ├── misc \
