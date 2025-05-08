@@ -1,0 +1,2002 @@
+27.1205 	WARNING 	Monitor specification not found. Creating a temporary one...
+27.1330 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1728, 1117]. Using actual size
+28.5089 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+28.5092 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f79d0ff3760>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f79d0ff3700>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f79d0ff3580>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f79d100f040>, multiSample=False, name='window1', numSamples=2, pos=[432.0, 279.25], screen=0, size=array([3456, 2234]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=False, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+28.5093 	EXP 	window1: mouseVisible = True
+28.5093 	EXP 	window1: backgroundImage = None
+28.5094 	EXP 	window1: backgroundFit = 'cover'
+28.5110 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+28.5110 	EXP 	window1: recordFrameIntervals = False
+28.6047 	EXP 	window1: recordFrameIntervals = True
+28.8430 	WARNING 	t of last frame was 20.02ms (=1/49)
+29.6406 	EXP 	Screen (0) actual frame rate measured at 59.46Hz
+29.6407 	EXP 	window1: recordFrameIntervals = True
+29.6413 	EXP 	window1: mouseVisible = True
+29.6792 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.25]), rgb=UNKNOWN, text='Press the button to continue.', units='height', win=Window(...), wrapWidth=1)
+29.6795 	EXP 	window1: mouseVisible = True
+29.6834 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+29.6836 	EXP 	window1: mouseVisible = True
+29.6904 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.1851851851851851)
+29.6905 	EXP 	window1: mouseVisible = True
+29.7030 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='Hello World', units='height', win=Window(...), wrapWidth=1.1851851851851851)
+29.7032 	EXP 	window1: mouseVisible = True
+29.7155 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.1851851851851851)
+29.7157 	EXP 	window1: mouseVisible = True
+29.7211 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='The task will begin momentarily. Get ready...', units='height', win=Window(...), wrapWidth=1)
+29.7213 	EXP 	window1: mouseVisible = True
+29.7253 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.1851851851851851)
+29.7254 	EXP 	window1: mouseVisible = True
+29.8105 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/reward_low.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+29.8107 	EXP 	window1: mouseVisible = True
+29.8282 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/reward_high.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+29.8283 	EXP 	window1: mouseVisible = True
+29.8452 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/reward_neut.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+29.8453 	EXP 	window1: mouseVisible = True
+29.8627 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/loss_low.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+29.8628 	EXP 	window1: mouseVisible = True
+29.8809 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/loss_high.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+29.8810 	EXP 	window1: mouseVisible = True
+29.8989 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/loss_neut.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+29.9005 	EXP 	window1: mouseVisible = True
+29.9020 	EXP 	Created unnamed Polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+29.9021 	EXP 	window1: mouseVisible = True
+29.9072 	EXP 	Created trial_feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.09, italic=False, languageStyle='LTR', name='trial_feedback', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Trial:', units='height', win=Window(...), wrapWidth=1)
+29.9074 	EXP 	window1: mouseVisible = True
+29.9125 	EXP 	Created exp_feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.09, italic=False, languageStyle='LTR', name='exp_feedback', opacity=1.0, ori=0, pos=array([ 0.    , -0.0625]), rgb=UNKNOWN, text='Total:', units='height', win=Window(...), wrapWidth=1)
+29.9126 	EXP 	window1: mouseVisible = True
+29.9196 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+29.9198 	EXP 	window1: mouseVisible = True
+29.9228 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Get ready', units='height', win=Window(...), wrapWidth=1)
+29.9230 	EXP 	window1: mouseVisible = True
+29.9267 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Please wait\n\n', units='height', win=Window(...), wrapWidth=1)
+30.0089 	EXP 	window1: mouseVisible = False
+30.0286 	WARNING 	t of last frame was 388.38ms (=1/2)
+30.0286 	EXP 	unnamed TextStim: height = 0.04
+30.0286 	EXP 	unnamed TextStim: height = 0.04
+30.0286 	EXP 	unnamed TextStim: height = 0.04
+30.0286 	EXP 	unnamed TextStim: text = 'Welcome!'
+32.8373 	DATA 	Keypress: lcommand
+32.8821 	DATA 	Keypress: lshift
+34.3569 	DATA 	Keypress: 6
+34.3792 	WARNING 	t of last frame was 4350.59ms (=1/0)
+34.3792 	EXP 	unnamed TextStim: height = 0.04
+34.3792 	EXP 	unnamed TextStim: height = 0.04
+34.3792 	EXP 	unnamed TextStim: height = 0.04
+34.3792 	EXP 	unnamed TextStim: text = 'First you will see a cross in the middle of the screen, like this:\n\n+\n\nThis means you should focus on the screen and get ready to play. '
+35.7235 	DATA 	Keypress: lcommand
+35.7933 	DATA 	Keypress: lshift
+36.6271 	DATA 	Keypress: 6
+36.6384 	EXP 	window1: mouseVisible = True
+36.6399 	EXP 	Created unnamed Polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+36.6571 	WARNING 	t of last frame was 2277.90ms (=1/0)
+36.6571 	EXP 	unnamed TextStim: height = 0.04
+36.6571 	EXP 	unnamed TextStim: height = 0.04
+36.6571 	EXP 	unnamed TextStim: height = 0.04
+36.6571 	EXP 	unnamed TextStim: text = 'Next, a small solid WHITE TRIANGLE will appear on the screen:\n\n \n\n \n\n \n\nPress the button as fast as you can when you see the solid white triangle. '
+37.3462 	DATA 	Keypress: lcommand
+37.4261 	DATA 	Keypress: lshift
+38.5897 	DATA 	Keypress: 6
+38.6024 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+38.6023 	EXP 	unnamed TextStim: height = 0.04
+38.6023 	EXP 	unnamed TextStim: height = 0.04
+38.6023 	EXP 	unnamed TextStim: height = 0.04
+38.6023 	EXP 	unnamed TextStim: text = 'Any Questions?\n\nPlease ask them now.'
+39.2539 	DATA 	Keypress: lcommand
+39.3357 	DATA 	Keypress: lshift
+40.4428 	DATA 	Keypress: 6
+43.6050 	DATA 	Keypress: lcommand
+43.6654 	DATA 	Keypress: lshift
+45.1224 	DATA 	Keypress: 6
+45.8382 	DATA 	Keypress: return
+46.9553 	DATA 	Keypress: lcommand
+47.0058 	DATA 	Keypress: lshift
+47.0798 	DATA 	Keypress: dollar
+48.0591 	DATA 	Keypress: lcommand
+48.1245 	DATA 	Keypress: lshift
+50.8642 	EXP 	unnamed Polygon: autoDraw = True
+50.8642 	EXP 	unnamed Polygon: autoDraw = True
+50.8713 	EXP 	unnamed Polygon: autoDraw = True
+50.8743 	EXP 	unnamed Polygon: autoDraw = True
+50.8899 	EXP 	unnamed Polygon: autoDraw = True
+50.8933 	EXP 	unnamed Polygon: autoDraw = True
+50.9054 	EXP 	unnamed Polygon: autoDraw = True
+50.9087 	EXP 	unnamed Polygon: autoDraw = True
+50.9232 	EXP 	unnamed Polygon: autoDraw = True
+50.9262 	EXP 	unnamed Polygon: autoDraw = True
+50.9394 	EXP 	unnamed Polygon: autoDraw = True
+50.9431 	EXP 	unnamed Polygon: autoDraw = True
+50.9547 	EXP 	unnamed Polygon: autoDraw = True
+50.9574 	EXP 	unnamed Polygon: autoDraw = True
+50.9727 	EXP 	unnamed Polygon: autoDraw = True
+50.9895 	EXP 	unnamed Polygon: autoDraw = True
+51.0063 	EXP 	unnamed Polygon: autoDraw = True
+51.0226 	EXP 	unnamed Polygon: autoDraw = True
+51.0414 	EXP 	unnamed Polygon: autoDraw = True
+51.0559 	EXP 	unnamed Polygon: autoDraw = True
+51.0606 	EXP 	unnamed Polygon: autoDraw = True
+51.0727 	EXP 	unnamed Polygon: autoDraw = True
+51.0770 	EXP 	unnamed Polygon: autoDraw = True
+51.0924 	EXP 	unnamed Polygon: autoDraw = True
+51.1069 	EXP 	unnamed Polygon: autoDraw = True
+51.1234 	EXP 	unnamed Polygon: autoDraw = True
+51.1397 	EXP 	unnamed Polygon: autoDraw = True
+51.1561 	EXP 	unnamed Polygon: autoDraw = True
+51.1750 	EXP 	unnamed Polygon: autoDraw = True
+51.1761 	DATA 	Keypress: lcommand
+51.1764 	DATA 	Keypress: lshift
+51.1883 	EXP 	unnamed Polygon: autoDraw = True
+51.1909 	EXP 	unnamed Polygon: autoDraw = True
+51.2054 	EXP 	unnamed Polygon: autoDraw = True
+51.2258 	EXP 	unnamed Polygon: autoDraw = True
+51.2409 	EXP 	unnamed Polygon: autoDraw = True
+51.2574 	EXP 	unnamed Polygon: autoDraw = True
+51.2727 	EXP 	unnamed Polygon: autoDraw = True
+51.2915 	EXP 	unnamed Polygon: autoDraw = True
+51.3091 	EXP 	unnamed Polygon: autoDraw = True
+51.3215 	EXP 	unnamed Polygon: autoDraw = True
+51.3245 	EXP 	unnamed Polygon: autoDraw = True
+51.3415 	EXP 	unnamed Polygon: autoDraw = True
+51.3677 	EXP 	unnamed Polygon: autoDraw = True
+51.3745 	EXP 	unnamed Polygon: autoDraw = False
+55.2775 	DATA 	Keypress: lcommand
+55.3253 	DATA 	Keypress: lshift
+56.8771 	EXP 	unnamed Polygon: autoDraw = True
+56.8771 	EXP 	unnamed Polygon: autoDraw = True
+56.8887 	EXP 	unnamed Polygon: autoDraw = True
+56.8923 	EXP 	unnamed Polygon: autoDraw = True
+56.9052 	EXP 	unnamed Polygon: autoDraw = True
+56.9082 	EXP 	unnamed Polygon: autoDraw = True
+56.9226 	EXP 	unnamed Polygon: autoDraw = True
+56.9278 	EXP 	unnamed Polygon: autoDraw = True
+56.9384 	EXP 	unnamed Polygon: autoDraw = True
+56.9415 	EXP 	unnamed Polygon: autoDraw = True
+56.9558 	EXP 	unnamed Polygon: autoDraw = True
+56.9614 	EXP 	unnamed Polygon: autoDraw = True
+56.9725 	EXP 	unnamed Polygon: autoDraw = True
+56.9774 	EXP 	unnamed Polygon: autoDraw = True
+56.9892 	EXP 	unnamed Polygon: autoDraw = True
+56.9941 	EXP 	unnamed Polygon: autoDraw = True
+57.0064 	EXP 	unnamed Polygon: autoDraw = True
+57.0106 	EXP 	unnamed Polygon: autoDraw = True
+57.0213 	EXP 	unnamed Polygon: autoDraw = True
+57.0241 	EXP 	unnamed Polygon: autoDraw = True
+57.0425 	EXP 	unnamed Polygon: autoDraw = True
+57.0547 	EXP 	unnamed Polygon: autoDraw = True
+57.0575 	EXP 	unnamed Polygon: autoDraw = True
+57.0713 	EXP 	unnamed Polygon: autoDraw = True
+57.0744 	EXP 	unnamed Polygon: autoDraw = True
+57.0898 	EXP 	unnamed Polygon: autoDraw = True
+57.0941 	EXP 	unnamed Polygon: autoDraw = True
+57.1063 	EXP 	unnamed Polygon: autoDraw = True
+57.1235 	EXP 	unnamed Polygon: autoDraw = True
+57.1248 	DATA 	Keypress: lcommand
+57.1251 	DATA 	Keypress: lshift
+57.1397 	EXP 	unnamed Polygon: autoDraw = True
+57.1582 	EXP 	unnamed Polygon: autoDraw = True
+57.1718 	EXP 	unnamed Polygon: autoDraw = True
+57.1744 	EXP 	unnamed Polygon: autoDraw = True
+57.1885 	EXP 	unnamed Polygon: autoDraw = True
+57.1910 	EXP 	unnamed Polygon: autoDraw = True
+57.2059 	EXP 	unnamed Polygon: autoDraw = True
+57.2115 	EXP 	unnamed Polygon: autoDraw = True
+57.2257 	EXP 	unnamed Polygon: autoDraw = True
+57.2381 	EXP 	unnamed Polygon: autoDraw = True
+57.2408 	EXP 	unnamed Polygon: autoDraw = True
+57.2549 	EXP 	unnamed Polygon: autoDraw = True
+57.2582 	EXP 	unnamed Polygon: autoDraw = True
+57.2735 	EXP 	unnamed Polygon: autoDraw = True
+57.2772 	EXP 	unnamed Polygon: autoDraw = True
+57.2881 	EXP 	unnamed Polygon: autoDraw = True
+57.3127 	EXP 	unnamed Polygon: autoDraw = True
+57.3214 	EXP 	unnamed Polygon: autoDraw = True
+57.3241 	EXP 	unnamed Polygon: autoDraw = True
+57.3382 	EXP 	unnamed Polygon: autoDraw = True
+57.3410 	EXP 	unnamed Polygon: autoDraw = True
+57.3548 	EXP 	unnamed Polygon: autoDraw = True
+57.3579 	EXP 	unnamed Polygon: autoDraw = True
+57.3715 	EXP 	unnamed Polygon: autoDraw = True
+57.3747 	EXP 	unnamed Polygon: autoDraw = True
+57.3891 	EXP 	unnamed Polygon: autoDraw = True
+57.3918 	EXP 	unnamed Polygon: autoDraw = True
+57.4048 	EXP 	unnamed Polygon: autoDraw = True
+57.4095 	EXP 	unnamed Polygon: autoDraw = False
+66.8898 	EXP 	unnamed Polygon: autoDraw = True
+66.8898 	EXP 	unnamed Polygon: autoDraw = True
+66.9054 	EXP 	unnamed Polygon: autoDraw = True
+66.9101 	EXP 	unnamed Polygon: autoDraw = True
+66.9220 	EXP 	unnamed Polygon: autoDraw = True
+66.9252 	EXP 	unnamed Polygon: autoDraw = True
+66.9401 	EXP 	unnamed Polygon: autoDraw = True
+66.9445 	EXP 	unnamed Polygon: autoDraw = True
+66.9549 	EXP 	unnamed Polygon: autoDraw = True
+66.9589 	EXP 	unnamed Polygon: autoDraw = True
+66.9716 	EXP 	unnamed Polygon: autoDraw = True
+66.9756 	EXP 	unnamed Polygon: autoDraw = True
+66.9898 	EXP 	unnamed Polygon: autoDraw = True
+67.0058 	EXP 	unnamed Polygon: autoDraw = True
+67.0106 	EXP 	unnamed Polygon: autoDraw = True
+67.0218 	EXP 	unnamed Polygon: autoDraw = True
+67.0258 	EXP 	unnamed Polygon: autoDraw = True
+67.0397 	EXP 	unnamed Polygon: autoDraw = True
+67.0449 	EXP 	unnamed Polygon: autoDraw = True
+67.0557 	EXP 	unnamed Polygon: autoDraw = True
+67.0599 	EXP 	unnamed Polygon: autoDraw = True
+67.0724 	EXP 	unnamed Polygon: autoDraw = True
+67.0761 	EXP 	unnamed Polygon: autoDraw = True
+67.0885 	EXP 	unnamed Polygon: autoDraw = True
+67.0934 	EXP 	unnamed Polygon: autoDraw = True
+67.1052 	EXP 	unnamed Polygon: autoDraw = True
+67.1103 	EXP 	unnamed Polygon: autoDraw = True
+67.1218 	EXP 	unnamed Polygon: autoDraw = True
+67.1268 	EXP 	unnamed Polygon: autoDraw = True
+67.1384 	EXP 	unnamed Polygon: autoDraw = True
+67.1426 	EXP 	unnamed Polygon: autoDraw = True
+67.1562 	EXP 	unnamed Polygon: autoDraw = True
+67.1604 	EXP 	unnamed Polygon: autoDraw = True
+67.1723 	EXP 	unnamed Polygon: autoDraw = True
+67.1762 	EXP 	unnamed Polygon: autoDraw = True
+67.1887 	EXP 	unnamed Polygon: autoDraw = True
+67.1938 	EXP 	unnamed Polygon: autoDraw = True
+67.2049 	EXP 	unnamed Polygon: autoDraw = True
+67.2096 	EXP 	unnamed Polygon: autoDraw = True
+67.2215 	EXP 	unnamed Polygon: autoDraw = True
+67.2251 	EXP 	unnamed Polygon: autoDraw = True
+67.2382 	EXP 	unnamed Polygon: autoDraw = True
+67.2431 	EXP 	unnamed Polygon: autoDraw = True
+67.2568 	EXP 	unnamed Polygon: autoDraw = True
+67.2609 	EXP 	unnamed Polygon: autoDraw = True
+67.2715 	EXP 	unnamed Polygon: autoDraw = True
+67.2732 	DATA 	Keypress: 6
+67.2762 	EXP 	unnamed Polygon: autoDraw = True
+67.2883 	EXP 	unnamed Polygon: autoDraw = True
+67.2924 	EXP 	unnamed Polygon: autoDraw = True
+67.3055 	EXP 	unnamed Polygon: autoDraw = True
+67.3100 	EXP 	unnamed Polygon: autoDraw = True
+67.3223 	EXP 	unnamed Polygon: autoDraw = True
+67.3273 	EXP 	unnamed Polygon: autoDraw = True
+67.3387 	EXP 	unnamed Polygon: autoDraw = True
+67.3434 	EXP 	unnamed Polygon: autoDraw = True
+67.3551 	EXP 	unnamed Polygon: autoDraw = True
+67.3602 	EXP 	unnamed Polygon: autoDraw = True
+67.3715 	EXP 	unnamed Polygon: autoDraw = True
+67.3747 	EXP 	unnamed Polygon: autoDraw = True
+67.3892 	EXP 	unnamed Polygon: autoDraw = True
+67.3959 	EXP 	unnamed Polygon: autoDraw = False
+75.2251 	DATA 	Keypress: 6
+75.3952 	DATA 	Keypress: 6
+75.5432 	DATA 	Keypress: 6
+75.6593 	DATA 	Keypress: 6
+75.8116 	DATA 	Keypress: 6
+75.9581 	DATA 	Keypress: 6
+76.0802 	DATA 	Keypress: 6
+76.2108 	DATA 	Keypress: 6
+76.3091 	DATA 	Keypress: 6
+76.4591 	DATA 	Keypress: 6
+76.5922 	DATA 	Keypress: 6
+76.7299 	DATA 	Keypress: 6
+76.8760 	DATA 	Keypress: 6
+77.0276 	DATA 	Keypress: 6
+77.0310 	EXP 	unnamed Polygon: autoDraw = True
+77.0310 	EXP 	unnamed Polygon: autoDraw = True
+77.0376 	EXP 	unnamed Polygon: autoDraw = True
+77.0407 	EXP 	unnamed Polygon: autoDraw = True
+77.0586 	EXP 	unnamed Polygon: autoDraw = True
+77.0737 	EXP 	unnamed Polygon: autoDraw = True
+77.0765 	EXP 	unnamed Polygon: autoDraw = True
+77.0881 	EXP 	unnamed Polygon: autoDraw = True
+77.0912 	EXP 	unnamed Polygon: autoDraw = True
+77.1048 	EXP 	unnamed Polygon: autoDraw = True
+77.1077 	EXP 	unnamed Polygon: autoDraw = True
+77.1242 	EXP 	unnamed Polygon: autoDraw = True
+77.1279 	EXP 	unnamed Polygon: autoDraw = True
+77.1384 	EXP 	unnamed Polygon: autoDraw = True
+77.1418 	EXP 	unnamed Polygon: autoDraw = True
+77.1578 	EXP 	unnamed Polygon: autoDraw = True
+77.1600 	DATA 	Keypress: 6
+77.1718 	EXP 	unnamed Polygon: autoDraw = True
+77.1751 	EXP 	unnamed Polygon: autoDraw = True
+77.1896 	EXP 	unnamed Polygon: autoDraw = True
+77.1943 	EXP 	unnamed Polygon: autoDraw = True
+77.2056 	EXP 	unnamed Polygon: autoDraw = True
+77.2088 	EXP 	unnamed Polygon: autoDraw = True
+77.2228 	EXP 	unnamed Polygon: autoDraw = True
+77.2280 	EXP 	unnamed Polygon: autoDraw = True
+77.2385 	EXP 	unnamed Polygon: autoDraw = True
+77.2418 	EXP 	unnamed Polygon: autoDraw = True
+77.2555 	EXP 	unnamed Polygon: autoDraw = True
+77.2603 	EXP 	unnamed Polygon: autoDraw = True
+77.2742 	EXP 	unnamed Polygon: autoDraw = True
+77.2901 	EXP 	unnamed Polygon: autoDraw = True
+77.2919 	DATA 	Keypress: 6
+77.2949 	EXP 	unnamed Polygon: autoDraw = True
+77.3049 	EXP 	unnamed Polygon: autoDraw = True
+77.3079 	EXP 	unnamed Polygon: autoDraw = True
+77.3229 	EXP 	unnamed Polygon: autoDraw = True
+77.3279 	EXP 	unnamed Polygon: autoDraw = True
+77.3391 	EXP 	unnamed Polygon: autoDraw = True
+77.3426 	EXP 	unnamed Polygon: autoDraw = True
+77.3552 	EXP 	unnamed Polygon: autoDraw = True
+77.3604 	EXP 	unnamed Polygon: autoDraw = True
+77.3729 	EXP 	unnamed Polygon: autoDraw = True
+77.3755 	EXP 	unnamed Polygon: autoDraw = True
+77.3898 	EXP 	unnamed Polygon: autoDraw = True
+77.3940 	DATA 	Keypress: 6
+77.3962 	EXP 	unnamed Polygon: autoDraw = True
+77.4047 	EXP 	unnamed Polygon: autoDraw = True
+77.4076 	EXP 	unnamed Polygon: autoDraw = True
+77.4216 	EXP 	unnamed Polygon: autoDraw = True
+77.4243 	EXP 	unnamed Polygon: autoDraw = True
+77.4388 	EXP 	unnamed Polygon: autoDraw = True
+77.4431 	EXP 	unnamed Polygon: autoDraw = True
+77.4569 	EXP 	unnamed Polygon: autoDraw = True
+77.4610 	EXP 	unnamed Polygon: autoDraw = True
+77.4715 	EXP 	unnamed Polygon: autoDraw = True
+77.4756 	EXP 	unnamed Polygon: autoDraw = True
+77.4889 	EXP 	unnamed Polygon: autoDraw = True
+77.4938 	EXP 	unnamed Polygon: autoDraw = True
+77.5059 	EXP 	unnamed Polygon: autoDraw = True
+77.5101 	EXP 	unnamed Polygon: autoDraw = True
+77.5215 	EXP 	unnamed Polygon: autoDraw = True
+77.5247 	EXP 	unnamed Polygon: autoDraw = True
+77.5381 	EXP 	unnamed Polygon: autoDraw = False
+84.2586 	DATA 	Keypress: 6
+84.3961 	DATA 	Keypress: 6
+84.5591 	DATA 	Keypress: 6
+84.6922 	DATA 	Keypress: 6
+84.8293 	DATA 	Keypress: 6
+84.9630 	DATA 	Keypress: 6
+85.1885 	EXP 	unnamed Polygon: autoDraw = True
+85.1885 	EXP 	unnamed Polygon: autoDraw = True
+85.1930 	EXP 	unnamed Polygon: autoDraw = True
+85.2052 	EXP 	unnamed Polygon: autoDraw = True
+85.2087 	EXP 	unnamed Polygon: autoDraw = True
+85.2101 	DATA 	Keypress: 6
+85.2222 	EXP 	unnamed Polygon: autoDraw = True
+85.2427 	EXP 	unnamed Polygon: autoDraw = True
+85.2568 	EXP 	unnamed Polygon: autoDraw = True
+85.2614 	EXP 	unnamed Polygon: autoDraw = True
+85.2738 	EXP 	unnamed Polygon: autoDraw = True
+85.2889 	EXP 	unnamed Polygon: autoDraw = True
+85.2936 	EXP 	unnamed Polygon: autoDraw = True
+85.2961 	DATA 	Keypress: 6
+85.3049 	EXP 	unnamed Polygon: autoDraw = True
+85.3083 	EXP 	unnamed Polygon: autoDraw = True
+85.3215 	EXP 	unnamed Polygon: autoDraw = True
+85.3248 	EXP 	unnamed Polygon: autoDraw = True
+85.3383 	EXP 	unnamed Polygon: autoDraw = True
+85.3426 	EXP 	unnamed Polygon: autoDraw = True
+85.3550 	EXP 	unnamed Polygon: autoDraw = True
+85.3600 	EXP 	unnamed Polygon: autoDraw = True
+85.3716 	EXP 	unnamed Polygon: autoDraw = True
+85.3754 	EXP 	unnamed Polygon: autoDraw = True
+85.3884 	EXP 	unnamed Polygon: autoDraw = True
+85.3920 	EXP 	unnamed Polygon: autoDraw = True
+85.4049 	EXP 	unnamed Polygon: autoDraw = True
+85.4081 	EXP 	unnamed Polygon: autoDraw = True
+85.4215 	EXP 	unnamed Polygon: autoDraw = True
+85.4246 	EXP 	unnamed Polygon: autoDraw = True
+85.4382 	EXP 	unnamed Polygon: autoDraw = True
+85.4416 	EXP 	unnamed Polygon: autoDraw = True
+85.4550 	EXP 	unnamed Polygon: autoDraw = True
+85.4585 	DATA 	Keypress: 6
+85.4614 	EXP 	unnamed Polygon: autoDraw = True
+85.4723 	EXP 	unnamed Polygon: autoDraw = True
+85.4760 	EXP 	unnamed Polygon: autoDraw = True
+85.4885 	EXP 	unnamed Polygon: autoDraw = True
+85.4922 	EXP 	unnamed Polygon: autoDraw = True
+85.5080 	EXP 	unnamed Polygon: autoDraw = True
+85.5215 	EXP 	unnamed Polygon: autoDraw = True
+85.5247 	EXP 	unnamed Polygon: autoDraw = True
+85.5410 	EXP 	unnamed Polygon: autoDraw = True
+85.5557 	EXP 	unnamed Polygon: autoDraw = True
+85.5592 	DATA 	Keypress: 6
+85.5622 	EXP 	unnamed Polygon: autoDraw = True
+85.5714 	EXP 	unnamed Polygon: autoDraw = True
+85.5745 	EXP 	unnamed Polygon: autoDraw = True
+85.5899 	EXP 	unnamed Polygon: autoDraw = True
+85.5941 	EXP 	unnamed Polygon: autoDraw = True
+85.6063 	EXP 	unnamed Polygon: autoDraw = True
+85.6092 	EXP 	unnamed Polygon: autoDraw = True
+85.6218 	EXP 	unnamed Polygon: autoDraw = True
+85.6270 	EXP 	unnamed Polygon: autoDraw = True
+85.6383 	EXP 	unnamed Polygon: autoDraw = True
+85.6441 	EXP 	unnamed Polygon: autoDraw = True
+85.6549 	EXP 	unnamed Polygon: autoDraw = True
+85.6593 	EXP 	unnamed Polygon: autoDraw = True
+85.6719 	EXP 	unnamed Polygon: autoDraw = True
+85.6765 	EXP 	unnamed Polygon: autoDraw = True
+85.6890 	EXP 	unnamed Polygon: autoDraw = True
+85.6954 	EXP 	unnamed Polygon: autoDraw = False
+90.6774 	DATA 	Keypress: 6
+90.8300 	DATA 	Keypress: 6
+90.9762 	DATA 	Keypress: 6
+91.1073 	DATA 	Keypress: 6
+91.2433 	DATA 	Keypress: 6
+91.3790 	DATA 	Keypress: 6
+91.5079 	DATA 	Keypress: 6
+91.6110 	DATA 	Keypress: 6
+91.7278 	DATA 	Keypress: 6
+91.8761 	DATA 	Keypress: 6
+92.1082 	DATA 	Keypress: 6
+92.2419 	DATA 	Keypress: 6
+92.3592 	DATA 	Keypress: 6
+92.4779 	DATA 	Keypress: 6
+92.6120 	DATA 	Keypress: 6
+92.7440 	DATA 	Keypress: 6
+92.8773 	DATA 	Keypress: 6
+93.0078 	DATA 	Keypress: 6
+93.1107 	DATA 	Keypress: 6
+93.2448 	DATA 	Keypress: 6
+93.3278 	EXP 	unnamed Polygon: autoDraw = True
+93.3278 	EXP 	unnamed Polygon: autoDraw = True
+93.3391 	EXP 	unnamed Polygon: autoDraw = True
+93.3419 	EXP 	unnamed Polygon: autoDraw = True
+93.3570 	EXP 	unnamed Polygon: autoDraw = True
+93.3621 	EXP 	unnamed Polygon: autoDraw = True
+93.3731 	EXP 	unnamed Polygon: autoDraw = True
+93.3756 	DATA 	Keypress: 6
+93.3777 	EXP 	unnamed Polygon: autoDraw = True
+93.3898 	EXP 	unnamed Polygon: autoDraw = True
+93.3931 	EXP 	unnamed Polygon: autoDraw = True
+93.4064 	EXP 	unnamed Polygon: autoDraw = True
+93.4092 	EXP 	unnamed Polygon: autoDraw = True
+93.4244 	EXP 	unnamed Polygon: autoDraw = True
+93.4392 	EXP 	unnamed Polygon: autoDraw = True
+93.4445 	EXP 	unnamed Polygon: autoDraw = True
+93.4549 	EXP 	unnamed Polygon: autoDraw = True
+93.4583 	EXP 	unnamed Polygon: autoDraw = True
+93.4731 	EXP 	unnamed Polygon: autoDraw = True
+93.4780 	EXP 	unnamed Polygon: autoDraw = True
+93.4888 	EXP 	unnamed Polygon: autoDraw = True
+93.4922 	EXP 	unnamed Polygon: autoDraw = True
+93.5055 	EXP 	unnamed Polygon: autoDraw = True
+93.5080 	DATA 	Keypress: 6
+93.5109 	EXP 	unnamed Polygon: autoDraw = True
+93.5215 	EXP 	unnamed Polygon: autoDraw = True
+93.5247 	EXP 	unnamed Polygon: autoDraw = True
+93.5390 	EXP 	unnamed Polygon: autoDraw = True
+93.5442 	EXP 	unnamed Polygon: autoDraw = True
+93.5562 	EXP 	unnamed Polygon: autoDraw = True
+93.5589 	EXP 	unnamed Polygon: autoDraw = True
+93.5736 	EXP 	unnamed Polygon: autoDraw = True
+93.5790 	EXP 	unnamed Polygon: autoDraw = True
+93.5879 	EXP 	unnamed Polygon: autoDraw = True
+93.5912 	EXP 	unnamed Polygon: autoDraw = True
+93.6049 	EXP 	unnamed Polygon: autoDraw = True
+93.6090 	EXP 	unnamed Polygon: autoDraw = True
+93.6218 	EXP 	unnamed Polygon: autoDraw = True
+93.6236 	DATA 	Keypress: 6
+93.6264 	EXP 	unnamed Polygon: autoDraw = True
+93.6382 	EXP 	unnamed Polygon: autoDraw = True
+93.7202 	EXP 	unnamed Polygon: autoDraw = True
+93.7274 	EXP 	unnamed Polygon: autoDraw = True
+93.7381 	EXP 	unnamed Polygon: autoDraw = True
+93.7405 	EXP 	unnamed Polygon: autoDraw = True
+93.7546 	EXP 	unnamed Polygon: autoDraw = True
+93.7575 	EXP 	unnamed Polygon: autoDraw = True
+93.7714 	EXP 	unnamed Polygon: autoDraw = True
+93.7732 	DATA 	Keypress: 6
+93.7759 	EXP 	unnamed Polygon: autoDraw = True
+93.7881 	EXP 	unnamed Polygon: autoDraw = True
+93.7910 	EXP 	unnamed Polygon: autoDraw = True
+93.8049 	EXP 	unnamed Polygon: autoDraw = True
+93.8080 	EXP 	unnamed Polygon: autoDraw = True
+93.8216 	EXP 	unnamed Polygon: autoDraw = True
+93.8251 	EXP 	unnamed Polygon: autoDraw = True
+93.8381 	EXP 	unnamed Polygon: autoDraw = False
+93.8732 	DATA 	Keypress: 6
+93.9591 	DATA 	Keypress: 6
+94.1267 	DATA 	Keypress: 6
+94.2757 	DATA 	Keypress: 6
+94.4111 	DATA 	Keypress: 6
+94.5758 	DATA 	Keypress: 6
+94.7282 	DATA 	Keypress: 6
+94.9088 	DATA 	Keypress: 6
+97.1095 	DATA 	Keypress: 6
+97.2595 	DATA 	Keypress: 6
+97.4113 	DATA 	Keypress: 6
+97.5588 	DATA 	Keypress: 6
+97.6969 	DATA 	Keypress: 6
+97.8588 	DATA 	Keypress: 6
+97.9749 	DATA 	Keypress: 6
+98.0929 	DATA 	Keypress: 6
+98.2262 	DATA 	Keypress: 6
+98.3592 	DATA 	Keypress: 6
+98.4738 	DATA 	Keypress: 6
+98.6098 	DATA 	Keypress: 6
+98.7450 	DATA 	Keypress: 6
+98.8767 	DATA 	Keypress: 6
+99.0095 	DATA 	Keypress: 6
+99.1417 	DATA 	Keypress: 6
+99.2589 	DATA 	Keypress: 6
+99.3939 	DATA 	Keypress: 6
+99.6921 	DATA 	Keypress: 6
+99.8408 	DATA 	Keypress: 6
+99.9784 	DATA 	Keypress: 6
+100.1084 	DATA 	Keypress: 6
+100.2420 	DATA 	Keypress: 6
+100.3584 	DATA 	Keypress: 6
+100.4602 	DATA 	Keypress: 6
+100.5934 	DATA 	Keypress: 6
+100.7286 	DATA 	Keypress: 6
+100.8595 	DATA 	Keypress: 6
+100.9918 	DATA 	Keypress: 6
+101.0610 	DATA 	Keypress: 6
+101.1942 	DATA 	Keypress: 6
+101.3288 	DATA 	Keypress: 6
+101.4051 	EXP 	unnamed Polygon: autoDraw = True
+101.4051 	EXP 	unnamed Polygon: autoDraw = True
+101.4097 	EXP 	unnamed Polygon: autoDraw = True
+101.4233 	EXP 	unnamed Polygon: autoDraw = True
+101.4279 	EXP 	unnamed Polygon: autoDraw = True
+101.4400 	EXP 	unnamed Polygon: autoDraw = True
+101.4450 	EXP 	unnamed Polygon: autoDraw = True
+101.4560 	EXP 	unnamed Polygon: autoDraw = True
+101.4585 	EXP 	unnamed Polygon: autoDraw = True
+101.4733 	EXP 	unnamed Polygon: autoDraw = True
+101.4772 	DATA 	Keypress: 6
+101.4805 	EXP 	unnamed Polygon: autoDraw = True
+101.4882 	EXP 	unnamed Polygon: autoDraw = True
+101.4916 	EXP 	unnamed Polygon: autoDraw = True
+101.5049 	EXP 	unnamed Polygon: autoDraw = True
+101.5078 	EXP 	unnamed Polygon: autoDraw = True
+101.5239 	EXP 	unnamed Polygon: autoDraw = True
+101.5395 	EXP 	unnamed Polygon: autoDraw = True
+101.5567 	EXP 	unnamed Polygon: autoDraw = True
+101.5734 	EXP 	unnamed Polygon: autoDraw = True
+101.5775 	EXP 	unnamed Polygon: autoDraw = True
+101.5799 	DATA 	Keypress: 6
+101.5883 	EXP 	unnamed Polygon: autoDraw = True
+101.5911 	EXP 	unnamed Polygon: autoDraw = True
+101.6058 	EXP 	unnamed Polygon: autoDraw = True
+101.6108 	EXP 	unnamed Polygon: autoDraw = True
+101.6230 	EXP 	unnamed Polygon: autoDraw = True
+101.6279 	EXP 	unnamed Polygon: autoDraw = True
+101.6392 	EXP 	unnamed Polygon: autoDraw = True
+101.6431 	EXP 	unnamed Polygon: autoDraw = True
+101.6556 	EXP 	unnamed Polygon: autoDraw = True
+101.6607 	EXP 	unnamed Polygon: autoDraw = True
+101.6739 	EXP 	unnamed Polygon: autoDraw = True
+101.6892 	EXP 	unnamed Polygon: autoDraw = True
+101.6922 	DATA 	Keypress: 6
+101.6954 	EXP 	unnamed Polygon: autoDraw = True
+101.7049 	EXP 	unnamed Polygon: autoDraw = True
+101.7083 	EXP 	unnamed Polygon: autoDraw = True
+101.7231 	EXP 	unnamed Polygon: autoDraw = True
+101.7282 	EXP 	unnamed Polygon: autoDraw = True
+101.7387 	EXP 	unnamed Polygon: autoDraw = True
+101.7430 	EXP 	unnamed Polygon: autoDraw = True
+101.7572 	EXP 	unnamed Polygon: autoDraw = True
+101.7750 	EXP 	unnamed Polygon: autoDraw = True
+101.7883 	EXP 	unnamed Polygon: autoDraw = True
+101.7920 	EXP 	unnamed Polygon: autoDraw = True
+101.8050 	EXP 	unnamed Polygon: autoDraw = True
+101.8081 	EXP 	unnamed Polygon: autoDraw = True
+101.8233 	EXP 	unnamed Polygon: autoDraw = True
+101.8249 	DATA 	Keypress: 6
+101.8277 	EXP 	unnamed Polygon: autoDraw = True
+101.8384 	EXP 	unnamed Polygon: autoDraw = True
+101.8430 	EXP 	unnamed Polygon: autoDraw = True
+101.8552 	EXP 	unnamed Polygon: autoDraw = True
+101.8604 	EXP 	unnamed Polygon: autoDraw = True
+101.8760 	EXP 	unnamed Polygon: autoDraw = True
+101.8883 	EXP 	unnamed Polygon: autoDraw = True
+101.8910 	EXP 	unnamed Polygon: autoDraw = True
+101.9049 	EXP 	unnamed Polygon: autoDraw = True
+101.9099 	EXP 	unnamed Polygon: autoDraw = False
+101.9466 	DATA 	Keypress: 6
+109.4942 	EXP 	unnamed Polygon: autoDraw = True
+109.4942 	EXP 	unnamed Polygon: autoDraw = True
+109.5053 	EXP 	unnamed Polygon: autoDraw = True
+109.5082 	EXP 	unnamed Polygon: autoDraw = True
+109.5233 	EXP 	unnamed Polygon: autoDraw = True
+109.5394 	EXP 	unnamed Polygon: autoDraw = True
+109.5431 	EXP 	unnamed Polygon: autoDraw = True
+109.5572 	EXP 	unnamed Polygon: autoDraw = True
+109.5724 	EXP 	unnamed Polygon: autoDraw = True
+109.5768 	EXP 	unnamed Polygon: autoDraw = True
+109.5887 	EXP 	unnamed Polygon: autoDraw = True
+109.5925 	EXP 	unnamed Polygon: autoDraw = True
+109.6055 	EXP 	unnamed Polygon: autoDraw = True
+109.6085 	EXP 	unnamed Polygon: autoDraw = True
+109.6229 	EXP 	unnamed Polygon: autoDraw = True
+109.6284 	EXP 	unnamed Polygon: autoDraw = True
+109.6392 	EXP 	unnamed Polygon: autoDraw = True
+109.6421 	EXP 	unnamed Polygon: autoDraw = True
+109.6552 	EXP 	unnamed Polygon: autoDraw = True
+109.6605 	EXP 	unnamed Polygon: autoDraw = True
+109.6730 	EXP 	unnamed Polygon: autoDraw = True
+109.6778 	EXP 	unnamed Polygon: autoDraw = True
+109.6891 	EXP 	unnamed Polygon: autoDraw = True
+109.6940 	EXP 	unnamed Polygon: autoDraw = True
+109.7054 	EXP 	unnamed Polygon: autoDraw = True
+109.7102 	EXP 	unnamed Polygon: autoDraw = True
+109.7215 	EXP 	unnamed Polygon: autoDraw = True
+109.7248 	EXP 	unnamed Polygon: autoDraw = True
+109.7404 	EXP 	unnamed Polygon: autoDraw = True
+109.7450 	EXP 	unnamed Polygon: autoDraw = True
+109.7554 	EXP 	unnamed Polygon: autoDraw = True
+109.7596 	EXP 	unnamed Polygon: autoDraw = True
+109.7618 	DATA 	Keypress: 6
+109.7733 	EXP 	unnamed Polygon: autoDraw = True
+109.7773 	EXP 	unnamed Polygon: autoDraw = True
+109.7887 	EXP 	unnamed Polygon: autoDraw = True
+109.7930 	EXP 	unnamed Polygon: autoDraw = True
+109.8060 	EXP 	unnamed Polygon: autoDraw = True
+109.8119 	EXP 	unnamed Polygon: autoDraw = True
+109.8215 	EXP 	unnamed Polygon: autoDraw = True
+109.8245 	EXP 	unnamed Polygon: autoDraw = True
+109.8392 	EXP 	unnamed Polygon: autoDraw = True
+109.8441 	EXP 	unnamed Polygon: autoDraw = True
+109.8576 	EXP 	unnamed Polygon: autoDraw = True
+109.8624 	EXP 	unnamed Polygon: autoDraw = True
+109.8715 	EXP 	unnamed Polygon: autoDraw = True
+109.8751 	EXP 	unnamed Polygon: autoDraw = True
+109.8884 	EXP 	unnamed Polygon: autoDraw = True
+109.8921 	EXP 	unnamed Polygon: autoDraw = True
+109.9079 	EXP 	unnamed Polygon: autoDraw = True
+109.9214 	EXP 	unnamed Polygon: autoDraw = True
+109.9251 	EXP 	unnamed Polygon: autoDraw = True
+109.9388 	EXP 	unnamed Polygon: autoDraw = True
+109.9438 	EXP 	unnamed Polygon: autoDraw = True
+109.9557 	EXP 	unnamed Polygon: autoDraw = True
+109.9609 	EXP 	unnamed Polygon: autoDraw = True
+109.9716 	EXP 	unnamed Polygon: autoDraw = True
+109.9813 	EXP 	unnamed Polygon: autoDraw = False
+119.7119 	EXP 	unnamed Polygon: autoDraw = True
+119.7119 	EXP 	unnamed Polygon: autoDraw = True
+119.7236 	EXP 	unnamed Polygon: autoDraw = True
+119.7262 	EXP 	unnamed Polygon: autoDraw = True
+119.7402 	EXP 	unnamed Polygon: autoDraw = True
+119.7440 	EXP 	unnamed Polygon: autoDraw = True
+119.7554 	EXP 	unnamed Polygon: autoDraw = True
+119.7594 	EXP 	unnamed Polygon: autoDraw = True
+119.7729 	EXP 	unnamed Polygon: autoDraw = True
+119.7757 	EXP 	unnamed Polygon: autoDraw = True
+119.7900 	EXP 	unnamed Polygon: autoDraw = True
+119.7948 	EXP 	unnamed Polygon: autoDraw = True
+119.8085 	EXP 	unnamed Polygon: autoDraw = True
+119.8218 	EXP 	unnamed Polygon: autoDraw = True
+119.8255 	EXP 	unnamed Polygon: autoDraw = True
+119.8395 	EXP 	unnamed Polygon: autoDraw = True
+119.8442 	EXP 	unnamed Polygon: autoDraw = True
+119.8551 	EXP 	unnamed Polygon: autoDraw = True
+119.8596 	EXP 	unnamed Polygon: autoDraw = True
+119.8727 	EXP 	unnamed Polygon: autoDraw = True
+119.8775 	EXP 	unnamed Polygon: autoDraw = True
+119.8901 	EXP 	unnamed Polygon: autoDraw = True
+119.9061 	EXP 	unnamed Polygon: autoDraw = True
+119.9094 	EXP 	unnamed Polygon: autoDraw = True
+119.9237 	EXP 	unnamed Polygon: autoDraw = True
+119.9271 	EXP 	unnamed Polygon: autoDraw = True
+119.9399 	EXP 	unnamed Polygon: autoDraw = True
+119.9431 	EXP 	unnamed Polygon: autoDraw = True
+119.9557 	EXP 	unnamed Polygon: autoDraw = True
+119.9589 	EXP 	unnamed Polygon: autoDraw = True
+119.9730 	EXP 	unnamed Polygon: autoDraw = True
+119.9774 	EXP 	unnamed Polygon: autoDraw = True
+119.9896 	EXP 	unnamed Polygon: autoDraw = True
+119.9935 	EXP 	unnamed Polygon: autoDraw = True
+120.0077 	EXP 	unnamed Polygon: autoDraw = True
+120.0220 	EXP 	unnamed Polygon: autoDraw = True
+120.0266 	EXP 	unnamed Polygon: autoDraw = True
+120.0411 	EXP 	unnamed Polygon: autoDraw = True
+120.0488 	EXP 	unnamed Polygon: autoDraw = True
+120.0548 	EXP 	unnamed Polygon: autoDraw = True
+120.0588 	EXP 	unnamed Polygon: autoDraw = True
+120.0716 	EXP 	unnamed Polygon: autoDraw = True
+120.0748 	EXP 	unnamed Polygon: autoDraw = True
+120.0883 	EXP 	unnamed Polygon: autoDraw = True
+120.0913 	EXP 	unnamed Polygon: autoDraw = True
+120.1062 	EXP 	unnamed Polygon: autoDraw = True
+120.1099 	DATA 	Keypress: 6
+120.1129 	EXP 	unnamed Polygon: autoDraw = True
+120.1216 	EXP 	unnamed Polygon: autoDraw = True
+120.1253 	EXP 	unnamed Polygon: autoDraw = True
+120.1384 	EXP 	unnamed Polygon: autoDraw = True
+120.1416 	EXP 	unnamed Polygon: autoDraw = True
+120.1557 	EXP 	unnamed Polygon: autoDraw = True
+120.1603 	EXP 	unnamed Polygon: autoDraw = True
+120.1728 	EXP 	unnamed Polygon: autoDraw = True
+120.1780 	EXP 	unnamed Polygon: autoDraw = False
+125.7884 	EXP 	unnamed Polygon: autoDraw = True
+125.7884 	EXP 	unnamed Polygon: autoDraw = True
+125.7934 	EXP 	unnamed Polygon: autoDraw = True
+125.8059 	EXP 	unnamed Polygon: autoDraw = True
+125.8113 	EXP 	unnamed Polygon: autoDraw = True
+125.8229 	EXP 	unnamed Polygon: autoDraw = True
+125.8257 	EXP 	unnamed Polygon: autoDraw = True
+125.8399 	EXP 	unnamed Polygon: autoDraw = True
+125.8445 	EXP 	unnamed Polygon: autoDraw = True
+125.8556 	EXP 	unnamed Polygon: autoDraw = True
+125.8588 	EXP 	unnamed Polygon: autoDraw = True
+125.8732 	EXP 	unnamed Polygon: autoDraw = True
+125.8898 	EXP 	unnamed Polygon: autoDraw = True
+125.9054 	EXP 	unnamed Polygon: autoDraw = True
+125.9102 	EXP 	unnamed Polygon: autoDraw = True
+125.9220 	EXP 	unnamed Polygon: autoDraw = True
+125.9258 	EXP 	unnamed Polygon: autoDraw = True
+125.9390 	EXP 	unnamed Polygon: autoDraw = True
+125.9421 	EXP 	unnamed Polygon: autoDraw = True
+125.9557 	EXP 	unnamed Polygon: autoDraw = True
+125.9605 	EXP 	unnamed Polygon: autoDraw = True
+125.9724 	EXP 	unnamed Polygon: autoDraw = True
+125.9751 	EXP 	unnamed Polygon: autoDraw = True
+125.9893 	EXP 	unnamed Polygon: autoDraw = True
+125.9929 	EXP 	unnamed Polygon: autoDraw = True
+126.0087 	EXP 	unnamed Polygon: autoDraw = True
+126.0165 	EXP 	unnamed Polygon: autoDraw = True
+126.0214 	EXP 	unnamed Polygon: autoDraw = True
+126.0236 	EXP 	unnamed Polygon: autoDraw = True
+126.0381 	EXP 	unnamed Polygon: autoDraw = True
+126.0411 	EXP 	unnamed Polygon: autoDraw = True
+126.0548 	EXP 	unnamed Polygon: autoDraw = True
+126.0579 	EXP 	unnamed Polygon: autoDraw = True
+126.0731 	EXP 	unnamed Polygon: autoDraw = True
+126.0776 	EXP 	unnamed Polygon: autoDraw = True
+126.0892 	EXP 	unnamed Polygon: autoDraw = True
+126.0925 	EXP 	unnamed Polygon: autoDraw = True
+126.1061 	EXP 	unnamed Polygon: autoDraw = True
+126.1101 	EXP 	unnamed Polygon: autoDraw = True
+126.1231 	EXP 	unnamed Polygon: autoDraw = True
+126.1262 	EXP 	unnamed Polygon: autoDraw = True
+126.1389 	EXP 	unnamed Polygon: autoDraw = True
+126.1438 	EXP 	unnamed Polygon: autoDraw = True
+126.1557 	EXP 	unnamed Polygon: autoDraw = True
+126.1595 	EXP 	unnamed Polygon: autoDraw = True
+126.1730 	EXP 	unnamed Polygon: autoDraw = True
+126.1769 	EXP 	unnamed Polygon: autoDraw = True
+126.1894 	EXP 	unnamed Polygon: autoDraw = True
+126.1928 	EXP 	unnamed Polygon: autoDraw = True
+126.2066 	EXP 	unnamed Polygon: autoDraw = True
+126.2231 	EXP 	unnamed Polygon: autoDraw = True
+126.2277 	EXP 	unnamed Polygon: autoDraw = True
+126.2385 	EXP 	unnamed Polygon: autoDraw = True
+126.2436 	EXP 	unnamed Polygon: autoDraw = True
+126.2563 	EXP 	unnamed Polygon: autoDraw = True
+126.2611 	EXP 	unnamed Polygon: autoDraw = True
+126.2717 	EXP 	unnamed Polygon: autoDraw = False
+131.7893 	EXP 	unnamed Polygon: autoDraw = True
+131.7893 	EXP 	unnamed Polygon: autoDraw = True
+131.7938 	EXP 	unnamed Polygon: autoDraw = True
+131.8056 	EXP 	unnamed Polygon: autoDraw = True
+131.8096 	EXP 	unnamed Polygon: autoDraw = True
+131.8239 	EXP 	unnamed Polygon: autoDraw = True
+131.8406 	EXP 	unnamed Polygon: autoDraw = True
+131.8446 	EXP 	unnamed Polygon: autoDraw = True
+131.8561 	EXP 	unnamed Polygon: autoDraw = True
+131.8607 	EXP 	unnamed Polygon: autoDraw = True
+131.8737 	EXP 	unnamed Polygon: autoDraw = True
+131.8783 	EXP 	unnamed Polygon: autoDraw = True
+131.8899 	EXP 	unnamed Polygon: autoDraw = True
+131.8940 	EXP 	unnamed Polygon: autoDraw = True
+131.9053 	EXP 	unnamed Polygon: autoDraw = True
+131.9097 	EXP 	unnamed Polygon: autoDraw = True
+131.9221 	EXP 	unnamed Polygon: autoDraw = True
+131.9273 	EXP 	unnamed Polygon: autoDraw = True
+131.9395 	EXP 	unnamed Polygon: autoDraw = True
+131.9440 	EXP 	unnamed Polygon: autoDraw = True
+131.9558 	EXP 	unnamed Polygon: autoDraw = True
+131.9591 	EXP 	unnamed Polygon: autoDraw = True
+131.9734 	EXP 	unnamed Polygon: autoDraw = True
+131.9772 	EXP 	unnamed Polygon: autoDraw = True
+131.9889 	EXP 	unnamed Polygon: autoDraw = True
+131.9929 	EXP 	unnamed Polygon: autoDraw = True
+132.0056 	EXP 	unnamed Polygon: autoDraw = True
+132.0105 	EXP 	unnamed Polygon: autoDraw = True
+132.0229 	EXP 	unnamed Polygon: autoDraw = True
+132.0278 	EXP 	unnamed Polygon: autoDraw = True
+132.0403 	EXP 	unnamed Polygon: autoDraw = True
+132.0561 	EXP 	unnamed Polygon: autoDraw = True
+132.0601 	EXP 	unnamed Polygon: autoDraw = True
+132.0729 	EXP 	unnamed Polygon: autoDraw = True
+132.0774 	EXP 	unnamed Polygon: autoDraw = True
+132.0884 	EXP 	unnamed Polygon: autoDraw = True
+132.0982 	EXP 	unnamed Polygon: autoDraw = True
+132.1050 	EXP 	unnamed Polygon: autoDraw = True
+132.1075 	EXP 	unnamed Polygon: autoDraw = True
+132.1217 	EXP 	unnamed Polygon: autoDraw = True
+132.1250 	EXP 	unnamed Polygon: autoDraw = True
+132.1384 	EXP 	unnamed Polygon: autoDraw = True
+132.1412 	EXP 	unnamed Polygon: autoDraw = True
+132.1567 	EXP 	unnamed Polygon: autoDraw = True
+132.1605 	EXP 	unnamed Polygon: autoDraw = True
+132.1738 	EXP 	unnamed Polygon: autoDraw = True
+132.1892 	EXP 	unnamed Polygon: autoDraw = True
+132.1946 	EXP 	unnamed Polygon: autoDraw = True
+132.2056 	EXP 	unnamed Polygon: autoDraw = True
+132.2084 	EXP 	unnamed Polygon: autoDraw = True
+132.2233 	EXP 	unnamed Polygon: autoDraw = True
+132.2275 	EXP 	unnamed Polygon: autoDraw = True
+132.2391 	EXP 	unnamed Polygon: autoDraw = True
+132.2442 	EXP 	unnamed Polygon: autoDraw = True
+132.2563 	EXP 	unnamed Polygon: autoDraw = True
+132.2616 	EXP 	unnamed Polygon: autoDraw = True
+132.2732 	EXP 	unnamed Polygon: autoDraw = True
+132.2760 	EXP 	unnamed Polygon: autoDraw = True
+132.2892 	EXP 	unnamed Polygon: autoDraw = False
+141.7783 	EXP 	unnamed Polygon: autoDraw = True
+141.7783 	EXP 	unnamed Polygon: autoDraw = True
+141.7884 	EXP 	unnamed Polygon: autoDraw = True
+141.7935 	EXP 	unnamed Polygon: autoDraw = True
+141.8064 	EXP 	unnamed Polygon: autoDraw = True
+141.8110 	EXP 	unnamed Polygon: autoDraw = True
+141.8226 	EXP 	unnamed Polygon: autoDraw = True
+141.8268 	EXP 	unnamed Polygon: autoDraw = True
+141.8392 	EXP 	unnamed Polygon: autoDraw = True
+141.8439 	EXP 	unnamed Polygon: autoDraw = True
+141.8556 	EXP 	unnamed Polygon: autoDraw = True
+141.8586 	EXP 	unnamed Polygon: autoDraw = True
+141.8734 	EXP 	unnamed Polygon: autoDraw = True
+141.8778 	EXP 	unnamed Polygon: autoDraw = True
+141.8893 	EXP 	unnamed Polygon: autoDraw = True
+141.8938 	EXP 	unnamed Polygon: autoDraw = True
+141.9052 	EXP 	unnamed Polygon: autoDraw = True
+141.9081 	EXP 	unnamed Polygon: autoDraw = True
+141.9233 	EXP 	unnamed Polygon: autoDraw = True
+141.9272 	EXP 	unnamed Polygon: autoDraw = True
+141.9388 	EXP 	unnamed Polygon: autoDraw = True
+141.9416 	EXP 	unnamed Polygon: autoDraw = True
+141.9566 	EXP 	unnamed Polygon: autoDraw = True
+141.9614 	EXP 	unnamed Polygon: autoDraw = True
+141.9731 	EXP 	unnamed Polygon: autoDraw = True
+141.9759 	EXP 	unnamed Polygon: autoDraw = True
+141.9904 	EXP 	unnamed Polygon: autoDraw = True
+141.9958 	EXP 	unnamed Polygon: autoDraw = True
+142.0055 	EXP 	unnamed Polygon: autoDraw = True
+142.0086 	EXP 	unnamed Polygon: autoDraw = True
+142.0232 	EXP 	unnamed Polygon: autoDraw = True
+142.0276 	EXP 	unnamed Polygon: autoDraw = True
+142.0387 	EXP 	unnamed Polygon: autoDraw = True
+142.0428 	EXP 	unnamed Polygon: autoDraw = True
+142.0584 	EXP 	unnamed Polygon: autoDraw = True
+142.0670 	EXP 	unnamed Polygon: autoDraw = True
+142.0714 	EXP 	unnamed Polygon: autoDraw = True
+142.0742 	EXP 	unnamed Polygon: autoDraw = True
+142.0883 	EXP 	unnamed Polygon: autoDraw = True
+142.0917 	EXP 	unnamed Polygon: autoDraw = True
+142.1050 	EXP 	unnamed Polygon: autoDraw = True
+142.1083 	EXP 	unnamed Polygon: autoDraw = True
+142.1216 	EXP 	unnamed Polygon: autoDraw = True
+142.1246 	EXP 	unnamed Polygon: autoDraw = True
+142.1383 	EXP 	unnamed Polygon: autoDraw = True
+142.1415 	EXP 	unnamed Polygon: autoDraw = True
+142.1550 	EXP 	unnamed Polygon: autoDraw = True
+142.1583 	EXP 	unnamed Polygon: autoDraw = True
+142.1716 	EXP 	unnamed Polygon: autoDraw = True
+142.1747 	EXP 	unnamed Polygon: autoDraw = True
+142.1883 	EXP 	unnamed Polygon: autoDraw = True
+142.1910 	EXP 	unnamed Polygon: autoDraw = True
+142.2066 	EXP 	unnamed Polygon: autoDraw = True
+142.2119 	EXP 	unnamed Polygon: autoDraw = True
+142.2231 	EXP 	unnamed Polygon: autoDraw = True
+142.2409 	EXP 	unnamed Polygon: autoDraw = True
+142.2448 	EXP 	unnamed Polygon: autoDraw = True
+142.2558 	EXP 	unnamed Polygon: autoDraw = True
+142.2604 	EXP 	unnamed Polygon: autoDraw = False
+147.7895 	EXP 	unnamed Polygon: autoDraw = True
+147.7895 	EXP 	unnamed Polygon: autoDraw = True
+147.7957 	EXP 	unnamed Polygon: autoDraw = True
+147.8060 	EXP 	unnamed Polygon: autoDraw = True
+147.8112 	EXP 	unnamed Polygon: autoDraw = True
+147.8224 	EXP 	unnamed Polygon: autoDraw = True
+147.8255 	EXP 	unnamed Polygon: autoDraw = True
+147.8390 	EXP 	unnamed Polygon: autoDraw = True
+147.8420 	EXP 	unnamed Polygon: autoDraw = True
+147.8558 	EXP 	unnamed Polygon: autoDraw = True
+147.8594 	EXP 	unnamed Polygon: autoDraw = True
+147.8753 	EXP 	unnamed Polygon: autoDraw = True
+147.8899 	EXP 	unnamed Polygon: autoDraw = True
+147.8952 	EXP 	unnamed Polygon: autoDraw = True
+147.9056 	EXP 	unnamed Polygon: autoDraw = True
+147.9091 	EXP 	unnamed Polygon: autoDraw = True
+147.9225 	EXP 	unnamed Polygon: autoDraw = True
+147.9262 	EXP 	unnamed Polygon: autoDraw = True
+147.9429 	EXP 	unnamed Polygon: autoDraw = True
+147.9557 	EXP 	unnamed Polygon: autoDraw = True
+147.9590 	EXP 	unnamed Polygon: autoDraw = True
+147.9723 	EXP 	unnamed Polygon: autoDraw = True
+147.9763 	EXP 	unnamed Polygon: autoDraw = True
+147.9889 	EXP 	unnamed Polygon: autoDraw = True
+147.9923 	EXP 	unnamed Polygon: autoDraw = True
+148.0056 	EXP 	unnamed Polygon: autoDraw = True
+148.0086 	EXP 	unnamed Polygon: autoDraw = True
+148.0224 	EXP 	unnamed Polygon: autoDraw = True
+148.0255 	EXP 	unnamed Polygon: autoDraw = True
+148.0421 	EXP 	unnamed Polygon: autoDraw = True
+148.0550 	EXP 	unnamed Polygon: autoDraw = True
+148.0581 	EXP 	unnamed Polygon: autoDraw = True
+148.0718 	EXP 	unnamed Polygon: autoDraw = True
+148.0761 	EXP 	unnamed Polygon: autoDraw = True
+148.0894 	EXP 	unnamed Polygon: autoDraw = True
+148.0949 	EXP 	unnamed Polygon: autoDraw = True
+148.1053 	EXP 	unnamed Polygon: autoDraw = True
+148.1091 	EXP 	unnamed Polygon: autoDraw = True
+148.1245 	EXP 	unnamed Polygon: autoDraw = True
+148.1400 	EXP 	unnamed Polygon: autoDraw = True
+148.1442 	EXP 	unnamed Polygon: autoDraw = True
+148.1549 	EXP 	unnamed Polygon: autoDraw = True
+148.1601 	EXP 	unnamed Polygon: autoDraw = True
+148.1717 	EXP 	unnamed Polygon: autoDraw = True
+148.1754 	EXP 	unnamed Polygon: autoDraw = True
+148.1916 	EXP 	unnamed Polygon: autoDraw = True
+148.2001 	EXP 	unnamed Polygon: autoDraw = True
+148.2049 	EXP 	unnamed Polygon: autoDraw = True
+148.2077 	EXP 	unnamed Polygon: autoDraw = True
+148.2218 	EXP 	unnamed Polygon: autoDraw = True
+148.2248 	EXP 	unnamed Polygon: autoDraw = True
+148.2384 	EXP 	unnamed Polygon: autoDraw = True
+148.2415 	EXP 	unnamed Polygon: autoDraw = True
+148.2557 	EXP 	unnamed Polygon: autoDraw = True
+148.2609 	EXP 	unnamed Polygon: autoDraw = True
+148.2719 	EXP 	unnamed Polygon: autoDraw = True
+148.2767 	EXP 	unnamed Polygon: autoDraw = True
+148.2884 	EXP 	unnamed Polygon: autoDraw = False
+157.7718 	EXP 	unnamed Polygon: autoDraw = True
+157.7718 	EXP 	unnamed Polygon: autoDraw = True
+157.7765 	EXP 	unnamed Polygon: autoDraw = True
+157.7885 	EXP 	unnamed Polygon: autoDraw = True
+157.7915 	EXP 	unnamed Polygon: autoDraw = True
+157.8061 	EXP 	unnamed Polygon: autoDraw = True
+157.8119 	EXP 	unnamed Polygon: autoDraw = True
+157.8239 	EXP 	unnamed Polygon: autoDraw = True
+157.8281 	EXP 	unnamed Polygon: autoDraw = True
+157.8386 	EXP 	unnamed Polygon: autoDraw = True
+157.8420 	EXP 	unnamed Polygon: autoDraw = True
+157.8566 	EXP 	unnamed Polygon: autoDraw = True
+157.8624 	EXP 	unnamed Polygon: autoDraw = True
+157.8719 	EXP 	unnamed Polygon: autoDraw = True
+157.8755 	EXP 	unnamed Polygon: autoDraw = True
+157.8902 	EXP 	unnamed Polygon: autoDraw = True
+157.8943 	EXP 	unnamed Polygon: autoDraw = True
+157.9062 	EXP 	unnamed Polygon: autoDraw = True
+157.9114 	EXP 	unnamed Polygon: autoDraw = True
+157.9249 	EXP 	unnamed Polygon: autoDraw = True
+157.9294 	EXP 	unnamed Polygon: autoDraw = True
+157.9389 	EXP 	unnamed Polygon: autoDraw = True
+157.9418 	EXP 	unnamed Polygon: autoDraw = True
+157.9570 	EXP 	unnamed Polygon: autoDraw = True
+157.9626 	EXP 	unnamed Polygon: autoDraw = True
+157.9759 	EXP 	unnamed Polygon: autoDraw = True
+157.9885 	EXP 	unnamed Polygon: autoDraw = True
+157.9914 	EXP 	unnamed Polygon: autoDraw = True
+158.0053 	EXP 	unnamed Polygon: autoDraw = True
+158.0081 	EXP 	unnamed Polygon: autoDraw = True
+158.0294 	EXP 	unnamed Polygon: autoDraw = True
+158.0383 	EXP 	unnamed Polygon: autoDraw = True
+158.0413 	EXP 	unnamed Polygon: autoDraw = True
+158.0552 	EXP 	unnamed Polygon: autoDraw = True
+158.0585 	EXP 	unnamed Polygon: autoDraw = True
+158.0717 	EXP 	unnamed Polygon: autoDraw = True
+158.0755 	EXP 	unnamed Polygon: autoDraw = True
+158.0891 	EXP 	unnamed Polygon: autoDraw = True
+158.0938 	EXP 	unnamed Polygon: autoDraw = True
+158.1067 	EXP 	unnamed Polygon: autoDraw = True
+158.1234 	EXP 	unnamed Polygon: autoDraw = True
+158.1288 	EXP 	unnamed Polygon: autoDraw = True
+158.1386 	EXP 	unnamed Polygon: autoDraw = True
+158.1423 	EXP 	unnamed Polygon: autoDraw = True
+158.1562 	EXP 	unnamed Polygon: autoDraw = True
+158.1610 	EXP 	unnamed Polygon: autoDraw = True
+158.1721 	EXP 	unnamed Polygon: autoDraw = True
+158.1758 	EXP 	unnamed Polygon: autoDraw = True
+158.1885 	EXP 	unnamed Polygon: autoDraw = True
+158.1927 	EXP 	unnamed Polygon: autoDraw = True
+158.2054 	EXP 	unnamed Polygon: autoDraw = True
+158.2088 	EXP 	unnamed Polygon: autoDraw = True
+158.2223 	EXP 	unnamed Polygon: autoDraw = True
+158.2418 	EXP 	unnamed Polygon: autoDraw = True
+158.2557 	EXP 	unnamed Polygon: autoDraw = True
+158.2628 	EXP 	unnamed Polygon: autoDraw = False
+165.7786 	EXP 	unnamed Polygon: autoDraw = True
+165.7786 	EXP 	unnamed Polygon: autoDraw = True
+165.7884 	EXP 	unnamed Polygon: autoDraw = True
+165.7912 	EXP 	unnamed Polygon: autoDraw = True
+165.8068 	EXP 	unnamed Polygon: autoDraw = True
+165.8123 	EXP 	unnamed Polygon: autoDraw = True
+165.8218 	EXP 	unnamed Polygon: autoDraw = True
+165.8247 	EXP 	unnamed Polygon: autoDraw = True
+165.8402 	EXP 	unnamed Polygon: autoDraw = True
+165.8431 	EXP 	unnamed Polygon: autoDraw = True
+165.8567 	EXP 	unnamed Polygon: autoDraw = True
+165.8611 	EXP 	unnamed Polygon: autoDraw = True
+165.8726 	EXP 	unnamed Polygon: autoDraw = True
+165.8772 	EXP 	unnamed Polygon: autoDraw = True
+165.8890 	EXP 	unnamed Polygon: autoDraw = True
+165.8933 	EXP 	unnamed Polygon: autoDraw = True
+165.9058 	EXP 	unnamed Polygon: autoDraw = True
+165.9092 	EXP 	unnamed Polygon: autoDraw = True
+165.9233 	EXP 	unnamed Polygon: autoDraw = True
+165.9257 	EXP 	unnamed Polygon: autoDraw = True
+165.9392 	EXP 	unnamed Polygon: autoDraw = True
+165.9453 	EXP 	unnamed Polygon: autoDraw = True
+165.9559 	EXP 	unnamed Polygon: autoDraw = True
+165.9591 	EXP 	unnamed Polygon: autoDraw = True
+165.9731 	EXP 	unnamed Polygon: autoDraw = True
+165.9782 	EXP 	unnamed Polygon: autoDraw = True
+165.9904 	EXP 	unnamed Polygon: autoDraw = True
+166.0085 	EXP 	unnamed Polygon: autoDraw = True
+166.0218 	EXP 	unnamed Polygon: autoDraw = True
+166.0245 	EXP 	unnamed Polygon: autoDraw = True
+166.0425 	EXP 	unnamed Polygon: autoDraw = True
+166.0570 	EXP 	unnamed Polygon: autoDraw = True
+166.0740 	EXP 	unnamed Polygon: autoDraw = True
+166.0908 	EXP 	unnamed Polygon: autoDraw = True
+166.1072 	EXP 	unnamed Polygon: autoDraw = True
+166.1244 	EXP 	unnamed Polygon: autoDraw = True
+166.1403 	EXP 	unnamed Polygon: autoDraw = True
+166.1453 	EXP 	unnamed Polygon: autoDraw = True
+166.1563 	EXP 	unnamed Polygon: autoDraw = True
+166.1609 	EXP 	unnamed Polygon: autoDraw = True
+166.1734 	EXP 	unnamed Polygon: autoDraw = True
+166.1789 	EXP 	unnamed Polygon: autoDraw = True
+166.1903 	EXP 	unnamed Polygon: autoDraw = True
+166.1948 	EXP 	unnamed Polygon: autoDraw = True
+166.2064 	EXP 	unnamed Polygon: autoDraw = True
+166.2105 	EXP 	unnamed Polygon: autoDraw = True
+166.2230 	EXP 	unnamed Polygon: autoDraw = True
+166.2279 	EXP 	unnamed Polygon: autoDraw = True
+166.2416 	EXP 	unnamed Polygon: autoDraw = True
+166.2487 	EXP 	unnamed Polygon: autoDraw = True
+166.2555 	EXP 	unnamed Polygon: autoDraw = True
+166.2604 	EXP 	unnamed Polygon: autoDraw = False
+166.5298 	DATA 	Keypress: 5
+166.9422 	DATA 	Keypress: 6
+185.2728 	DATA 	Keypress: lcommand
+185.3264 	DATA 	Keypress: lshift
+186.4890 	DATA 	Keypress: return
+187.2541 	DATA 	Keypress: 6
+187.2780 	EXP 	window1: mouseVisible = False
+187.2870 	EXP 	unnamed TextStim: height = 0.04
+187.2870 	EXP 	unnamed TextStim: height = 0.04
+187.2870 	EXP 	unnamed TextStim: height = 0.04
+187.2870 	EXP 	unnamed TextStim: text = 'Welcome!'
+188.6189 	DATA 	Keypress: 6
+188.6313 	EXP 	unnamed TextStim: height = 0.04
+188.6313 	EXP 	unnamed TextStim: height = 0.04
+188.6313 	EXP 	unnamed TextStim: height = 0.04
+188.6313 	EXP 	unnamed TextStim: text = 'First you will see a cross in the middle of the screen, like this:\n\n+\n\nThis means you should focus on the screen and get ready to play. '
+191.9864 	DATA 	Keypress: 6
+191.9936 	EXP 	window1: mouseVisible = True
+191.9952 	EXP 	Created unnamed Polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+192.0053 	EXP 	unnamed TextStim: height = 0.04
+192.0053 	EXP 	unnamed TextStim: height = 0.04
+192.0053 	EXP 	unnamed TextStim: height = 0.04
+192.0053 	EXP 	unnamed TextStim: text = 'Next, a small solid WHITE TRIANGLE will appear on the screen:\n\n \n\n \n\n \n\nPress the button as fast as you can when you see the solid white triangle. '
+192.6622 	DATA 	Keypress: 6
+192.6704 	EXP 	unnamed TextStim: height = 0.04
+192.6704 	EXP 	unnamed TextStim: height = 0.04
+192.6704 	EXP 	unnamed TextStim: height = 0.04
+192.6704 	EXP 	unnamed TextStim: text = 'Any Questions?\n\nPlease ask them now.'
+193.8508 	DATA 	Keypress: 6
+195.1072 	DATA 	Keypress: return
+200.1224 	EXP 	unnamed Polygon: autoDraw = True
+200.1224 	EXP 	unnamed Polygon: autoDraw = True
+200.1259 	EXP 	unnamed Polygon: autoDraw = True
+200.1390 	EXP 	unnamed Polygon: autoDraw = True
+200.1429 	EXP 	unnamed Polygon: autoDraw = True
+200.1559 	EXP 	unnamed Polygon: autoDraw = True
+200.1610 	EXP 	unnamed Polygon: autoDraw = True
+200.1727 	EXP 	unnamed Polygon: autoDraw = True
+200.1762 	EXP 	unnamed Polygon: autoDraw = True
+200.1893 	EXP 	unnamed Polygon: autoDraw = True
+200.1924 	EXP 	unnamed Polygon: autoDraw = True
+200.2053 	EXP 	unnamed Polygon: autoDraw = True
+200.2086 	EXP 	unnamed Polygon: autoDraw = True
+200.2237 	EXP 	unnamed Polygon: autoDraw = True
+200.2393 	EXP 	unnamed Polygon: autoDraw = True
+200.2443 	EXP 	unnamed Polygon: autoDraw = True
+200.2554 	EXP 	unnamed Polygon: autoDraw = True
+200.2591 	EXP 	unnamed Polygon: autoDraw = True
+200.2735 	EXP 	unnamed Polygon: autoDraw = True
+200.2788 	EXP 	unnamed Polygon: autoDraw = True
+200.2885 	EXP 	unnamed Polygon: autoDraw = True
+200.2916 	EXP 	unnamed Polygon: autoDraw = True
+200.3053 	EXP 	unnamed Polygon: autoDraw = True
+200.3091 	EXP 	unnamed Polygon: autoDraw = True
+200.3217 	EXP 	unnamed Polygon: autoDraw = True
+200.3250 	EXP 	unnamed Polygon: autoDraw = True
+200.3387 	EXP 	unnamed Polygon: autoDraw = True
+200.3425 	EXP 	unnamed Polygon: autoDraw = True
+200.3554 	EXP 	unnamed Polygon: autoDraw = True
+200.3594 	EXP 	unnamed Polygon: autoDraw = True
+200.3720 	EXP 	unnamed Polygon: autoDraw = True
+200.3756 	EXP 	unnamed Polygon: autoDraw = True
+200.3889 	EXP 	unnamed Polygon: autoDraw = True
+200.3922 	EXP 	unnamed Polygon: autoDraw = True
+200.4057 	EXP 	unnamed Polygon: autoDraw = True
+200.4090 	EXP 	unnamed Polygon: autoDraw = True
+200.4132 	DATA 	Keypress: 6
+200.4268 	EXP 	unnamed Polygon: autoDraw = True
+200.4391 	EXP 	unnamed Polygon: autoDraw = True
+200.4427 	EXP 	unnamed Polygon: autoDraw = True
+200.4557 	EXP 	unnamed Polygon: autoDraw = True
+200.4594 	EXP 	unnamed Polygon: autoDraw = True
+200.4725 	EXP 	unnamed Polygon: autoDraw = True
+200.4757 	EXP 	unnamed Polygon: autoDraw = True
+200.4894 	EXP 	unnamed Polygon: autoDraw = True
+200.4933 	EXP 	unnamed Polygon: autoDraw = True
+200.5058 	EXP 	unnamed Polygon: autoDraw = True
+200.5091 	EXP 	unnamed Polygon: autoDraw = True
+200.5224 	EXP 	unnamed Polygon: autoDraw = True
+200.5267 	EXP 	unnamed Polygon: autoDraw = True
+200.5390 	EXP 	unnamed Polygon: autoDraw = True
+200.5420 	EXP 	unnamed Polygon: autoDraw = True
+200.5558 	EXP 	unnamed Polygon: autoDraw = True
+200.5589 	EXP 	unnamed Polygon: autoDraw = True
+200.5725 	EXP 	unnamed Polygon: autoDraw = True
+200.5756 	EXP 	unnamed Polygon: autoDraw = True
+200.5891 	EXP 	unnamed Polygon: autoDraw = True
+200.5927 	EXP 	unnamed Polygon: autoDraw = True
+200.6059 	EXP 	unnamed Polygon: autoDraw = True
+200.6095 	EXP 	unnamed Polygon: autoDraw = True
+200.6225 	EXP 	unnamed Polygon: autoDraw = True
+200.6298 	EXP 	unnamed Polygon: autoDraw = False
+208.3445 	EXP 	unnamed Polygon: autoDraw = True
+208.3445 	EXP 	unnamed Polygon: autoDraw = True
+208.3554 	EXP 	unnamed Polygon: autoDraw = True
+208.3602 	EXP 	unnamed Polygon: autoDraw = True
+208.3738 	EXP 	unnamed Polygon: autoDraw = True
+208.3781 	EXP 	unnamed Polygon: autoDraw = True
+208.3899 	EXP 	unnamed Polygon: autoDraw = True
+208.3941 	EXP 	unnamed Polygon: autoDraw = True
+208.4070 	EXP 	unnamed Polygon: autoDraw = True
+208.4248 	EXP 	unnamed Polygon: autoDraw = True
+208.4268 	EXP 	unnamed Polygon: autoDraw = True
+208.4385 	EXP 	unnamed Polygon: autoDraw = True
+208.4412 	EXP 	unnamed Polygon: autoDraw = True
+208.4583 	EXP 	unnamed Polygon: autoDraw = True
+208.4727 	EXP 	unnamed Polygon: autoDraw = True
+208.4762 	EXP 	unnamed Polygon: autoDraw = True
+208.4945 	EXP 	unnamed Polygon: autoDraw = True
+208.5055 	EXP 	unnamed Polygon: autoDraw = True
+208.5085 	EXP 	unnamed Polygon: autoDraw = True
+208.5221 	EXP 	unnamed Polygon: autoDraw = True
+208.5249 	EXP 	unnamed Polygon: autoDraw = True
+208.5398 	EXP 	unnamed Polygon: autoDraw = True
+208.5448 	EXP 	unnamed Polygon: autoDraw = True
+208.5573 	EXP 	unnamed Polygon: autoDraw = True
+208.5621 	EXP 	unnamed Polygon: autoDraw = True
+208.5745 	EXP 	unnamed Polygon: autoDraw = True
+208.5908 	EXP 	unnamed Polygon: autoDraw = True
+208.5942 	EXP 	unnamed Polygon: autoDraw = True
+208.6074 	EXP 	unnamed Polygon: autoDraw = True
+208.6111 	EXP 	unnamed Polygon: autoDraw = True
+208.6230 	EXP 	unnamed Polygon: autoDraw = True
+208.6281 	EXP 	unnamed Polygon: autoDraw = True
+208.6404 	EXP 	unnamed Polygon: autoDraw = True
+208.6428 	DATA 	Keypress: 6
+208.6562 	EXP 	unnamed Polygon: autoDraw = True
+208.6613 	EXP 	unnamed Polygon: autoDraw = True
+208.6736 	EXP 	unnamed Polygon: autoDraw = True
+208.6903 	EXP 	unnamed Polygon: autoDraw = True
+208.7067 	EXP 	unnamed Polygon: autoDraw = True
+208.7168 	EXP 	unnamed Polygon: autoDraw = True
+208.7222 	EXP 	unnamed Polygon: autoDraw = True
+208.7256 	EXP 	unnamed Polygon: autoDraw = True
+208.7413 	EXP 	unnamed Polygon: autoDraw = True
+208.7558 	EXP 	unnamed Polygon: autoDraw = True
+208.7602 	EXP 	unnamed Polygon: autoDraw = True
+208.7722 	EXP 	unnamed Polygon: autoDraw = True
+208.7753 	EXP 	unnamed Polygon: autoDraw = True
+208.7890 	EXP 	unnamed Polygon: autoDraw = True
+208.7921 	EXP 	unnamed Polygon: autoDraw = True
+208.8059 	EXP 	unnamed Polygon: autoDraw = True
+208.8115 	EXP 	unnamed Polygon: autoDraw = True
+208.8245 	EXP 	unnamed Polygon: autoDraw = True
+208.8393 	EXP 	unnamed Polygon: autoDraw = False
+214.5557 	EXP 	unnamed Polygon: autoDraw = True
+214.5557 	EXP 	unnamed Polygon: autoDraw = True
+214.5592 	EXP 	unnamed Polygon: autoDraw = True
+214.5726 	EXP 	unnamed Polygon: autoDraw = True
+214.5761 	EXP 	unnamed Polygon: autoDraw = True
+214.5926 	EXP 	unnamed Polygon: autoDraw = True
+214.6077 	EXP 	unnamed Polygon: autoDraw = True
+214.6122 	EXP 	unnamed Polygon: autoDraw = True
+214.6228 	EXP 	unnamed Polygon: autoDraw = True
+214.6292 	EXP 	unnamed Polygon: autoDraw = True
+214.6392 	EXP 	unnamed Polygon: autoDraw = True
+214.6438 	EXP 	unnamed Polygon: autoDraw = True
+214.6559 	EXP 	unnamed Polygon: autoDraw = True
+214.6608 	EXP 	unnamed Polygon: autoDraw = True
+214.6727 	EXP 	unnamed Polygon: autoDraw = True
+214.6762 	EXP 	unnamed Polygon: autoDraw = True
+214.6881 	EXP 	unnamed Polygon: autoDraw = True
+214.6915 	EXP 	unnamed Polygon: autoDraw = True
+214.7051 	EXP 	unnamed Polygon: autoDraw = True
+214.7086 	EXP 	unnamed Polygon: autoDraw = True
+214.7214 	EXP 	unnamed Polygon: autoDraw = True
+214.7244 	EXP 	unnamed Polygon: autoDraw = True
+214.7384 	EXP 	unnamed Polygon: autoDraw = True
+214.7413 	EXP 	unnamed Polygon: autoDraw = True
+214.7552 	EXP 	unnamed Polygon: autoDraw = True
+214.7580 	EXP 	unnamed Polygon: autoDraw = True
+214.7729 	EXP 	unnamed Polygon: autoDraw = True
+214.7777 	EXP 	unnamed Polygon: autoDraw = True
+214.7884 	EXP 	unnamed Polygon: autoDraw = True
+214.7931 	EXP 	unnamed Polygon: autoDraw = True
+214.8058 	EXP 	unnamed Polygon: autoDraw = True
+214.8111 	EXP 	unnamed Polygon: autoDraw = True
+214.8227 	EXP 	unnamed Polygon: autoDraw = True
+214.8256 	EXP 	unnamed Polygon: autoDraw = True
+214.8389 	EXP 	unnamed Polygon: autoDraw = True
+214.8430 	EXP 	unnamed Polygon: autoDraw = True
+214.8567 	EXP 	unnamed Polygon: autoDraw = True
+214.8606 	DATA 	Keypress: 6
+214.8642 	EXP 	unnamed Polygon: autoDraw = True
+214.8716 	EXP 	unnamed Polygon: autoDraw = True
+214.8749 	EXP 	unnamed Polygon: autoDraw = True
+214.8901 	EXP 	unnamed Polygon: autoDraw = True
+214.9065 	EXP 	unnamed Polygon: autoDraw = True
+214.9102 	EXP 	unnamed Polygon: autoDraw = True
+214.9232 	EXP 	unnamed Polygon: autoDraw = True
+214.9275 	EXP 	unnamed Polygon: autoDraw = True
+214.9397 	EXP 	unnamed Polygon: autoDraw = True
+214.9436 	EXP 	unnamed Polygon: autoDraw = True
+214.9555 	EXP 	unnamed Polygon: autoDraw = True
+214.9596 	EXP 	unnamed Polygon: autoDraw = True
+214.9732 	EXP 	unnamed Polygon: autoDraw = True
+214.9760 	EXP 	unnamed Polygon: autoDraw = True
+214.9890 	EXP 	unnamed Polygon: autoDraw = True
+214.9951 	EXP 	unnamed Polygon: autoDraw = True
+215.0053 	EXP 	unnamed Polygon: autoDraw = True
+215.0102 	EXP 	unnamed Polygon: autoDraw = True
+215.0226 	EXP 	unnamed Polygon: autoDraw = True
+215.0265 	EXP 	unnamed Polygon: autoDraw = True
+215.0388 	EXP 	unnamed Polygon: autoDraw = True
+215.0437 	EXP 	unnamed Polygon: autoDraw = True
+215.0558 	EXP 	unnamed Polygon: autoDraw = True
+215.0612 	EXP 	unnamed Polygon: autoDraw = False
+222.7726 	EXP 	unnamed Polygon: autoDraw = True
+222.7726 	EXP 	unnamed Polygon: autoDraw = True
+222.7755 	EXP 	unnamed Polygon: autoDraw = True
+222.7892 	EXP 	unnamed Polygon: autoDraw = True
+222.7927 	EXP 	unnamed Polygon: autoDraw = True
+222.8058 	EXP 	unnamed Polygon: autoDraw = True
+222.8094 	EXP 	unnamed Polygon: autoDraw = True
+222.8226 	EXP 	unnamed Polygon: autoDraw = True
+222.8261 	EXP 	unnamed Polygon: autoDraw = True
+222.8392 	EXP 	unnamed Polygon: autoDraw = True
+222.8427 	EXP 	unnamed Polygon: autoDraw = True
+222.8559 	EXP 	unnamed Polygon: autoDraw = True
+222.8592 	EXP 	unnamed Polygon: autoDraw = True
+222.8735 	EXP 	unnamed Polygon: autoDraw = True
+222.8775 	EXP 	unnamed Polygon: autoDraw = True
+222.8905 	EXP 	unnamed Polygon: autoDraw = True
+222.8947 	EXP 	unnamed Polygon: autoDraw = True
+222.9070 	EXP 	unnamed Polygon: autoDraw = True
+222.9107 	EXP 	unnamed Polygon: autoDraw = True
+222.9244 	EXP 	unnamed Polygon: autoDraw = True
+222.9395 	EXP 	unnamed Polygon: autoDraw = True
+222.9448 	EXP 	unnamed Polygon: autoDraw = True
+222.9556 	EXP 	unnamed Polygon: autoDraw = True
+222.9592 	EXP 	unnamed Polygon: autoDraw = True
+222.9740 	EXP 	unnamed Polygon: autoDraw = True
+222.9785 	EXP 	unnamed Polygon: autoDraw = True
+222.9889 	EXP 	unnamed Polygon: autoDraw = True
+222.9940 	EXP 	unnamed Polygon: autoDraw = True
+223.0055 	EXP 	unnamed Polygon: autoDraw = True
+223.0104 	EXP 	unnamed Polygon: autoDraw = True
+223.0237 	EXP 	unnamed Polygon: autoDraw = True
+223.0278 	EXP 	unnamed Polygon: autoDraw = True
+223.0403 	EXP 	unnamed Polygon: autoDraw = True
+223.0448 	EXP 	unnamed Polygon: autoDraw = True
+223.0568 	EXP 	unnamed Polygon: autoDraw = True
+223.0619 	EXP 	unnamed Polygon: autoDraw = True
+223.0734 	EXP 	unnamed Polygon: autoDraw = True
+223.0758 	EXP 	unnamed Polygon: autoDraw = True
+223.0900 	EXP 	unnamed Polygon: autoDraw = True
+223.0963 	EXP 	unnamed Polygon: autoDraw = True
+223.1052 	EXP 	unnamed Polygon: autoDraw = True
+223.1094 	EXP 	unnamed Polygon: autoDraw = True
+223.1218 	EXP 	unnamed Polygon: autoDraw = True
+223.1262 	EXP 	unnamed Polygon: autoDraw = True
+223.1283 	DATA 	Keypress: 6
+223.1382 	EXP 	unnamed Polygon: autoDraw = True
+223.1416 	EXP 	unnamed Polygon: autoDraw = True
+223.1554 	EXP 	unnamed Polygon: autoDraw = True
+223.1601 	EXP 	unnamed Polygon: autoDraw = True
+223.1720 	EXP 	unnamed Polygon: autoDraw = True
+223.1749 	EXP 	unnamed Polygon: autoDraw = True
+223.1887 	EXP 	unnamed Polygon: autoDraw = True
+223.1918 	EXP 	unnamed Polygon: autoDraw = True
+223.2056 	EXP 	unnamed Polygon: autoDraw = True
+223.2095 	EXP 	unnamed Polygon: autoDraw = True
+223.2223 	EXP 	unnamed Polygon: autoDraw = True
+223.2265 	EXP 	unnamed Polygon: autoDraw = True
+223.2392 	EXP 	unnamed Polygon: autoDraw = True
+223.2421 	EXP 	unnamed Polygon: autoDraw = True
+223.2559 	EXP 	unnamed Polygon: autoDraw = True
+223.2592 	EXP 	unnamed Polygon: autoDraw = True
+223.2725 	EXP 	unnamed Polygon: autoDraw = True
+223.2797 	EXP 	unnamed Polygon: autoDraw = False
+232.9393 	EXP 	unnamed Polygon: autoDraw = True
+232.9393 	EXP 	unnamed Polygon: autoDraw = True
+232.9436 	EXP 	unnamed Polygon: autoDraw = True
+232.9559 	EXP 	unnamed Polygon: autoDraw = True
+232.9593 	EXP 	unnamed Polygon: autoDraw = True
+232.9725 	EXP 	unnamed Polygon: autoDraw = True
+232.9757 	EXP 	unnamed Polygon: autoDraw = True
+232.9893 	EXP 	unnamed Polygon: autoDraw = True
+232.9931 	EXP 	unnamed Polygon: autoDraw = True
+233.0060 	EXP 	unnamed Polygon: autoDraw = True
+233.0095 	EXP 	unnamed Polygon: autoDraw = True
+233.0226 	EXP 	unnamed Polygon: autoDraw = True
+233.0260 	EXP 	unnamed Polygon: autoDraw = True
+233.0392 	EXP 	unnamed Polygon: autoDraw = True
+233.0425 	EXP 	unnamed Polygon: autoDraw = True
+233.0558 	EXP 	unnamed Polygon: autoDraw = True
+233.0591 	EXP 	unnamed Polygon: autoDraw = True
+233.0729 	EXP 	unnamed Polygon: autoDraw = True
+233.0762 	EXP 	unnamed Polygon: autoDraw = True
+233.0892 	EXP 	unnamed Polygon: autoDraw = True
+233.0924 	EXP 	unnamed Polygon: autoDraw = True
+233.1058 	EXP 	unnamed Polygon: autoDraw = True
+233.1088 	EXP 	unnamed Polygon: autoDraw = True
+233.1225 	EXP 	unnamed Polygon: autoDraw = True
+233.1263 	EXP 	unnamed Polygon: autoDraw = True
+233.1390 	EXP 	unnamed Polygon: autoDraw = True
+233.1426 	EXP 	unnamed Polygon: autoDraw = True
+233.1560 	EXP 	unnamed Polygon: autoDraw = True
+233.1599 	EXP 	unnamed Polygon: autoDraw = True
+233.1726 	EXP 	unnamed Polygon: autoDraw = True
+233.1760 	EXP 	unnamed Polygon: autoDraw = True
+233.1892 	EXP 	unnamed Polygon: autoDraw = True
+233.1936 	EXP 	unnamed Polygon: autoDraw = True
+233.2061 	EXP 	unnamed Polygon: autoDraw = True
+233.2119 	EXP 	unnamed Polygon: autoDraw = True
+233.2226 	EXP 	unnamed Polygon: autoDraw = True
+233.2265 	EXP 	unnamed Polygon: autoDraw = True
+233.2394 	EXP 	unnamed Polygon: autoDraw = True
+233.2467 	EXP 	unnamed Polygon: autoDraw = True
+233.2558 	EXP 	unnamed Polygon: autoDraw = True
+233.2592 	EXP 	unnamed Polygon: autoDraw = True
+233.2726 	EXP 	unnamed Polygon: autoDraw = True
+233.2762 	EXP 	unnamed Polygon: autoDraw = True
+233.2931 	EXP 	unnamed Polygon: autoDraw = True
+233.2961 	EXP 	unnamed Polygon: autoDraw = True
+233.3059 	EXP 	unnamed Polygon: autoDraw = True
+233.3089 	EXP 	unnamed Polygon: autoDraw = True
+233.3106 	DATA 	Keypress: 6
+233.3225 	EXP 	unnamed Polygon: autoDraw = True
+233.3258 	EXP 	unnamed Polygon: autoDraw = True
+233.3408 	EXP 	unnamed Polygon: autoDraw = True
+233.3461 	EXP 	unnamed Polygon: autoDraw = True
+233.3559 	EXP 	unnamed Polygon: autoDraw = True
+233.3599 	EXP 	unnamed Polygon: autoDraw = True
+233.3726 	EXP 	unnamed Polygon: autoDraw = True
+233.3759 	EXP 	unnamed Polygon: autoDraw = True
+233.3892 	EXP 	unnamed Polygon: autoDraw = True
+233.3929 	EXP 	unnamed Polygon: autoDraw = True
+233.4059 	EXP 	unnamed Polygon: autoDraw = True
+233.4100 	EXP 	unnamed Polygon: autoDraw = True
+233.4226 	EXP 	unnamed Polygon: autoDraw = True
+233.4263 	EXP 	unnamed Polygon: autoDraw = True
+233.4442 	EXP 	unnamed Polygon: autoDraw = True
+233.4546 	EXP 	unnamed Polygon: autoDraw = False
+241.0958 	EXP 	unnamed Polygon: autoDraw = True
+241.0958 	EXP 	unnamed Polygon: autoDraw = True
+241.1060 	EXP 	unnamed Polygon: autoDraw = True
+241.1109 	EXP 	unnamed Polygon: autoDraw = True
+241.1226 	EXP 	unnamed Polygon: autoDraw = True
+241.1262 	EXP 	unnamed Polygon: autoDraw = True
+241.1390 	EXP 	unnamed Polygon: autoDraw = True
+241.1427 	EXP 	unnamed Polygon: autoDraw = True
+241.1559 	EXP 	unnamed Polygon: autoDraw = True
+241.1597 	EXP 	unnamed Polygon: autoDraw = True
+241.1762 	EXP 	unnamed Polygon: autoDraw = True
+241.1905 	EXP 	unnamed Polygon: autoDraw = True
+241.1959 	EXP 	unnamed Polygon: autoDraw = True
+241.2059 	EXP 	unnamed Polygon: autoDraw = True
+241.2095 	EXP 	unnamed Polygon: autoDraw = True
+241.2225 	EXP 	unnamed Polygon: autoDraw = True
+241.2260 	EXP 	unnamed Polygon: autoDraw = True
+241.2393 	EXP 	unnamed Polygon: autoDraw = True
+241.2428 	EXP 	unnamed Polygon: autoDraw = True
+241.2560 	EXP 	unnamed Polygon: autoDraw = True
+241.2597 	EXP 	unnamed Polygon: autoDraw = True
+241.2763 	EXP 	unnamed Polygon: autoDraw = True
+241.2895 	EXP 	unnamed Polygon: autoDraw = True
+241.2949 	EXP 	unnamed Polygon: autoDraw = True
+241.3060 	EXP 	unnamed Polygon: autoDraw = True
+241.3093 	EXP 	unnamed Polygon: autoDraw = True
+241.3254 	EXP 	unnamed Polygon: autoDraw = True
+241.3402 	EXP 	unnamed Polygon: autoDraw = True
+241.3453 	EXP 	unnamed Polygon: autoDraw = True
+241.3559 	EXP 	unnamed Polygon: autoDraw = True
+241.3592 	EXP 	unnamed Polygon: autoDraw = True
+241.3725 	EXP 	unnamed Polygon: autoDraw = True
+241.3760 	EXP 	unnamed Polygon: autoDraw = True
+241.3893 	EXP 	unnamed Polygon: autoDraw = True
+241.3940 	EXP 	unnamed Polygon: autoDraw = True
+241.3995 	DATA 	Keypress: 6
+241.4059 	EXP 	unnamed Polygon: autoDraw = True
+241.4092 	EXP 	unnamed Polygon: autoDraw = True
+241.4225 	EXP 	unnamed Polygon: autoDraw = True
+241.4257 	EXP 	unnamed Polygon: autoDraw = True
+241.4392 	EXP 	unnamed Polygon: autoDraw = True
+241.4423 	EXP 	unnamed Polygon: autoDraw = True
+241.4560 	EXP 	unnamed Polygon: autoDraw = True
+241.4612 	EXP 	unnamed Polygon: autoDraw = True
+241.4726 	EXP 	unnamed Polygon: autoDraw = True
+241.4910 	EXP 	unnamed Polygon: autoDraw = True
+241.5062 	EXP 	unnamed Polygon: autoDraw = True
+241.5102 	EXP 	unnamed Polygon: autoDraw = True
+241.5228 	EXP 	unnamed Polygon: autoDraw = True
+241.5275 	EXP 	unnamed Polygon: autoDraw = True
+241.5393 	EXP 	unnamed Polygon: autoDraw = True
+241.5421 	EXP 	unnamed Polygon: autoDraw = True
+241.5560 	EXP 	unnamed Polygon: autoDraw = True
+241.5585 	EXP 	unnamed Polygon: autoDraw = True
+241.5720 	EXP 	unnamed Polygon: autoDraw = True
+241.5747 	EXP 	unnamed Polygon: autoDraw = True
+241.5886 	EXP 	unnamed Polygon: autoDraw = True
+241.5919 	EXP 	unnamed Polygon: autoDraw = True
+241.6052 	EXP 	unnamed Polygon: autoDraw = False
+249.2978 	EXP 	unnamed Polygon: autoDraw = True
+249.2978 	EXP 	unnamed Polygon: autoDraw = True
+249.3060 	EXP 	unnamed Polygon: autoDraw = True
+249.3099 	EXP 	unnamed Polygon: autoDraw = True
+249.3226 	EXP 	unnamed Polygon: autoDraw = True
+249.3264 	EXP 	unnamed Polygon: autoDraw = True
+249.3392 	EXP 	unnamed Polygon: autoDraw = True
+249.3428 	EXP 	unnamed Polygon: autoDraw = True
+249.3560 	EXP 	unnamed Polygon: autoDraw = True
+249.3596 	EXP 	unnamed Polygon: autoDraw = True
+249.3726 	EXP 	unnamed Polygon: autoDraw = True
+249.3763 	EXP 	unnamed Polygon: autoDraw = True
+249.3893 	EXP 	unnamed Polygon: autoDraw = True
+249.3932 	EXP 	unnamed Polygon: autoDraw = True
+249.4061 	EXP 	unnamed Polygon: autoDraw = True
+249.4099 	EXP 	unnamed Polygon: autoDraw = True
+249.4227 	EXP 	unnamed Polygon: autoDraw = True
+249.4263 	EXP 	unnamed Polygon: autoDraw = True
+249.4393 	EXP 	unnamed Polygon: autoDraw = True
+249.4430 	EXP 	unnamed Polygon: autoDraw = True
+249.4581 	EXP 	unnamed Polygon: autoDraw = True
+249.4745 	EXP 	unnamed Polygon: autoDraw = True
+249.4808 	EXP 	unnamed Polygon: autoDraw = True
+249.4892 	EXP 	unnamed Polygon: autoDraw = True
+249.4929 	EXP 	unnamed Polygon: autoDraw = True
+249.5077 	EXP 	unnamed Polygon: autoDraw = True
+249.5249 	EXP 	unnamed Polygon: autoDraw = True
+249.5408 	EXP 	unnamed Polygon: autoDraw = True
+249.5463 	EXP 	unnamed Polygon: autoDraw = True
+249.5558 	EXP 	unnamed Polygon: autoDraw = True
+249.5595 	EXP 	unnamed Polygon: autoDraw = True
+249.5727 	EXP 	unnamed Polygon: autoDraw = True
+249.5762 	EXP 	unnamed Polygon: autoDraw = True
+249.5893 	EXP 	unnamed Polygon: autoDraw = True
+249.5928 	EXP 	unnamed Polygon: autoDraw = True
+249.6062 	EXP 	unnamed Polygon: autoDraw = True
+249.6115 	EXP 	unnamed Polygon: autoDraw = True
+249.6225 	EXP 	unnamed Polygon: autoDraw = True
+249.6273 	EXP 	unnamed Polygon: autoDraw = True
+249.6324 	DATA 	Keypress: 6
+249.6393 	EXP 	unnamed Polygon: autoDraw = True
+249.6426 	EXP 	unnamed Polygon: autoDraw = True
+249.6559 	EXP 	unnamed Polygon: autoDraw = True
+249.6591 	EXP 	unnamed Polygon: autoDraw = True
+249.6726 	EXP 	unnamed Polygon: autoDraw = True
+249.6755 	EXP 	unnamed Polygon: autoDraw = True
+249.6894 	EXP 	unnamed Polygon: autoDraw = True
+249.6927 	EXP 	unnamed Polygon: autoDraw = True
+249.7060 	EXP 	unnamed Polygon: autoDraw = True
+249.7090 	EXP 	unnamed Polygon: autoDraw = True
+249.7226 	EXP 	unnamed Polygon: autoDraw = True
+249.7261 	EXP 	unnamed Polygon: autoDraw = True
+249.7393 	EXP 	unnamed Polygon: autoDraw = True
+249.7432 	EXP 	unnamed Polygon: autoDraw = True
+249.7558 	EXP 	unnamed Polygon: autoDraw = True
+249.7594 	EXP 	unnamed Polygon: autoDraw = True
+249.7726 	EXP 	unnamed Polygon: autoDraw = True
+249.7769 	EXP 	unnamed Polygon: autoDraw = True
+249.7893 	EXP 	unnamed Polygon: autoDraw = True
+249.7925 	EXP 	unnamed Polygon: autoDraw = True
+249.8059 	EXP 	unnamed Polygon: autoDraw = False
+255.4725 	EXP 	unnamed Polygon: autoDraw = True
+255.4725 	EXP 	unnamed Polygon: autoDraw = True
+255.4756 	EXP 	unnamed Polygon: autoDraw = True
+255.4893 	EXP 	unnamed Polygon: autoDraw = True
+255.4924 	EXP 	unnamed Polygon: autoDraw = True
+255.5060 	EXP 	unnamed Polygon: autoDraw = True
+255.5092 	EXP 	unnamed Polygon: autoDraw = True
+255.5226 	EXP 	unnamed Polygon: autoDraw = True
+255.5258 	EXP 	unnamed Polygon: autoDraw = True
+255.5392 	EXP 	unnamed Polygon: autoDraw = True
+255.5428 	EXP 	unnamed Polygon: autoDraw = True
+255.5560 	EXP 	unnamed Polygon: autoDraw = True
+255.5591 	EXP 	unnamed Polygon: autoDraw = True
+255.5726 	EXP 	unnamed Polygon: autoDraw = True
+255.5758 	EXP 	unnamed Polygon: autoDraw = True
+255.5892 	EXP 	unnamed Polygon: autoDraw = True
+255.5925 	EXP 	unnamed Polygon: autoDraw = True
+255.6059 	EXP 	unnamed Polygon: autoDraw = True
+255.6090 	EXP 	unnamed Polygon: autoDraw = True
+255.6226 	EXP 	unnamed Polygon: autoDraw = True
+255.6256 	EXP 	unnamed Polygon: autoDraw = True
+255.6393 	EXP 	unnamed Polygon: autoDraw = True
+255.6424 	EXP 	unnamed Polygon: autoDraw = True
+255.6559 	EXP 	unnamed Polygon: autoDraw = True
+255.6588 	EXP 	unnamed Polygon: autoDraw = True
+255.6727 	EXP 	unnamed Polygon: autoDraw = True
+255.6765 	EXP 	unnamed Polygon: autoDraw = True
+255.6892 	EXP 	unnamed Polygon: autoDraw = True
+255.6929 	EXP 	unnamed Polygon: autoDraw = True
+255.7060 	EXP 	unnamed Polygon: autoDraw = True
+255.7097 	EXP 	unnamed Polygon: autoDraw = True
+255.7226 	EXP 	unnamed Polygon: autoDraw = True
+255.7267 	EXP 	unnamed Polygon: autoDraw = True
+255.7392 	EXP 	unnamed Polygon: autoDraw = True
+255.7430 	EXP 	unnamed Polygon: autoDraw = True
+255.7560 	EXP 	unnamed Polygon: autoDraw = True
+255.7598 	EXP 	unnamed Polygon: autoDraw = True
+255.7726 	EXP 	unnamed Polygon: autoDraw = True
+255.7762 	EXP 	unnamed Polygon: autoDraw = True
+255.7893 	EXP 	unnamed Polygon: autoDraw = True
+255.7932 	EXP 	unnamed Polygon: autoDraw = True
+255.8059 	EXP 	unnamed Polygon: autoDraw = True
+255.8089 	EXP 	unnamed Polygon: autoDraw = True
+255.8227 	EXP 	unnamed Polygon: autoDraw = True
+255.8264 	EXP 	unnamed Polygon: autoDraw = True
+255.8395 	EXP 	unnamed Polygon: autoDraw = True
+255.8452 	EXP 	unnamed Polygon: autoDraw = True
+255.8560 	EXP 	unnamed Polygon: autoDraw = True
+255.8603 	EXP 	unnamed Polygon: autoDraw = True
+255.8730 	EXP 	unnamed Polygon: autoDraw = True
+255.8791 	EXP 	unnamed Polygon: autoDraw = True
+255.8894 	EXP 	unnamed Polygon: autoDraw = True
+255.8941 	EXP 	unnamed Polygon: autoDraw = True
+255.8979 	DATA 	Keypress: 6
+255.9061 	EXP 	unnamed Polygon: autoDraw = True
+255.9103 	EXP 	unnamed Polygon: autoDraw = True
+255.9227 	EXP 	unnamed Polygon: autoDraw = True
+255.9266 	EXP 	unnamed Polygon: autoDraw = True
+255.9393 	EXP 	unnamed Polygon: autoDraw = True
+255.9432 	EXP 	unnamed Polygon: autoDraw = True
+255.9558 	EXP 	unnamed Polygon: autoDraw = False
+261.5390 	EXP 	unnamed Polygon: autoDraw = True
+261.5390 	EXP 	unnamed Polygon: autoDraw = True
+261.5421 	EXP 	unnamed Polygon: autoDraw = True
+261.5556 	EXP 	unnamed Polygon: autoDraw = True
+261.5588 	EXP 	unnamed Polygon: autoDraw = True
+261.5745 	EXP 	unnamed Polygon: autoDraw = True
+261.5792 	EXP 	unnamed Polygon: autoDraw = True
+261.5897 	EXP 	unnamed Polygon: autoDraw = True
+261.5949 	EXP 	unnamed Polygon: autoDraw = True
+261.6063 	EXP 	unnamed Polygon: autoDraw = True
+261.6121 	EXP 	unnamed Polygon: autoDraw = True
+261.6228 	EXP 	unnamed Polygon: autoDraw = True
+261.6286 	EXP 	unnamed Polygon: autoDraw = True
+261.6399 	EXP 	unnamed Polygon: autoDraw = True
+261.6435 	EXP 	unnamed Polygon: autoDraw = True
+261.6571 	EXP 	unnamed Polygon: autoDraw = True
+261.6611 	EXP 	unnamed Polygon: autoDraw = True
+261.6720 	EXP 	unnamed Polygon: autoDraw = True
+261.6749 	EXP 	unnamed Polygon: autoDraw = True
+261.6902 	EXP 	unnamed Polygon: autoDraw = True
+261.6949 	EXP 	unnamed Polygon: autoDraw = True
+261.7056 	EXP 	unnamed Polygon: autoDraw = True
+261.7104 	EXP 	unnamed Polygon: autoDraw = True
+261.7228 	EXP 	unnamed Polygon: autoDraw = True
+261.7280 	EXP 	unnamed Polygon: autoDraw = True
+261.7390 	EXP 	unnamed Polygon: autoDraw = True
+261.7439 	EXP 	unnamed Polygon: autoDraw = True
+261.7566 	EXP 	unnamed Polygon: autoDraw = True
+261.7621 	EXP 	unnamed Polygon: autoDraw = True
+261.7733 	EXP 	unnamed Polygon: autoDraw = True
+261.7776 	EXP 	unnamed Polygon: autoDraw = True
+261.7903 	EXP 	unnamed Polygon: autoDraw = True
+261.7950 	EXP 	unnamed Polygon: autoDraw = True
+261.8053 	EXP 	unnamed Polygon: autoDraw = True
+261.8078 	EXP 	unnamed Polygon: autoDraw = True
+261.8225 	EXP 	unnamed Polygon: autoDraw = True
+261.8252 	EXP 	unnamed Polygon: autoDraw = True
+261.8404 	EXP 	unnamed Polygon: autoDraw = True
+261.8557 	EXP 	unnamed Polygon: autoDraw = True
+261.8610 	EXP 	unnamed Polygon: autoDraw = True
+261.8721 	EXP 	unnamed Polygon: autoDraw = True
+261.8754 	EXP 	unnamed Polygon: autoDraw = True
+261.8887 	EXP 	unnamed Polygon: autoDraw = True
+261.8934 	EXP 	unnamed Polygon: autoDraw = True
+261.9077 	EXP 	unnamed Polygon: autoDraw = True
+261.9119 	EXP 	unnamed Polygon: autoDraw = True
+261.9221 	EXP 	unnamed Polygon: autoDraw = True
+261.9252 	EXP 	unnamed Polygon: autoDraw = True
+261.9393 	EXP 	unnamed Polygon: autoDraw = True
+261.9445 	EXP 	unnamed Polygon: autoDraw = True
+261.9559 	EXP 	unnamed Polygon: autoDraw = True
+261.9607 	EXP 	unnamed Polygon: autoDraw = True
+261.9721 	EXP 	unnamed Polygon: autoDraw = True
+261.9757 	DATA 	Keypress: 6
+261.9786 	EXP 	unnamed Polygon: autoDraw = True
+261.9887 	EXP 	unnamed Polygon: autoDraw = True
+261.9932 	EXP 	unnamed Polygon: autoDraw = False
+269.5611 	EXP 	unnamed Polygon: autoDraw = True
+269.5611 	EXP 	unnamed Polygon: autoDraw = True
+269.5721 	EXP 	unnamed Polygon: autoDraw = True
+269.5750 	EXP 	unnamed Polygon: autoDraw = True
+269.5920 	EXP 	unnamed Polygon: autoDraw = True
+269.6096 	EXP 	unnamed Polygon: autoDraw = True
+269.6228 	EXP 	unnamed Polygon: autoDraw = True
+269.6260 	EXP 	unnamed Polygon: autoDraw = True
+269.6395 	EXP 	unnamed Polygon: autoDraw = True
+269.6431 	EXP 	unnamed Polygon: autoDraw = True
+269.6572 	EXP 	unnamed Polygon: autoDraw = True
+269.6730 	EXP 	unnamed Polygon: autoDraw = True
+269.6777 	EXP 	unnamed Polygon: autoDraw = True
+269.6887 	EXP 	unnamed Polygon: autoDraw = True
+269.6923 	EXP 	unnamed Polygon: autoDraw = True
+269.7055 	EXP 	unnamed Polygon: autoDraw = True
+269.7091 	EXP 	unnamed Polygon: autoDraw = True
+269.7222 	EXP 	unnamed Polygon: autoDraw = True
+269.7261 	EXP 	unnamed Polygon: autoDraw = True
+269.7389 	EXP 	unnamed Polygon: autoDraw = True
+269.7425 	EXP 	unnamed Polygon: autoDraw = True
+269.7557 	EXP 	unnamed Polygon: autoDraw = True
+269.7593 	EXP 	unnamed Polygon: autoDraw = True
+269.7726 	EXP 	unnamed Polygon: autoDraw = True
+269.7763 	EXP 	unnamed Polygon: autoDraw = True
+269.7907 	EXP 	unnamed Polygon: autoDraw = True
+269.7949 	EXP 	unnamed Polygon: autoDraw = True
+269.8059 	EXP 	unnamed Polygon: autoDraw = True
+269.8094 	EXP 	unnamed Polygon: autoDraw = True
+269.8231 	EXP 	unnamed Polygon: autoDraw = True
+269.8270 	EXP 	unnamed Polygon: autoDraw = True
+269.8391 	EXP 	unnamed Polygon: autoDraw = True
+269.8428 	EXP 	unnamed Polygon: autoDraw = True
+269.8581 	EXP 	unnamed Polygon: autoDraw = True
+269.8611 	DATA 	Keypress: 6
+269.8721 	EXP 	unnamed Polygon: autoDraw = True
+269.8750 	EXP 	unnamed Polygon: autoDraw = True
+269.8904 	EXP 	unnamed Polygon: autoDraw = True
+269.9069 	EXP 	unnamed Polygon: autoDraw = True
+269.9112 	EXP 	unnamed Polygon: autoDraw = True
+269.9250 	EXP 	unnamed Polygon: autoDraw = True
+269.9397 	EXP 	unnamed Polygon: autoDraw = True
+269.9445 	EXP 	unnamed Polygon: autoDraw = True
+269.9563 	EXP 	unnamed Polygon: autoDraw = True
+269.9592 	EXP 	unnamed Polygon: autoDraw = True
+269.9735 	EXP 	unnamed Polygon: autoDraw = True
+269.9788 	EXP 	unnamed Polygon: autoDraw = True
+269.9898 	EXP 	unnamed Polygon: autoDraw = True
+269.9926 	EXP 	unnamed Polygon: autoDraw = True
+270.0066 	EXP 	unnamed Polygon: autoDraw = True
+270.0104 	EXP 	unnamed Polygon: autoDraw = True
+270.0235 	EXP 	unnamed Polygon: autoDraw = True
+270.0283 	EXP 	unnamed Polygon: autoDraw = True
+270.0391 	EXP 	unnamed Polygon: autoDraw = True
+270.0446 	EXP 	unnamed Polygon: autoDraw = False
+277.7554 	EXP 	unnamed Polygon: autoDraw = True
+277.7554 	EXP 	unnamed Polygon: autoDraw = True
+277.7587 	EXP 	unnamed Polygon: autoDraw = True
+277.7738 	EXP 	unnamed Polygon: autoDraw = True
+277.7784 	EXP 	unnamed Polygon: autoDraw = True
+277.7896 	EXP 	unnamed Polygon: autoDraw = True
+277.7943 	EXP 	unnamed Polygon: autoDraw = True
+277.8070 	EXP 	unnamed Polygon: autoDraw = True
+277.8115 	EXP 	unnamed Polygon: autoDraw = True
+277.8235 	EXP 	unnamed Polygon: autoDraw = True
+277.8402 	EXP 	unnamed Polygon: autoDraw = True
+277.8438 	EXP 	unnamed Polygon: autoDraw = True
+277.8560 	EXP 	unnamed Polygon: autoDraw = True
+277.8596 	EXP 	unnamed Polygon: autoDraw = True
+277.8731 	EXP 	unnamed Polygon: autoDraw = True
+277.8757 	EXP 	unnamed Polygon: autoDraw = True
+277.8906 	EXP 	unnamed Polygon: autoDraw = True
+277.8947 	EXP 	unnamed Polygon: autoDraw = True
+277.9071 	EXP 	unnamed Polygon: autoDraw = True
+277.9123 	EXP 	unnamed Polygon: autoDraw = True
+277.9219 	EXP 	unnamed Polygon: autoDraw = True
+277.9251 	EXP 	unnamed Polygon: autoDraw = True
+277.9397 	EXP 	unnamed Polygon: autoDraw = True
+277.9449 	EXP 	unnamed Polygon: autoDraw = True
+277.9554 	EXP 	unnamed Polygon: autoDraw = True
+277.9593 	EXP 	unnamed Polygon: autoDraw = True
+277.9737 	EXP 	unnamed Polygon: autoDraw = True
+277.9795 	EXP 	unnamed Polygon: autoDraw = True
+277.9892 	EXP 	unnamed Polygon: autoDraw = True
+277.9929 	EXP 	unnamed Polygon: autoDraw = True
+278.0071 	EXP 	unnamed Polygon: autoDraw = True
+278.0114 	EXP 	unnamed Polygon: autoDraw = True
+278.0242 	EXP 	unnamed Polygon: autoDraw = True
+278.0298 	EXP 	unnamed Polygon: autoDraw = True
+278.0392 	EXP 	unnamed Polygon: autoDraw = True
+278.0438 	EXP 	unnamed Polygon: autoDraw = True
+278.0559 	EXP 	unnamed Polygon: autoDraw = True
+278.0600 	EXP 	unnamed Polygon: autoDraw = True
+278.0727 	EXP 	unnamed Polygon: autoDraw = True
+278.0760 	EXP 	unnamed Polygon: autoDraw = True
+278.0893 	EXP 	unnamed Polygon: autoDraw = True
+278.0934 	EXP 	unnamed Polygon: autoDraw = True
+278.1064 	EXP 	unnamed Polygon: autoDraw = True
+278.1109 	EXP 	unnamed Polygon: autoDraw = True
+278.1228 	EXP 	unnamed Polygon: autoDraw = True
+278.1264 	EXP 	unnamed Polygon: autoDraw = True
+278.1413 	EXP 	unnamed Polygon: autoDraw = True
+278.1468 	EXP 	unnamed Polygon: autoDraw = True
+278.1561 	EXP 	unnamed Polygon: autoDraw = True
+278.1620 	EXP 	unnamed Polygon: autoDraw = True
+278.1721 	EXP 	unnamed Polygon: autoDraw = True
+278.1755 	EXP 	unnamed Polygon: autoDraw = True
+278.1893 	EXP 	unnamed Polygon: autoDraw = True
+278.1925 	EXP 	unnamed Polygon: autoDraw = True
+278.2069 	EXP 	unnamed Polygon: autoDraw = True
+278.2110 	DATA 	Keypress: 6
+278.2137 	EXP 	unnamed Polygon: autoDraw = False
+287.7789 	EXP 	unnamed Polygon: autoDraw = True
+287.7789 	EXP 	unnamed Polygon: autoDraw = True
+287.7888 	EXP 	unnamed Polygon: autoDraw = True
+287.7944 	EXP 	unnamed Polygon: autoDraw = True
+287.8062 	EXP 	unnamed Polygon: autoDraw = True
+287.8102 	EXP 	unnamed Polygon: autoDraw = True
+287.8221 	EXP 	unnamed Polygon: autoDraw = True
+287.8262 	EXP 	unnamed Polygon: autoDraw = True
+287.8410 	EXP 	unnamed Polygon: autoDraw = True
+287.8454 	EXP 	unnamed Polygon: autoDraw = True
+287.8570 	EXP 	unnamed Polygon: autoDraw = True
+287.8620 	EXP 	unnamed Polygon: autoDraw = True
+287.8735 	EXP 	unnamed Polygon: autoDraw = True
+287.8764 	EXP 	unnamed Polygon: autoDraw = True
+287.8909 	EXP 	unnamed Polygon: autoDraw = True
+287.8944 	EXP 	unnamed Polygon: autoDraw = True
+287.9056 	EXP 	unnamed Polygon: autoDraw = True
+287.9100 	EXP 	unnamed Polygon: autoDraw = True
+287.9242 	EXP 	unnamed Polygon: autoDraw = True
+287.9275 	EXP 	unnamed Polygon: autoDraw = True
+287.9388 	EXP 	unnamed Polygon: autoDraw = True
+287.9421 	EXP 	unnamed Polygon: autoDraw = True
+287.9607 	EXP 	unnamed Polygon: autoDraw = True
+287.9720 	EXP 	unnamed Polygon: autoDraw = True
+287.9748 	EXP 	unnamed Polygon: autoDraw = True
+287.9888 	EXP 	unnamed Polygon: autoDraw = True
+287.9917 	EXP 	unnamed Polygon: autoDraw = True
+288.0069 	EXP 	unnamed Polygon: autoDraw = True
+288.0105 	DATA 	Keypress: 6
+288.0130 	EXP 	unnamed Polygon: autoDraw = True
+288.0234 	EXP 	unnamed Polygon: autoDraw = True
+288.0274 	EXP 	unnamed Polygon: autoDraw = True
+288.0404 	EXP 	unnamed Polygon: autoDraw = True
+288.0448 	EXP 	unnamed Polygon: autoDraw = True
+288.0567 	EXP 	unnamed Polygon: autoDraw = True
+288.0618 	EXP 	unnamed Polygon: autoDraw = True
+288.0757 	EXP 	unnamed Polygon: autoDraw = True
+288.0889 	EXP 	unnamed Polygon: autoDraw = True
+288.0934 	EXP 	unnamed Polygon: autoDraw = True
+288.1068 	EXP 	unnamed Polygon: autoDraw = True
+288.1240 	EXP 	unnamed Polygon: autoDraw = True
+288.1291 	EXP 	unnamed Polygon: autoDraw = True
+288.1404 	EXP 	unnamed Polygon: autoDraw = True
+288.1456 	EXP 	unnamed Polygon: autoDraw = True
+288.1554 	EXP 	unnamed Polygon: autoDraw = True
+288.1589 	EXP 	unnamed Polygon: autoDraw = True
+288.1732 	EXP 	unnamed Polygon: autoDraw = True
+288.1773 	EXP 	unnamed Polygon: autoDraw = True
+288.1905 	EXP 	unnamed Polygon: autoDraw = True
+288.2081 	EXP 	unnamed Polygon: autoDraw = True
+288.2123 	EXP 	unnamed Polygon: autoDraw = True
+288.2237 	EXP 	unnamed Polygon: autoDraw = True
+288.2281 	EXP 	unnamed Polygon: autoDraw = True
+288.2399 	EXP 	unnamed Polygon: autoDraw = True
+288.2451 	EXP 	unnamed Polygon: autoDraw = True
+288.2577 	EXP 	unnamed Polygon: autoDraw = True
+288.2618 	EXP 	unnamed Polygon: autoDraw = False
+296.0458 	EXP 	unnamed Polygon: autoDraw = True
+296.0458 	EXP 	unnamed Polygon: autoDraw = True
+296.0555 	EXP 	unnamed Polygon: autoDraw = True
+296.0607 	EXP 	unnamed Polygon: autoDraw = True
+296.0729 	EXP 	unnamed Polygon: autoDraw = True
+296.0766 	EXP 	unnamed Polygon: autoDraw = True
+296.0895 	EXP 	unnamed Polygon: autoDraw = True
+296.0927 	EXP 	unnamed Polygon: autoDraw = True
+296.1061 	EXP 	unnamed Polygon: autoDraw = True
+296.1111 	EXP 	unnamed Polygon: autoDraw = True
+296.1221 	EXP 	unnamed Polygon: autoDraw = True
+296.1261 	EXP 	unnamed Polygon: autoDraw = True
+296.1397 	EXP 	unnamed Polygon: autoDraw = True
+296.1435 	EXP 	unnamed Polygon: autoDraw = True
+296.1583 	EXP 	unnamed Polygon: autoDraw = True
+296.1721 	EXP 	unnamed Polygon: autoDraw = True
+296.1754 	EXP 	unnamed Polygon: autoDraw = True
+296.1897 	EXP 	unnamed Polygon: autoDraw = True
+296.1946 	EXP 	unnamed Polygon: autoDraw = True
+296.2076 	EXP 	unnamed Polygon: autoDraw = True
+296.2106 	EXP 	unnamed Polygon: autoDraw = True
+296.2238 	EXP 	unnamed Polygon: autoDraw = True
+296.2288 	EXP 	unnamed Polygon: autoDraw = True
+296.2396 	EXP 	unnamed Polygon: autoDraw = True
+296.2424 	EXP 	unnamed Polygon: autoDraw = True
+296.2569 	EXP 	unnamed Polygon: autoDraw = True
+296.2613 	EXP 	unnamed Polygon: autoDraw = True
+296.2744 	EXP 	unnamed Polygon: autoDraw = True
+296.2926 	EXP 	unnamed Polygon: autoDraw = True
+296.2969 	EXP 	unnamed Polygon: autoDraw = True
+296.3053 	EXP 	unnamed Polygon: autoDraw = True
+296.3090 	EXP 	unnamed Polygon: autoDraw = True
+296.3222 	EXP 	unnamed Polygon: autoDraw = True
+296.3255 	EXP 	unnamed Polygon: autoDraw = True
+296.3417 	EXP 	unnamed Polygon: autoDraw = True
+296.3443 	EXP 	unnamed Polygon: autoDraw = True
+296.3555 	EXP 	unnamed Polygon: autoDraw = True
+296.3584 	EXP 	unnamed Polygon: autoDraw = True
+296.3741 	EXP 	unnamed Polygon: autoDraw = True
+296.3777 	EXP 	unnamed Polygon: autoDraw = True
+296.3921 	EXP 	unnamed Polygon: autoDraw = True
+296.3965 	DATA 	Keypress: 6
+296.4055 	EXP 	unnamed Polygon: autoDraw = True
+296.4104 	EXP 	unnamed Polygon: autoDraw = True
+296.4229 	EXP 	unnamed Polygon: autoDraw = True
+296.4270 	EXP 	unnamed Polygon: autoDraw = True
+296.4390 	EXP 	unnamed Polygon: autoDraw = True
+296.4429 	EXP 	unnamed Polygon: autoDraw = True
+296.4569 	EXP 	unnamed Polygon: autoDraw = True
+296.4597 	EXP 	unnamed Polygon: autoDraw = True
+296.4755 	EXP 	unnamed Polygon: autoDraw = True
+296.4894 	EXP 	unnamed Polygon: autoDraw = True
+296.4940 	EXP 	unnamed Polygon: autoDraw = True
+296.5064 	EXP 	unnamed Polygon: autoDraw = True
+296.5222 	EXP 	unnamed Polygon: autoDraw = False
+306.1737 	EXP 	unnamed Polygon: autoDraw = True
+306.1737 	EXP 	unnamed Polygon: autoDraw = True
+306.1897 	EXP 	unnamed Polygon: autoDraw = True
+306.1946 	EXP 	unnamed Polygon: autoDraw = True
+306.2103 	EXP 	unnamed Polygon: autoDraw = True
+306.2236 	EXP 	unnamed Polygon: autoDraw = True
+306.2294 	EXP 	unnamed Polygon: autoDraw = True
+306.2394 	EXP 	unnamed Polygon: autoDraw = True
+306.2433 	EXP 	unnamed Polygon: autoDraw = True
+306.2576 	EXP 	unnamed Polygon: autoDraw = True
+306.2739 	EXP 	unnamed Polygon: autoDraw = True
+306.2906 	EXP 	unnamed Polygon: autoDraw = True
+306.2959 	EXP 	unnamed Polygon: autoDraw = True
+306.3061 	EXP 	unnamed Polygon: autoDraw = True
+306.3107 	EXP 	unnamed Polygon: autoDraw = True
+306.3237 	EXP 	unnamed Polygon: autoDraw = True
+306.3280 	EXP 	unnamed Polygon: autoDraw = True
+306.3388 	EXP 	unnamed Polygon: autoDraw = True
+306.3422 	EXP 	unnamed Polygon: autoDraw = True
+306.3560 	EXP 	unnamed Polygon: autoDraw = True
+306.3621 	EXP 	unnamed Polygon: autoDraw = True
+306.3723 	EXP 	unnamed Polygon: autoDraw = True
+306.3759 	EXP 	unnamed Polygon: autoDraw = True
+306.3895 	EXP 	unnamed Polygon: autoDraw = True
+306.3948 	EXP 	unnamed Polygon: autoDraw = True
+306.4070 	EXP 	unnamed Polygon: autoDraw = True
+306.4119 	EXP 	unnamed Polygon: autoDraw = True
+306.4236 	EXP 	unnamed Polygon: autoDraw = True
+306.4286 	EXP 	unnamed Polygon: autoDraw = True
+306.4391 	EXP 	unnamed Polygon: autoDraw = True
+306.4426 	EXP 	unnamed Polygon: autoDraw = True
+306.4561 	EXP 	unnamed Polygon: autoDraw = True
+306.4599 	EXP 	unnamed Polygon: autoDraw = True
+306.4733 	EXP 	unnamed Polygon: autoDraw = True
+306.4775 	EXP 	unnamed Polygon: autoDraw = True
+306.4893 	EXP 	unnamed Polygon: autoDraw = True
+306.4934 	EXP 	unnamed Polygon: autoDraw = True
+306.5074 	EXP 	unnamed Polygon: autoDraw = True
+306.5120 	EXP 	unnamed Polygon: autoDraw = True
+306.5237 	EXP 	unnamed Polygon: autoDraw = True
+306.5283 	EXP 	unnamed Polygon: autoDraw = True
+306.5408 	EXP 	unnamed Polygon: autoDraw = True
+306.5589 	EXP 	unnamed Polygon: autoDraw = True
+306.5621 	EXP 	unnamed Polygon: autoDraw = True
+306.5721 	EXP 	unnamed Polygon: autoDraw = True
+306.5759 	EXP 	unnamed Polygon: autoDraw = True
+306.5888 	EXP 	unnamed Polygon: autoDraw = True
+306.5917 	EXP 	unnamed Polygon: autoDraw = True
+306.6063 	EXP 	unnamed Polygon: autoDraw = True
+306.6113 	EXP 	unnamed Polygon: autoDraw = True
+306.6232 	EXP 	unnamed Polygon: autoDraw = True
+306.6284 	EXP 	unnamed Polygon: autoDraw = True
+306.6393 	EXP 	unnamed Polygon: autoDraw = True
+306.6459 	EXP 	unnamed Polygon: autoDraw = False
+306.8929 	DATA 	Keypress: 6
+314.1556 	EXP 	unnamed Polygon: autoDraw = True
+314.1556 	EXP 	unnamed Polygon: autoDraw = True
+314.1588 	EXP 	unnamed Polygon: autoDraw = True
+314.1737 	EXP 	unnamed Polygon: autoDraw = True
+314.1786 	EXP 	unnamed Polygon: autoDraw = True
+314.1898 	EXP 	unnamed Polygon: autoDraw = True
+314.1937 	EXP 	unnamed Polygon: autoDraw = True
+314.2083 	EXP 	unnamed Polygon: autoDraw = True
+314.2237 	EXP 	unnamed Polygon: autoDraw = True
+314.2288 	EXP 	unnamed Polygon: autoDraw = True
+314.2402 	EXP 	unnamed Polygon: autoDraw = True
+314.2455 	EXP 	unnamed Polygon: autoDraw = True
+314.2563 	EXP 	unnamed Polygon: autoDraw = True
+314.2593 	EXP 	unnamed Polygon: autoDraw = True
+314.2742 	EXP 	unnamed Polygon: autoDraw = True
+314.2795 	EXP 	unnamed Polygon: autoDraw = True
+314.2891 	EXP 	unnamed Polygon: autoDraw = True
+314.2923 	EXP 	unnamed Polygon: autoDraw = True
+314.3068 	EXP 	unnamed Polygon: autoDraw = True
+314.3113 	EXP 	unnamed Polygon: autoDraw = True
+314.3234 	EXP 	unnamed Polygon: autoDraw = True
+314.3283 	EXP 	unnamed Polygon: autoDraw = True
+314.3409 	EXP 	unnamed Polygon: autoDraw = True
+314.3471 	EXP 	unnamed Polygon: autoDraw = True
+314.3554 	EXP 	unnamed Polygon: autoDraw = True
+314.3594 	EXP 	unnamed Polygon: autoDraw = True
+314.3735 	EXP 	unnamed Polygon: autoDraw = True
+314.3930 	EXP 	unnamed Polygon: autoDraw = True
+314.4057 	EXP 	unnamed Polygon: autoDraw = True
+314.4114 	EXP 	unnamed Polygon: autoDraw = True
+314.4241 	EXP 	unnamed Polygon: autoDraw = True
+314.4272 	EXP 	unnamed Polygon: autoDraw = True
+314.4388 	EXP 	unnamed Polygon: autoDraw = True
+314.4415 	EXP 	unnamed Polygon: autoDraw = True
+314.4555 	EXP 	unnamed Polygon: autoDraw = True
+314.4592 	EXP 	unnamed Polygon: autoDraw = True
+314.4762 	EXP 	unnamed Polygon: autoDraw = True
+314.4889 	EXP 	unnamed Polygon: autoDraw = True
+314.4917 	EXP 	unnamed Polygon: autoDraw = True
+314.5071 	EXP 	unnamed Polygon: autoDraw = True
+314.5102 	EXP 	unnamed Polygon: autoDraw = True
+314.5230 	EXP 	unnamed Polygon: autoDraw = True
+314.5274 	EXP 	unnamed Polygon: autoDraw = True
+314.5395 	EXP 	unnamed Polygon: autoDraw = True
+314.5440 	EXP 	unnamed Polygon: autoDraw = True
+314.5581 	EXP 	unnamed Polygon: autoDraw = True
+314.5723 	EXP 	unnamed Polygon: autoDraw = True
+314.5750 	EXP 	unnamed Polygon: autoDraw = True
+314.5926 	EXP 	unnamed Polygon: autoDraw = True
+314.6056 	EXP 	unnamed Polygon: autoDraw = True
+314.6083 	EXP 	unnamed Polygon: autoDraw = True
+314.6222 	EXP 	unnamed Polygon: autoDraw = True
+314.6255 	EXP 	unnamed Polygon: autoDraw = True
+314.6396 	EXP 	unnamed Polygon: autoDraw = True
+314.6451 	EXP 	unnamed Polygon: autoDraw = False
+365.0732 	DATA 	Keypress: return
+365.7035 	DATA 	Keypress: 6
+365.7169 	EXP 	window1: mouseVisible = False
+365.7388 	EXP 	unnamed TextStim: height = 0.04
+365.7388 	EXP 	unnamed TextStim: height = 0.04
+365.7388 	EXP 	unnamed TextStim: height = 0.04
+365.7388 	EXP 	unnamed TextStim: text = 'Instructions...\n\nYour goal is to make as much money as possible.\n\nRemember:\nWIN CIRCLES = win money\nLOSE SQUARES = lose money\n\nQUICKLY press the button with your pointer finger when you see the solid white triangle.\n\nYou will get feedback on whether you pressed the button in time and if you won or lost money.'
+367.3293 	DATA 	Keypress: lcommand
+367.4013 	DATA 	Keypress: lshift
+368.9114 	DATA 	Keypress: 6
+368.9121 	EXP 	window1: mouseVisible = True
+368.9159 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-0.65,  0.15]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+368.9160 	EXP 	window1: mouseVisible = True
+368.9374 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='../stimuli/reward_high.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([-0.35,  0.15]), size=array([0.2, 0.2]), texRes=128, units='height', win=Window(...))
+368.9376 	EXP 	window1: mouseVisible = True
+368.9396 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-0.15,  0.15]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+368.9399 	EXP 	window1: mouseVisible = True
+368.9412 	EXP 	Created unnamed Polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=0.0, pos=array([0.15, 0.15]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+368.9413 	EXP 	window1: mouseVisible = True
+368.9430 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0.35, 0.15]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+368.9431 	EXP 	window1: mouseVisible = True
+368.9489 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0.65, 0.15]), rgb=UNKNOWN, text='Hit!\n+$5.00', units='height', win=Window(...), wrapWidth=1)
+368.9490 	EXP 	window1: mouseVisible = True
+368.9491 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+368.9539 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-0.65, -0.15]), rgb=UNKNOWN, text='Pay attention', units='height', win=Window(...), wrapWidth=0.1)
+368.9540 	EXP 	window1: mouseVisible = True
+368.9541 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+368.9589 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-0.35, -0.15]), rgb=UNKNOWN, text="Cue: don't respond yet", units='height', win=Window(...), wrapWidth=0.1)
+368.9591 	EXP 	window1: mouseVisible = True
+368.9591 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+368.9614 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-0.15, -0.15]), rgb=UNKNOWN, text='Pay attention', units='height', win=Window(...), wrapWidth=0.1)
+368.9615 	EXP 	window1: mouseVisible = True
+368.9616 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+368.9666 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.15, -0.15]), rgb=UNKNOWN, text='Respond when solid triangle is on screen', units='height', win=Window(...), wrapWidth=0.1)
+368.9668 	EXP 	window1: mouseVisible = True
+368.9668 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+368.9690 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.35, -0.15]), rgb=UNKNOWN, text='Pay attention', units='height', win=Window(...), wrapWidth=0.1)
+368.9691 	EXP 	window1: mouseVisible = True
+368.9692 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+368.9722 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.65, -0.15]), rgb=UNKNOWN, text='Feedback', units='height', win=Window(...), wrapWidth=0.1)
+372.0286 	DATA 	Keypress: lcommand
+372.1073 	DATA 	Keypress: lshift
+373.2089 	DATA 	Keypress: 6
+374.1319 	DATA 	Keypress: lcommand
+374.2185 	DATA 	Keypress: lshift
+375.5080 	DATA 	Keypress: 6
+376.7392 	DATA 	Keypress: return
+380.3971 	DATA 	Keypress: escape
+380.3984 	WARNING 	Escape pressed, exiting early!
+380.3984 	WARNING 	Total earnings: 0
+380.4356 	EXP 	window1: mouseVisible = True

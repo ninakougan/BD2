@@ -1,0 +1,13 @@
+We will now practice the Money Game that you will be doing in the scanner. \n Your goal is to win money and avoid losing money. \n This game has many rounds. \n Every round has the same basic order of events.
+First you will see a cross in the middle of the screen, like this: \n + \n this means you should focus on the screen and get ready to play. 
+Next you will see a cue that tells you if you can win or lose money. \n It will also tell you how much money you can win or lose for that round. \n Here are the 6 possibilities:
+Then, you will see another cross in the middle of the screen: \n \n +
+Next, a small solid WHITE SQUARE will appear VERY BRIEFLY on the screen: \n \n [picture] \n \n To win money or avoid losing money you need to press the button while the solid WHITE SQUARE is on the screen. 
+For WIN CIRCLES, pressing the button while the solid white square is on the screen means you will WIN money. \n \n If you press too late, you will MISS WINNING money. \n \n [pictures]
+For LOSE SQUARES, pressing the button while the solid white square is on the screen means you will NOTE LOSE money. \n \n If you press too late, you WILL LOSE money. \n \n [picture]
+Make sure to try and respond to all trials, including $0.00 trials \n \n \n [picture]
+We will let you know if you pressed the button in time and if won or lost money for that round. \n \n [table picture]
+During each round, this is the order that you will see things happen: \n \n [picture]
+Major points to remember: \n \n 1. Do not press the button on the win circles, lose squares, or the crosses. Just respond to the SOLID WHITE SQUARE. \n \n 2. Try to press the button EVERY time you see the solid white square. \n \n 3. The SOLID WHITE SQUARE appears VERY QUICKLY, so you will have to press the button QUICKLY when you see it. \n \n 4. Things move fast in this game, so you will want to keep your finger on the button, ready to respond. 
+Any Questions? \n Please ask them now. 
+ 

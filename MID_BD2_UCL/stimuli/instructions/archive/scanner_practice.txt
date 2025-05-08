@@ -1,0 +1,8 @@
+In this task, you will win money if you are quick enough.
+Your task is to press a button as soon as you see the white triangle. The white triangle will appear on the screen for only a fraction of a second, so you will need to respond very quickly.
+When the white triangle is preceded by a circle, you will WIN money if you press the button WHILE the white triangle is on the screen. The circle will show whether you would win $1.50 or $5.
+When the white triangle is preceded by a square, you will LOSE money if you fail to press the button while the white triangle is on the screen. The square will show whether you would lose $1.50 or $5.
+When the white triangle is preceded by a triangle, you are not able to win or lose any money, but you should still press the button as quickly as possible, while the white triangle is on the screen.
+If you press a button anytime before or after the white triangle is on the screen, you will fail that trial.
+After each trial, you will see whether you hit or miss and the amount of money you've won or lost. If the amount won at the end of the whole task is negative, your winnings will be $0, but you won't owe anything.
+If you have questions or are unsure about what your task is, please ask the experimenter now.
