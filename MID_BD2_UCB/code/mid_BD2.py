@@ -359,9 +359,9 @@ instructPrompt = visual.TextStim(win=win, font='Arial', pos=(0, yScr/10),
                                  height=fontH, wrapWidth=wrapW, 
                                  color=text_color, flipHoriz=flipHoriz);
 if fmri and run > 0:
-    endInstructions = "When you are ready to begin the task, place your finger on the button and notify the experimenter. Waiting for experimenter."
+    endInstructions = "When you are ready to begin the task, place your finger on the button and notify the experimenter. The experimenter will start the task momentarily."
 elif fmri and run == 0:
-    endInstructions = "When you are ready to begin the task, place your finger on the button. Waiting for experimenter."
+    endInstructions = "When you are ready to begin the task, place your finger on the button. The experimenter will start the task momentarily."
 else:
     endInstructions = "When you are ready to begin the task, place your finger on the button and hit Enter to begin."
 
