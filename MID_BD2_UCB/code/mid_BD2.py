@@ -87,7 +87,7 @@ num_reruns = 0
 forwardKeys = ['1','6']
 backKey = '2'
 startKeys = ['enter','return']
-fMRI_trigger = ['=','equal']  # This is the fMRI trigger button that starts the task
+fMRI_trigger = ['5']  # This is the fMRI trigger button that starts the task
 ttlKey = "5"
 expKeys = ['1','2','6']
 escapeKeys = ['escape', 'esc']
@@ -358,8 +358,10 @@ instructPre = visual.TextStim(win, text="Please wait.\n\nThe task instructions w
 instructPrompt = visual.TextStim(win=win, font='Arial', pos=(0, yScr/10), 
                                  height=fontH, wrapWidth=wrapW, 
                                  color=text_color, flipHoriz=flipHoriz);
-if fmri:
-    endInstructions = "When you are ready to begin the task, place your finger on the button and notify the experimenter."
+if fmri and run > 0:
+    endInstructions = "When you are ready to begin the task, place your finger on the button and notify the experimenter. The experimenter will start the task momentarily."
+elif fmri and run == 0:
+    endInstructions = "When you are ready to begin the task, place your finger on the button. The experimenter will start the task momentarily."
 else:
     endInstructions = "When you are ready to begin the task, place your finger on the button and hit Enter to begin."
 
@@ -369,7 +371,7 @@ instructFinish = visual.TextStim(win, text=endInstructions,
                                      flipHoriz=flipHoriz)
 
 # Initialize components for task transitions
-wait = visual.TextStim(win, pos=[0, 0], text="The task will begin momentarily. Get ready...", height=fontH, color=text_color, flipHoriz=flipHoriz)
+wait = visual.TextStim(win, pos=[0, 0], text="The task will begin momentarily. Waiting for scanner. Get ready...", height=fontH, color=text_color, flipHoriz=flipHoriz)
 endf = visual.TextStim(win, pos=[0, 0], text="Thank you. This part of the experiment is now complete.",wrapWidth=wrapW, height=fontH, color=text_color, flipHoriz=flipHoriz)
 
 # Initialize components for Routine "cue"
@@ -412,6 +414,15 @@ exp_feedback = visual.TextStim(win=win, name='exp_feedback',
 breakPrompt = visual.TextStim(win, text="Take a break. When you are ready to continue, press the button.", 
                               height=fontH, color=text_color, pos=(0,0), 
                               flipHoriz=flipHoriz)
+                              
+waitForStructPrompt = visual.TextStim(win, text="Thank you! We will begin the money game in a few minutes.", 
+                              height=fontH, color=text_color, pos=(0,0), 
+                              flipHoriz=flipHoriz)
+
+rerunPrompt = visual.TextStim(win, text="Re-running the triangle game. Try to press the button as fast as you can when the triangle appears!", 
+                              height=fontH, color=text_color, pos=(0,0), 
+                              flipHoriz=flipHoriz)
+
 breakEnd = visual.TextStim(win, text="Get ready", height=fontH, 
                            color=text_color, pos=(0,0), flipHoriz=flipHoriz)
                            
@@ -531,7 +542,7 @@ while run < num_runs:
 
     if run == 0:
         inst_file = "MRT_instructions.csv"
-        instructions = ["Welcome!",
+        instructions = ["Welcome to the triangle game!",
         "First you will see a cross in the middle of the screen, like this:\n\n+\n\n"+
         "This means you should focus on the screen and get ready to play. ",
         "Next, a small solid WHITE TRIANGLE will appear on the screen:\n\n \n\n \n\n \n\n"+
@@ -612,7 +623,7 @@ while run < num_runs:
         event.waitKeys(keyList=fMRI_trigger)
     
     # Wait for TR signal if in scanner
-    if triggerOnTTL:
+    if triggerOnTTL and run > 0:
         print(f"waiting for TTL key {ttlKey} on TR")
         logging.flush()
         wait.draw()
@@ -983,16 +994,20 @@ while run < num_runs:
             print("Reaction times were too slow. Rerunning MRT.")
             run = -1
             num_reruns += 1
-        print("\n\n\n")
-        
-        # If done with the practice run, show the post-practice stuff
-        total_earnings = 0
-        breakPrompt.draw()
-        win.flip()
-        event.waitKeys(keyList=forwardKeys)
+            rerunPrompt.draw()
+            win.flip()
+            core.wait(10)
+        else:
+            total_earnings = 0
+            waitForStructPrompt.draw()
+            win.flip()
+            event.waitKeys(keyList=startKeys)
         
         waitPrompt.draw()
         win.flip()
+        print("\n\n\n")
+        
+        # If done with the practice run, show the post-practice stuff
         
         
     elif run < num_runs - 1:
