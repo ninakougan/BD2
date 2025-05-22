@@ -415,7 +415,11 @@ breakPrompt = visual.TextStim(win, text="Take a break. When you are ready to con
                               height=fontH, color=text_color, pos=(0,0), 
                               flipHoriz=flipHoriz)
                               
-waitForStructPrompt = visual.TextStim(win, text="Thank you! We will begin the money game in a few minutes.", 
+waitForStructPrompt = visual.TextStim(win, text="Thank you! The experimenter will start the money game in a few minutes after this scan is completed.", 
+                              height=fontH, color=text_color, pos=(0,0), 
+                              flipHoriz=flipHoriz)
+
+continueToMIDPrompt = visual.TextStim(win, text="Thank you for playing the triangle game! We will now go through the instructions for the money game.\nPress the button to continue.", 
                               height=fontH, color=text_color, pos=(0,0), 
                               flipHoriz=flipHoriz)
 
@@ -546,8 +550,7 @@ while run < num_runs:
         "First you will see a cross in the middle of the screen, like this:\n\n+\n\n"+
         "This means you should focus on the screen and get ready to play. ",
         "Next, a small solid WHITE TRIANGLE will appear on the screen:\n\n \n\n \n\n \n\n"+
-        "Press the button as fast as you can when you see the solid white triangle. ",
-        "Any Questions?\n\nPlease ask them now."]
+        "Press the button as fast as you can when you see the solid white triangle. "]
     
     else:
         inst_file = "scanner_task.csv"
@@ -561,13 +564,20 @@ while run < num_runs:
         ""]
         
     
-    if fmri:
-        show_stim(instructPre, pre_instructions_duration)
+    #if fmri:
+     #   show_stim(instructPre, pre_instructions_duration)
     
     display_instructions_file(inst_file, instructions, run)
+
+    if run == 1:
+        waitForStructPrompt.draw()
+        win.flip()
+        event.waitKeys(keyList=startKeys)
+
     
     print("end of instructions, hit enter to continue")
     logging.flush()
+
     instructFinish.draw()
     win.flip()
     event.waitKeys(keyList=startKeys)
@@ -614,13 +624,15 @@ while run < num_runs:
     # Create a dataframe for the event file
     order = pd.DataFrame(np.transpose([list(np.arange(1,len(stim_list)+1)), stim_list]),
                          columns=['trial.num','trial.type'])
-    
+
+    '''
     if fmri and run > 0:
         print(f"waiting for ready, hit {startKeys} after prep scan")
         logging.flush()
         wait.draw()
         win.flip()
         event.waitKeys(keyList=fMRI_trigger)
+    '''
     
     # Wait for TR signal if in scanner
     if triggerOnTTL and run > 0:
@@ -647,6 +659,7 @@ while run < num_runs:
         
     elif run == 1:
         target_durs = pd.read_csv(filename+'_target_durs-MRT.csv')
+        
     else:
         target_durs = pd.read_csv(filename+'_target_durs-run'+str(run-1)+'.csv')
     
@@ -973,7 +986,10 @@ while run < num_runs:
     
     if run == 0:
         # Set target durations for the average across all conditions
-        target_durs.loc[0] = target_durs.loc[0].mean()
+        if np.mean(trial_RTs) >= 0.350:
+            target_durs.loc[0] = 0.350
+        else:
+            target_durs.loc[0] = np.mean(trial_RTs) #target_durs.loc[0].mean()
     
     # Export target durations and run data
     if run == 0:
@@ -999,9 +1015,9 @@ while run < num_runs:
             core.wait(10)
         else:
             total_earnings = 0
-            waitForStructPrompt.draw()
+            continueToMIDPrompt.draw()
             win.flip()
-            event.waitKeys(keyList=startKeys)
+            event.waitKeys(keyList=forwardKeys)
         
         waitPrompt.draw()
         win.flip()
@@ -1014,7 +1030,8 @@ while run < num_runs:
         # If we are still going and NOT on the last run, show the break messages
         breakPrompt.draw()
         win.flip()
-        event.waitKeys(keyList=forwardKeys)
+        #event.waitKeys(keyList=forwardKeys)
+        core.wait(10)
     else:
         # We are on the last run
         show_stim(None, closing_duration)
