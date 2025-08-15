@@ -372,7 +372,7 @@ instructFinish = visual.TextStim(win, text=endInstructions,
 
 # Initialize components for task transitions
 wait = visual.TextStim(win, pos=[0, 0], text="The task will begin momentarily. Waiting for scanner. Get ready...", height=fontH, color=text_color, flipHoriz=flipHoriz)
-endf = visual.TextStim(win, pos=[0, 0], text="Thank you. This part of the experiment is now complete.",wrapWidth=wrapW, height=fontH, color=text_color, flipHoriz=flipHoriz)
+endf = visual.TextStim(win, pos=[0, 0], text="Thank you. You are done with this activity. Please stay still until this part is over.",wrapWidth=wrapW, height=fontH, color=text_color, flipHoriz=flipHoriz)
 
 # Initialize components for Routine "cue"
 cues = {
