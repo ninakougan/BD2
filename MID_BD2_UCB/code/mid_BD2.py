@@ -35,11 +35,14 @@ import numpy as np
 import time
 from pathlib import Path
 import warnings
-
+from psychopy.iohub.client import launchHubServer
 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 logging.console.setLevel(logging.CRITICAL)
 
+#iohub configuration
+io=launchHubServer()
+keyboard = io.devices.keyboard
 
 ############################################################################
 # SET UP
@@ -294,7 +297,7 @@ def display_instructions_file(inst_file, instructions, run):
                 
                 win.flip()
         
-        instructRep = event.waitKeys(keyList=expKeys)
+        instructRep = keyboard.waitForKeys(keys=expKeys, etype=keyboard.KEY_PRESS)
         if instructRep[0] == backKey:
                 instructLine -= 1
         elif instructRep[0] in forwardKeys:
@@ -478,7 +481,7 @@ staircase_end = {}
 # Useful functions
 
 def get_keypress():
-    keys = event.getKeys()
+    keys = keyboard.waitForKeys(keys=expKeys,etype=keyboard.KEY_PRESS)
     if keys:
         return keys[0]
     else:
@@ -500,14 +503,14 @@ def show_stim(stim, duration):
     t_start = globalClock.getTime()
     routineTimer.reset()
     routineTimer.addTime(duration)
-    event.clearEvents(eventType='keyboard')
+    keyboard.clearEvents()
     rt = None
     while routineTimer.getTime() > 0:
-        key = get_keypress()
-        if key and key.lower() in escapeKeys:
+        key = keyboard.getKeys()
+        if any(k in [e.lower() for e in escapeKeys] for k in key):
             logging.warning("Escape pressed, exiting early!")
             shutdown()
-        if not rt and key in forwardKeys:
+        if any(key_object.key in forwardKeys for key_object in key) and not rt:
             rt = duration - routineTimer.getTime()
         if stim:
             stim.draw()
@@ -541,7 +544,7 @@ while run < num_runs:
     # Displaying instructions
 
     # Keyboard checking is just starting
-    event.clearEvents(eventType='keyboard')
+    keyboard.clearEvents()
     event.Mouse(visible=False)
 
     if run == 0:
@@ -572,7 +575,7 @@ while run < num_runs:
     if run == 1:
         waitForStructPrompt.draw()
         win.flip()
-        event.waitKeys(keyList=startKeys)
+        keyboard.waitForKeys(keys=startKeys, etype=keyboard.KEY_PRESS)
 
     
     print("end of instructions, hit enter to continue")
@@ -580,14 +583,14 @@ while run < num_runs:
 
     instructFinish.draw()
     win.flip()
-    event.waitKeys(keyList=startKeys)
+    keyboard.waitForKeys(keys=startKeys, etype=keyboard.KEY_PRESS)
     
     print("instructions complete, continuing")
     logging.flush()
     
     # Reset the non-slip timer for next routine
     routineTimer.reset()
-    event.clearEvents(eventType='keyboard')
+    keyboard.clearEvents()
     
     # Determine order of stimuli for run
     if run == 0:  # RT run
@@ -631,7 +634,7 @@ while run < num_runs:
         logging.flush()
         wait.draw()
         win.flip()
-        event.waitKeys(keyList=fMRI_trigger)
+        keyboard.waitForKeys(keys=fMRI_trigger, etype=keyboard.KEY_PRESS)
     '''
     
     # Wait for TR signal if in scanner
@@ -640,7 +643,7 @@ while run < num_runs:
         logging.flush()
         wait.draw()
         win.flip()
-        event.waitKeys(keyList=ttlKey)
+        keyboard.waitForKeys(keys=ttlKey, etype=keyboard.KEY_PRESS)
     
     print(f"starting run {run} of {num_runs-1}")
     logging.flush()
@@ -765,12 +768,12 @@ while run < num_runs:
                 target_response.status = STARTED
                 # Keyboard checking is just starting
                 win.callOnFlip(target_response.clock.reset)  # t=0 on next screen flip
-                event.clearEvents(eventType='keyboard')
+                keyboard.clearEvents()
                 theseKeys = []
                 
             if Target.status == STARTED and t <= target_durs.loc[0,trial_type]:
                 Target.setAutoDraw(True)
-                theseKeys = event.getKeys(keyList=forwardKeys)
+                theseKeys = keyboard.getKeys(keys=forwardKeys, etype=keyboard.KEY_PRESS)
 
                 if len(theseKeys) > 0:  
                     rt = target_response.clock.getTime()
@@ -1017,7 +1020,7 @@ while run < num_runs:
             total_earnings = 0
             continueToMIDPrompt.draw()
             win.flip()
-            event.waitKeys(keyList=forwardKeys)
+            keyboard.waitForKeys(keys=forwardKeys, etype=keyboard.KEY_PRESS)
         
         waitPrompt.draw()
         win.flip()
@@ -1030,7 +1033,7 @@ while run < num_runs:
         # If we are still going and NOT on the last run, show the break messages
         breakPrompt.draw()
         win.flip()
-        #event.waitKeys(keyList=forwardKeys)
+        #keyboard.waitForKeys(keys=forwardKeys, etype=keyboard.KEY_PRESS)
         core.wait(10)
     else:
         # We are on the last run
@@ -1046,6 +1049,6 @@ while run < num_runs:
 endf.draw()
 win.flip()
 print("end of task reached, hit enter to save results and close")
-event.waitKeys(keyList=startKeys)
+keyboard.waitForKeys(keys=startKeys, etype=keyboard.KEY_PRESS)
 
 shutdown()
