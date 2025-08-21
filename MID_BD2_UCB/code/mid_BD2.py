@@ -92,7 +92,7 @@ backKey = '2'
 startKeys = ['enter','return']
 fMRI_trigger = ['5']  # This is the fMRI trigger button that starts the task
 ttlKey = "5"
-expKeys = ['1','2','6']
+expKeys = ['1','2','6','escape', 'esc']
 escapeKeys = ['escape', 'esc']
 rerun_MRT = 'r'
 end_MRT_Keys = startKeys + [rerun_MRT]
@@ -506,7 +506,7 @@ def show_stim(stim, duration):
     keyboard.clearEvents()
     rt = None
     while routineTimer.getTime() > 0:
-        key = keyboard.getKeys()
+        key = keyboard.getKeys(keys=expKeys, etype=keyboard.KEY_PRESS)
         if any(k in [e.lower() for e in escapeKeys] for k in key):
             logging.warning("Escape pressed, exiting early!")
             shutdown()
