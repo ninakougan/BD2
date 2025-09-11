@@ -35,11 +35,14 @@ import numpy as np
 import time
 from pathlib import Path
 import warnings
-
+from psychopy.iohub.client import launchHubServer
 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 logging.console.setLevel(logging.CRITICAL)
 
+#iohub configuration
+io=launchHubServer()
+keyboard = io.devices.keyboard
 
 ############################################################################
 # SET UP
@@ -87,9 +90,9 @@ num_reruns = 0
 forwardKeys = ['1','6']
 backKey = '2'
 startKeys = ['enter','return']
-fMRI_trigger = ['=','equal']  # This is the fMRI trigger button that starts the task
+fMRI_trigger = ['5']  # This is the fMRI trigger button that starts the task
 ttlKey = "5"
-expKeys = ['1','2','6']
+expKeys = ['1','2','6','escape', 'esc']
 escapeKeys = ['escape', 'esc']
 rerun_MRT = 'r'
 end_MRT_Keys = startKeys + [rerun_MRT]
@@ -111,6 +114,7 @@ expInfo = {
     'fMRI reverse screen? (yes or no)': 'no',
     'start run (0-2)': '0',
     'task screen': '2',
+    'handedness':'right'
 }
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False:
@@ -120,6 +124,29 @@ expInfo['expName'] = expName
 sn = int(expInfo['participant'])
 session = int(expInfo['session'])
 task_screen = int(expInfo['task screen'])
+
+if expInfo['handedness'] == 'right':
+    # Accepted inputs
+    forwardKeys = ['6']
+    backKey = '7'
+    startKeys = ['enter','return']
+    fMRI_trigger = ['t']  # This is the fMRI trigger button that starts the task
+    ttlKey = "t"
+    expKeys = ['6','7', 'escape', 'esc']
+    escapeKeys = ['escape', 'esc']
+    rerun_MRT = 'r'
+    end_MRT_Keys = startKeys + [rerun_MRT]
+elif expInfo['handedness'] == 'left':
+    # Accepted inputs
+    forwardKeys = ['3']
+    backKey = '2'
+    startKeys = ['enter','return']
+    fMRI_trigger = ['t']  # This is the fMRI trigger button that starts the task
+    ttlKey = "t"
+    expKeys = ['3','2', 'escape', 'esc']
+    escapeKeys = ['escape', 'esc']
+    rerun_MRT = 'r'
+    end_MRT_Keys = startKeys + [rerun_MRT]
 
 # Check for various experimental handles
 if expInfo['fMRI? (yes or no)'].lower() == 'yes':
@@ -160,7 +187,7 @@ def make_screen(screen):
     exp_mon.setSizePix(win_res)
     
     win = visual.Window(size=win_res, screen=screen, allowGUI=True,
-                        fullscr=True, monitor=exp_mon, units='height',
+                        fullscr=False, monitor=exp_mon, units='height',
                         color="Black")
     return(win_res, win)
 
@@ -294,7 +321,7 @@ def display_instructions_file(inst_file, instructions, run):
                 
                 win.flip()
         
-        instructRep = event.waitKeys(keyList=expKeys)
+        instructRep = keyboard.waitForKeys(keys=expKeys, etype=keyboard.KEY_PRESS)
         if instructRep[0] == backKey:
                 instructLine -= 1
         elif instructRep[0] in forwardKeys:
@@ -358,8 +385,10 @@ instructPre = visual.TextStim(win, text="Please wait.\n\nThe task instructions w
 instructPrompt = visual.TextStim(win=win, font='Arial', pos=(0, yScr/10), 
                                  height=fontH, wrapWidth=wrapW, 
                                  color=text_color, flipHoriz=flipHoriz);
-if fmri:
-    endInstructions = "When you are ready to begin the task, place your finger on the button and notify the experimenter."
+if fmri and run > 0:
+    endInstructions = "When you are ready to begin the task, place your finger on the button and notify the experimenter. The experimenter will start the task momentarily."
+elif fmri and run == 0:
+    endInstructions = "When you are ready to begin the task, place your finger on the button. The experimenter will start the task momentarily."
 else:
     endInstructions = "When you are ready to begin the task, place your finger on the button and hit Enter to begin."
 
@@ -369,8 +398,8 @@ instructFinish = visual.TextStim(win, text=endInstructions,
                                      flipHoriz=flipHoriz)
 
 # Initialize components for task transitions
-wait = visual.TextStim(win, pos=[0, 0], text="The task will begin momentarily. Get ready...", height=fontH, color=text_color, flipHoriz=flipHoriz)
-endf = visual.TextStim(win, pos=[0, 0], text="Thank you. This part of the experiment is now complete.",wrapWidth=wrapW, height=fontH, color=text_color, flipHoriz=flipHoriz)
+wait = visual.TextStim(win, pos=[0, 0], text="The task will begin momentarily. Waiting for scanner. Get ready...", height=fontH, color=text_color, flipHoriz=flipHoriz)
+endf = visual.TextStim(win, pos=[0, 0], text="Thank you. You are done with this activity. Please stay still until this part is over.",wrapWidth=wrapW, height=fontH, color=text_color, flipHoriz=flipHoriz)
 
 # Initialize components for Routine "cue"
 cues = {
@@ -412,6 +441,19 @@ exp_feedback = visual.TextStim(win=win, name='exp_feedback',
 breakPrompt = visual.TextStim(win, text="Take a break. When you are ready to continue, press the button.", 
                               height=fontH, color=text_color, pos=(0,0), 
                               flipHoriz=flipHoriz)
+                              
+waitForStructPrompt = visual.TextStim(win, text="Thank you! The experimenter will start the money game in a few minutes after this scan is completed.", 
+                              height=fontH, color=text_color, pos=(0,0), 
+                              flipHoriz=flipHoriz)
+
+continueToMIDPrompt = visual.TextStim(win, text="Thank you for playing the triangle game! We will now go through the instructions for the money game.\nPress the button to continue.", 
+                              height=fontH, color=text_color, pos=(0,0), 
+                              flipHoriz=flipHoriz)
+
+rerunPrompt = visual.TextStim(win, text="Re-running the triangle game. Try to press the button as fast as you can when the triangle appears!", 
+                              height=fontH, color=text_color, pos=(0,0), 
+                              flipHoriz=flipHoriz)
+
 breakEnd = visual.TextStim(win, text="Get ready", height=fontH, 
                            color=text_color, pos=(0,0), flipHoriz=flipHoriz)
                            
@@ -463,7 +505,7 @@ staircase_end = {}
 # Useful functions
 
 def get_keypress():
-    keys = event.getKeys()
+    keys = keyboard.waitForKeys(keys=expKeys,etype=keyboard.KEY_PRESS)
     if keys:
         return keys[0]
     else:
@@ -485,14 +527,14 @@ def show_stim(stim, duration):
     t_start = globalClock.getTime()
     routineTimer.reset()
     routineTimer.addTime(duration)
-    event.clearEvents(eventType='keyboard')
+    keyboard.clearEvents()
     rt = None
     while routineTimer.getTime() > 0:
-        key = get_keypress()
-        if key and key.lower() in escapeKeys:
+        key = keyboard.getKeys(keys=expKeys, etype=keyboard.KEY_PRESS)
+        if any(k in [e.lower() for e in escapeKeys] for k in key):
             logging.warning("Escape pressed, exiting early!")
             shutdown()
-        if not rt and key in forwardKeys:
+        if any(key_object.key in forwardKeys for key_object in key) and not rt:
             rt = duration - routineTimer.getTime()
         if stim:
             stim.draw()
@@ -526,17 +568,16 @@ while run < num_runs:
     # Displaying instructions
 
     # Keyboard checking is just starting
-    event.clearEvents(eventType='keyboard')
+    keyboard.clearEvents()
     event.Mouse(visible=False)
 
     if run == 0:
         inst_file = "MRT_instructions.csv"
-        instructions = ["Welcome!",
+        instructions = ["Welcome to the triangle game!",
         "First you will see a cross in the middle of the screen, like this:\n\n+\n\n"+
         "This means you should focus on the screen and get ready to play. ",
         "Next, a small solid WHITE TRIANGLE will appear on the screen:\n\n \n\n \n\n \n\n"+
-        "Press the button as fast as you can when you see the solid white triangle. ",
-        "Any Questions?\n\nPlease ask them now."]
+        "Press the button as fast as you can when you see the solid white triangle. "]
     
     else:
         inst_file = "scanner_task.csv"
@@ -550,29 +591,36 @@ while run < num_runs:
         ""]
         
     
-    if fmri:
-        show_stim(instructPre, pre_instructions_duration)
+    #if fmri:
+     #   show_stim(instructPre, pre_instructions_duration)
     
     display_instructions_file(inst_file, instructions, run)
+
+    if run == 1:
+        waitForStructPrompt.draw()
+        win.flip()
+        keyboard.waitForKeys(keys=startKeys, etype=keyboard.KEY_PRESS)
+
     
     print("end of instructions, hit enter to continue")
     logging.flush()
+
     instructFinish.draw()
     win.flip()
-    event.waitKeys(keyList=startKeys)
+    keyboard.waitForKeys(keys=startKeys, etype=keyboard.KEY_PRESS)
     
     print("instructions complete, continuing")
     logging.flush()
     
     # Reset the non-slip timer for next routine
     routineTimer.reset()
-    event.clearEvents(eventType='keyboard')
+    keyboard.clearEvents()
     
     # Determine order of stimuli for run
     if run == 0:  # RT run
         #stim_list = stim_conds
         # Trials per run
-        num_trials = 15
+        num_trials = 3
         
         n_cond_reps = 3
         
@@ -603,21 +651,23 @@ while run < num_runs:
     # Create a dataframe for the event file
     order = pd.DataFrame(np.transpose([list(np.arange(1,len(stim_list)+1)), stim_list]),
                          columns=['trial.num','trial.type'])
-    
+
+    '''
     if fmri and run > 0:
         print(f"waiting for ready, hit {startKeys} after prep scan")
         logging.flush()
         wait.draw()
         win.flip()
-        event.waitKeys(keyList=fMRI_trigger)
+        keyboard.waitForKeys(keys=fMRI_trigger, etype=keyboard.KEY_PRESS)
+    '''
     
     # Wait for TR signal if in scanner
-    if triggerOnTTL:
+    if triggerOnTTL and run > 0:
         print(f"waiting for TTL key {ttlKey} on TR")
         logging.flush()
         wait.draw()
         win.flip()
-        event.waitKeys(keyList=ttlKey)
+        keyboard.waitForKeys(keys=ttlKey, etype=keyboard.KEY_PRESS)
     
     print(f"starting run {run} of {num_runs-1}")
     logging.flush()
@@ -636,6 +686,7 @@ while run < num_runs:
         
     elif run == 1:
         target_durs = pd.read_csv(filename+'_target_durs-MRT.csv')
+        
     else:
         target_durs = pd.read_csv(filename+'_target_durs-run'+str(run-1)+'.csv')
     
@@ -741,12 +792,12 @@ while run < num_runs:
                 target_response.status = STARTED
                 # Keyboard checking is just starting
                 win.callOnFlip(target_response.clock.reset)  # t=0 on next screen flip
-                event.clearEvents(eventType='keyboard')
+                keyboard.clearEvents()
                 theseKeys = []
                 
             if Target.status == STARTED and t <= target_durs.loc[0,trial_type]:
                 Target.setAutoDraw(True)
-                theseKeys = event.getKeys(keyList=forwardKeys)
+                theseKeys = keyboard.getKeys(keys=forwardKeys, etype=keyboard.KEY_PRESS)
 
                 if len(theseKeys) > 0:  
                     rt = target_response.clock.getTime()
@@ -820,7 +871,7 @@ while run < num_runs:
             reward = 5.0
             exp.addData('trial.reward', reward)
         elif trial_type == 'reward.low' and trial_response == 1:
-            reward = 1.5
+            reward = 1.50
             exp.addData('trial.reward', reward)
         elif trial_type == 'reward.neut' and trial_response == 1:
             reward = 0.0
@@ -829,7 +880,7 @@ while run < num_runs:
             reward = -5.0
             exp.addData('trial.reward', reward)
         elif trial_type == 'loss.low' and not trial_response == 1:
-            reward = -1.5
+            reward = -1.50
             exp.addData('trial.reward', reward)
         elif trial_type == 'loss.neut' and not trial_response == 1:
             reward = 0.0
@@ -962,7 +1013,10 @@ while run < num_runs:
     
     if run == 0:
         # Set target durations for the average across all conditions
-        target_durs.loc[0] = target_durs.loc[0].mean()
+        if np.mean(trial_RTs) >= 0.350:
+            target_durs.loc[0] = 0.350
+        else:
+            target_durs.loc[0] = np.mean(trial_RTs) #target_durs.loc[0].mean()
     
     # Export target durations and run data
     if run == 0:
@@ -983,23 +1037,28 @@ while run < num_runs:
             print("Reaction times were too slow. Rerunning MRT.")
             run = -1
             num_reruns += 1
-        print("\n\n\n")
-        
-        # If done with the practice run, show the post-practice stuff
-        total_earnings = 0
-        breakPrompt.draw()
-        win.flip()
-        event.waitKeys(keyList=forwardKeys)
+            rerunPrompt.draw()
+            win.flip()
+            core.wait(10)
+        else:
+            total_earnings = 0
+            continueToMIDPrompt.draw()
+            win.flip()
+            keyboard.waitForKeys(keys=forwardKeys, etype=keyboard.KEY_PRESS)
         
         waitPrompt.draw()
         win.flip()
+        print("\n\n\n")
+        
+        # If done with the practice run, show the post-practice stuff
         
         
     elif run < num_runs - 1:
         # If we are still going and NOT on the last run, show the break messages
         breakPrompt.draw()
         win.flip()
-        event.waitKeys(keyList=forwardKeys)
+        #keyboard.waitForKeys(keys=forwardKeys, etype=keyboard.KEY_PRESS)
+        core.wait(10)
     else:
         # We are on the last run
         show_stim(None, closing_duration)
@@ -1014,6 +1073,7 @@ while run < num_runs:
 endf.draw()
 win.flip()
 print("end of task reached, hit enter to save results and close")
-event.waitKeys(keyList=startKeys)
+keyboard.waitForKeys(keys=startKeys, etype=keyboard.KEY_PRESS)
 
 shutdown()
+
