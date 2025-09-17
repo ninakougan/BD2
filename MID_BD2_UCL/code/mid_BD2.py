@@ -187,7 +187,7 @@ def make_screen(screen):
     exp_mon.setSizePix(win_res)
     
     win = visual.Window(size=win_res, screen=screen, allowGUI=True,
-                        fullscr=False, monitor=exp_mon, units='height',
+                        fullscr=True, monitor=exp_mon, units='height',
                         color="Black")
     return(win_res, win)
 
@@ -620,7 +620,7 @@ while run < num_runs:
     if run == 0:  # RT run
         #stim_list = stim_conds
         # Trials per run
-        num_trials = 3
+        num_trials = 15
         
         n_cond_reps = 3
         
