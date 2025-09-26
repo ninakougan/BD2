@@ -85,19 +85,6 @@ total_earnings_goal = 40
 # Set tracker for number of MRT reruns
 num_reruns = 0
 
-
-# Accepted inputs
-forwardKeys = ['1','6']
-backKey = '2'
-startKeys = ['enter','return']
-fMRI_trigger = ['5']  # This is the fMRI trigger button that starts the task
-ttlKey = "5"
-expKeys = ['1','2','6','escape', 'esc']
-escapeKeys = ['escape', 'esc']
-rerun_MRT = 'r'
-end_MRT_Keys = startKeys + [rerun_MRT]
-
-
 # Start set up of the experiment
 
 # Ensure that relative paths start from the same directory as this script
