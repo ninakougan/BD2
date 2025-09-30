@@ -380,13 +380,13 @@ endf = visual.TextStim(win, pos=[0, 0], text="Thank you. You are done with this 
 # Initialize components for Routine "cue"
 cues = {
     'reward.low':  visual.ImageStim(win, size=0.3, 
-                                    image=stim_dir+"reward_low_125.png"),
+                                    image=stim_dir+"reward_low.png"),
     'reward.high': visual.ImageStim(win, size=0.3, 
                                     image=stim_dir+"reward_high.png"),
     'reward.neut': visual.ImageStim(win, size=0.3, 
                                     image=stim_dir+"reward_neut.png"),
     'loss.low':    visual.ImageStim(win, size=0.3, 
-                                    image=stim_dir+"loss_low_125.png"),
+                                    image=stim_dir+"loss_low.png"),
     'loss.high':   visual.ImageStim(win, size=0.3, 
                                     image=stim_dir+"loss_high.png"),
     'loss.neut':   visual.ImageStim(win, size=0.3, 
@@ -847,7 +847,7 @@ while run < num_runs:
             reward = 5.0
             exp.addData('trial.reward', reward)
         elif trial_type == 'reward.low' and trial_response == 1:
-            reward = 1.25
+            reward = 1.50
             exp.addData('trial.reward', reward)
         elif trial_type == 'reward.neut' and trial_response == 1:
             reward = 0.0
@@ -856,7 +856,7 @@ while run < num_runs:
             reward = -5.0
             exp.addData('trial.reward', reward)
         elif trial_type == 'loss.low' and not trial_response == 1:
-            reward = -1.25
+            reward = -1.50
             exp.addData('trial.reward', reward)
         elif trial_type == 'loss.neut' and not trial_response == 1:
             reward = 0.0
