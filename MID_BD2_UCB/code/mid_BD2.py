@@ -225,58 +225,58 @@ def display_instructions_file(inst_file, instructions, run):
                 win.flip()
             
             else:    
-                fix1_exmp = visual.TextStim(win, pos=[-0.65, 0.15], 
+                fix1_exmp = visual.TextStim(win, pos=[-0.60, 0.15], 
                                             text='+', height=fontH*2, 
                                             color=text_color, 
                                             flipHoriz=flipHoriz)
-                cuex_exmp = visual.ImageStim(win, pos=[-0.35,0.15], size=0.2,
+                cuex_exmp = visual.ImageStim(win, pos=[-0.38,0.15], size=0.2,
                                              image=stim_dir+"reward_high.png")
-                fix2_exmp = visual.TextStim(win, pos=[-0.15, 0.15], text='+', 
+                fix2_exmp = visual.TextStim(win, pos=[-0.16, 0.15], text='+', 
                                             height=fontH*2, color=text_color, 
                                             flipHoriz=flipHoriz)
-                targ_exmp = visual.Polygon(win, pos=[0.15,0.15], edges=3, 
+                targ_exmp = visual.Polygon(win, pos=[0.06,0.15], edges=3, 
                                            radius=0.1, fillColor="white")
-                fix3_exmp = visual.TextStim(win, pos=[0.35, 0.15], text='+', 
+                fix3_exmp = visual.TextStim(win, pos=[0.28, 0.15], text='+', 
                                             height=fontH*2, color=text_color, 
                                             flipHoriz=flipHoriz)
-                fdbk_exmp = visual.TextStim(win, pos=[0.65, 0.15], 
+                fdbk_exmp = visual.TextStim(win, pos=[0.50, 0.15], 
                                             text='Hit!\n+$5.00', 
                                             height=fontH*2, 
                                             color=text_color, 
                                             flipHoriz=flipHoriz)
                 
                 # Draw bottom row of page
-                fix1_desc = visual.TextStim(win, pos=[-0.65, -0.15], 
+                fix1_desc = visual.TextStim(win, pos=[-0.60, -0.15], 
                                             text='Pay attention', 
                                             height=fontH, wrapWidth=0.1,
                                             color=text_color, 
                                             flipHoriz=flipHoriz,
                                             alignHoriz='center')
-                cuex_desc = visual.TextStim(win, pos=[-0.35, -0.15], 
+                cuex_desc = visual.TextStim(win, pos=[-0.38, -0.15], 
                                             text="Cue: don't respond yet", 
                                             height=fontH, wrapWidth=0.1,
                                             color=text_color, 
                                             flipHoriz=flipHoriz, 
                                             alignHoriz='center')
-                fix2_desc = visual.TextStim(win, pos=[-0.15, -0.15], 
+                fix2_desc = visual.TextStim(win, pos=[-0.16, -0.15], 
                                             text='Pay attention', 
                                             height=fontH, wrapWidth=0.1,
                                             color=text_color, 
                                             flipHoriz=flipHoriz, 
                                             alignHoriz='center')
-                targ_desc = visual.TextStim(win, pos=[0.15, -0.15], 
+                targ_desc = visual.TextStim(win, pos=[0.06, -0.15], 
                                             text='Respond when solid triangle is on screen', 
                                             height=fontH, wrapWidth=0.1,
                                             color=text_color, 
                                             flipHoriz=flipHoriz, 
                                             alignHoriz='center')
-                fix3_desc = visual.TextStim(win, pos=[0.35, -0.15], 
+                fix3_desc = visual.TextStim(win, pos=[0.28, -0.15], 
                                             text='Pay attention', 
                                             height=fontH, wrapWidth=0.1,
                                             color=text_color, 
                                             flipHoriz=flipHoriz, 
                                             alignHoriz='center')
-                fdbk_desc = visual.TextStim(win, pos=[0.65, -0.15], 
+                fdbk_desc = visual.TextStim(win, pos=[0.50, -0.15], 
                                             text='Feedback', height=fontH, 
                                             wrapWidth=0.1, color=text_color, 
                                             flipHoriz=flipHoriz, 
