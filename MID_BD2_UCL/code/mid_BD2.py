@@ -100,7 +100,7 @@ expInfo = {
     'fMRI trigger on TTL? (yes or no)': 'yes',
     'fMRI reverse screen? (yes or no)': 'no',
     'start run (0-2)': '0',
-    'task screen': '2',
+    'task screen': '1',
     'handedness':'right'
 }
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
@@ -315,6 +315,8 @@ def display_instructions_file(inst_file, instructions, run):
             instructLine += 1
         if instructLine >= len(instructions):
             endOfInstructions = True
+        if instructLine == -4: # This avoids crashing due to variable size issues, by re-initialising the instructions
+            instructLine = 0
 
 
 
@@ -349,7 +351,7 @@ else:
     frame_duration = 1.0 / 60.0  # could not measure, so guess
 
 # Create a message at the bottom of the screen to tell subject to proceed
-instructMoveText = f"Press the button to continue."
+instructMoveText = f"Press the pointer button to continue."
 instructMove = visual.TextStim(win, text=instructMoveText, height=fontH, 
                                 color=text_color, pos=[0, -yScr/4], 
                                 flipHoriz=flipHoriz)
@@ -373,11 +375,11 @@ instructPrompt = visual.TextStim(win=win, font='Arial', pos=(0, yScr/10),
                                  height=fontH, wrapWidth=wrapW, 
                                  color=text_color, flipHoriz=flipHoriz);
 if fmri and run > 0:
-    endInstructions = "When you are ready to begin the task, place your finger on the button and notify the experimenter. The experimenter will start the task momentarily."
+    endInstructions = "When you are ready to begin the task, place your pointer finger on the button and notify the experimenter. The experimenter will start the task momentarily."
 elif fmri and run == 0:
-    endInstructions = "When you are ready to begin the task, place your finger on the button. The experimenter will start the task momentarily."
+    endInstructions = "When you are ready to begin the task, place your pointer finger on the button. The experimenter will start the task momentarily."
 else:
-    endInstructions = "When you are ready to begin the task, place your finger on the button and hit Enter to begin."
+    endInstructions = "When you are ready to begin the task, place your pointer finger on the button and hit Enter to begin."
 
 instructFinish = visual.TextStim(win, text=endInstructions,
                                      height=fontH, color=text_color, 
@@ -425,7 +427,7 @@ exp_feedback = visual.TextStim(win=win, name='exp_feedback',
                                colorSpace='rgb', opacity=1, 
                                flipHoriz=flipHoriz);
 
-breakPrompt = visual.TextStim(win, text="Take a break. When you are ready to continue, press the button.", 
+breakPrompt = visual.TextStim(win, text="Take a break. When you are ready to continue, press the pointer button.", 
                               height=fontH, color=text_color, pos=(0,0), 
                               flipHoriz=flipHoriz)
                               
@@ -433,11 +435,11 @@ waitForStructPrompt = visual.TextStim(win, text="Thank you! The experimenter wil
                               height=fontH, color=text_color, pos=(0,0), 
                               flipHoriz=flipHoriz)
 
-continueToMIDPrompt = visual.TextStim(win, text="Thank you for playing the triangle game! We will now go through the instructions for the money game.\nPress the button to continue.", 
+continueToMIDPrompt = visual.TextStim(win, text="Thank you for playing the triangle game! We will now go through the instructions for the money game.\nPress the pointer button to continue.", 
                               height=fontH, color=text_color, pos=(0,0), 
                               flipHoriz=flipHoriz)
 
-rerunPrompt = visual.TextStim(win, text="Re-running the triangle game. Try to press the button as fast as you can when the triangle appears!", 
+rerunPrompt = visual.TextStim(win, text="Re-running the triangle game. Try to press the pointer button as fast as you can when the triangle appears!", 
                               height=fontH, color=text_color, pos=(0,0), 
                               flipHoriz=flipHoriz)
 
@@ -564,7 +566,7 @@ while run < num_runs:
         "First you will see a cross in the middle of the screen, like this:\n\n+\n\n"+
         "This means you should focus on the screen and get ready to play. ",
         "Next, a small solid WHITE TRIANGLE will appear on the screen:\n\n \n\n \n\n \n\n"+
-        "Press the button as fast as you can when you see the solid white triangle. "]
+        "Press the pointer button as fast as you can when you see the solid white triangle. "]
     
     else:
         inst_file = "scanner_task.csv"
@@ -573,8 +575,8 @@ while run < num_runs:
         "Remember:\n"+
         "WIN CIRCLES = win money\n"+
         "LOSE SQUARES = lose money\n\n"+
-        "QUICKLY press the button with your pointer finger when you see the solid white triangle.\n\n"+
-        "You will get feedback on whether you pressed the button in time and if you won or lost money.",
+        "QUICKLY press the pointer button with your pointer finger when you see the solid white triangle.\n\n"+
+        "You will get feedback on whether you pressed the pointer button in time and if you won or lost money.",
         ""]
         
     
