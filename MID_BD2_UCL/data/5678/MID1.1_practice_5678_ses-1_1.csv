@@ -1,0 +1,3 @@
+﻿thisRow.t,notes,subid,session,run,trial.system.time,trial.number,trial.type,Cue.OnsetTime,trial.cue_rt,Dly.OnsetTime,Tgt.OnsetTime,trial.rt,trial.target_dur,trial.reward,Fix_after_target.OnsetTime,Tgt.ACC,Tgt.ACCfeedback,total_earnings,Fb.OnsetTime,Fix_ITI.OnsetTime,participant,session,fMRI? (yes or no),fMRI trigger on TTL? (yes or no),fMRI reverse screen? (yes or no),date,expName,frameRate,
+,,5678,1,0,Thu Oct  9 10:01:34 2025,1,loss.high,5.0105791669998325,0.3032549999998082,9.043129749999935,9.043869958999949,0.24824037500002305,0.24824037500002305,0,9.550515999999789,1,"Hit!
+£0.00",0,11.287888374999966,13.277245834000041,,1,,,,,,,

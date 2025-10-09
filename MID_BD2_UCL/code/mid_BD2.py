@@ -241,7 +241,7 @@ def display_instructions_file(inst_file, instructions, run):
                                             color=text_color, 
                                             flipHoriz=flipHoriz)
                 cuex_exmp = visual.ImageStim(win, pos=[-0.35,0.15], size=0.2,
-                                             image=stim_dir+"reward_high.png")
+                                             image=stim_dir+"reward_high_200_british.png")
                 fix2_exmp = visual.TextStim(win, pos=[-0.15, 0.15], text='+', 
                                             height=fontH*2, color=text_color, 
                                             flipHoriz=flipHoriz)
@@ -251,7 +251,7 @@ def display_instructions_file(inst_file, instructions, run):
                                             height=fontH*2, color=text_color, 
                                             flipHoriz=flipHoriz)
                 fdbk_exmp = visual.TextStim(win, pos=[0.65, 0.15], 
-                                            text='Hit!\n+$5.00', 
+                                            text='Hit!\n+£2.00', 
                                             height=fontH*2, 
                                             color=text_color, 
                                             flipHoriz=flipHoriz)
@@ -393,17 +393,17 @@ endf = visual.TextStim(win, pos=[0, 0], text="Thank you. You are done with this 
 # Initialize components for Routine "cue"
 cues = {
     'reward.low':  visual.ImageStim(win, size=0.3, 
-                                    image=stim_dir+"reward_low.png"),
+                                    image=stim_dir+"reward_low_050_british.png"),
     'reward.high': visual.ImageStim(win, size=0.3, 
-                                    image=stim_dir+"reward_high.png"),
+                                    image=stim_dir+"reward_high_200_british.png"),
     'reward.neut': visual.ImageStim(win, size=0.3, 
-                                    image=stim_dir+"reward_neut.png"),
+                                    image=stim_dir+"reward_neut_0_british.png"),
     'loss.low':    visual.ImageStim(win, size=0.3, 
-                                    image=stim_dir+"loss_low.png"),
+                                    image=stim_dir+"loss_low_050_british.png"),
     'loss.high':   visual.ImageStim(win, size=0.3, 
-                                    image=stim_dir+"loss_high.png"),
+                                    image=stim_dir+"loss_high_200_british.png"),
     'loss.neut':   visual.ImageStim(win, size=0.3, 
-                                    image=stim_dir+"loss_neut.png"),
+                                    image=stim_dir+"loss_neut_0_british.png"),
     }
 CueClock = core.Clock()
 
@@ -857,19 +857,19 @@ while run < num_runs:
 
         # Update trial components
         if trial_type == 'reward.high' and trial_response == 1:
-            reward = 5.0
+            reward = 2.0
             exp.addData('trial.reward', reward)
         elif trial_type == 'reward.low' and trial_response == 1:
-            reward = 1.50
+            reward = 0.50
             exp.addData('trial.reward', reward)
         elif trial_type == 'reward.neut' and trial_response == 1:
             reward = 0.0
             exp.addData('trial.reward', reward)
         elif trial_type == 'loss.high' and not trial_response == 1:
-            reward = -5.0
+            reward = -2.0
             exp.addData('trial.reward', reward)
         elif trial_type == 'loss.low' and not trial_response == 1:
-            reward = -1.50
+            reward = -0.50
             exp.addData('trial.reward', reward)
         elif trial_type == 'loss.neut' and not trial_response == 1:
             reward = 0.0
@@ -908,21 +908,21 @@ while run < num_runs:
             
             def trial_cash_string(r, trial_response):
                 if r > 0:
-                    return f"Hit!\n+${r:.2f}"
+                    return f"Hit!\n+£{r:.2f}"
                 elif r < 0:
-                    return f"Miss!\n-${abs(r):.2f}"
+                    return f"Miss!\n-£{abs(r):.2f}"
                 elif trial_response == 1:
-                    return f"Hit!\n${r:.2f}"
+                    return f"Hit!\n£{r:.2f}"
                 elif trial_type == 'loss.neut':
-                    return f"Miss!\n-${r:.2f}"
+                    return f"Miss!\n-£{r:.2f}"
                 else:
-                    return f"Miss!\n${r:.2f}"
+                    return f"Miss!\n£{r:.2f}"
             
             def total_cash_string(r):
                 if r < 0:
-                    return f"Miss!\n${r:.2f}"
+                    return f"Miss!\n£{r:.2f}"
                 else:
-                    return f"${r:.2f}"
+                    return f"£{r:.2f}"
 
             trial_feedback.setText(trial_cash_string(reward, trial_response))        
             exp.addData("Tgt.ACC", trial_response)
