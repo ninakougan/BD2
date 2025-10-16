@@ -14,12 +14,6 @@ To change run length would require regenerating new order files.
 Based on code originally written by @nivreggev, see README; Modified by Haroon Popal (hspopal on GitHub)
 Last modified by Nina Kougan (ninakougan@u.northwestern.edu) on 04/08/25
 
-***NOTES FROM NINA FOR BERKELEY TESTING***
-To change number of trials, see line 59 and 585
-To change ITI values, see line 72 (equation needs to = number of trials per run)
-To change button box inputs, see lines 87-95
-To change # of trials during MRT, see line 575
-
 """
 
 
