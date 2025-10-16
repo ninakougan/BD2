@@ -158,7 +158,7 @@ def display_instructions_file(inst_file, instructions, run):
                                             color=text_color, 
                                             flipHoriz=flipHoriz)
                 cuex_exmp = visual.ImageStim(win, pos=[-0.35,0.15], size=0.2,
-                                             image=stim_dir+"reward_high.png")
+                                             image=stim_dir+"reward_high_200_british.png")
                 fix2_exmp = visual.TextStim(win, pos=[-0.15, 0.15], text='+', 
                                             height=fontH*2, color=text_color, 
                                             flipHoriz=flipHoriz)
@@ -169,7 +169,7 @@ def display_instructions_file(inst_file, instructions, run):
                                             color=text_color, 
                                             flipHoriz=flipHoriz)
                 fdbk_exmp = visual.TextStim(win, pos=[0.65, 0.15], 
-                                            text='Hit!\n+$5.00', 
+                                            text='Hit!\n+£2.00', 
                                             height=fontH*2, 
                                             color=text_color, 
                                             flipHoriz=flipHoriz)
@@ -403,17 +403,17 @@ endf = visual.TextStim(win, pos=[0, 0], text="Thank you. This part of the experi
 # Initialize components for Routine "cue"
 cues = {
     'reward.neut': visual.ImageStim(win, size=0.3, pos=[0,0],
-                                    image=stim_dir+"reward_neut.png"),
+                                    image=stim_dir+"reward_neut_0_british.png"),
     'reward.low':  visual.ImageStim(win, size=0.3, pos=[0,0],
-                                    image=stim_dir+"reward_low.png"),
+                                    image=stim_dir+"reward_low_050_british.png"),
     'reward.high': visual.ImageStim(win, size=0.3, pos=[0,0],
-                                    image=stim_dir+"reward_high.png"),
+                                    image=stim_dir+"reward_high_200_british.png"),
     'loss.neut':   visual.ImageStim(win, size=0.3, pos=[0,0],
-                                    image=stim_dir+"loss_neut.png"),
+                                    image=stim_dir+"loss_neut_0_british.png"),
     'loss.low':    visual.ImageStim(win, size=0.3, pos=[0,0],
-                                    image=stim_dir+"loss_low.png"),
+                                    image=stim_dir+"loss_low_050_british.png"),
     'loss.high':   visual.ImageStim(win, size=0.3, pos=[0,0],
-                                    image=stim_dir+"loss_high.png")}
+                                    image=stim_dir+"loss_high_200_british.png")}
 CueClock = core.Clock()
 
 
@@ -564,7 +564,7 @@ while run < num_runs:
     "Next, a solid WHITE TRIANGLE will appear VERY BRIEFLY on the screen:\n\n \n\n \n\n \n\nTo win money or avoid losing money you need to press the button while the solid WHITE TRIANGLE is on the screen.",
     "For WIN CIRCLES, pressing the button while the solid white triangle is on the screen means you will WIN money.\n\nIf you press too late, you will MISS WINNING money.\n\n\n\n\n\n\n\n",
     "For LOSE SQUARES, pressing the button while the solid white triangle is on the screen means you will NOT LOSE money.\n\nIf you press too late, you WILL LOSE money.\n\n\n\n\n\n\n\n",
-    "Make sure to try and respond to every triangle, including for the $0.00 rounds\n\n\n\n\n\n",
+    "Make sure to try and respond to every triangle, including for the £0.00 rounds\n\n\n\n\n\n",
     "We will let you know if you pressed the button in time and if you won or lost money for that round\n\n\n\n\n\n",
     "During each round, this is the order that you will see things happen:\n\n\n\n\n\n\n\n\n\n",
     "Major points to remember:\n\n1. Do not press the button on the win circles, lose squares, or the crosses. Just respond to the SOLID WHITE TRIANGLES.\n\n2. Try to press the button EVERY time you see the solid white triangle.\n\n3. The SOLID WHITE TRIANGLE appears VERY BRIEFLY, so you will have to press the button QUICKLY when you see it.\n\n4. Things move fast in this game, so you will want to keep your finger on the button, ready to respond.",
@@ -820,15 +820,15 @@ while run < num_runs:
 
         # Update trial components
         if trial_type == 'reward.high' and trial_response == 1:
-            reward = 5.0
+            reward = 2.0
         elif trial_type == 'reward.low' and trial_response == 1:
-            reward = 1.5
+            reward = 0.5
         elif trial_type == 'reward.neut' and trial_response == 1:
             reward = 0.0
         elif trial_type == 'loss.high' and not trial_response == 1:
-            reward = -5.0
+            reward = -2.0
         elif trial_type == 'loss.low' and not trial_response == 1:
-            reward = -1.5
+            reward = -0.5
         elif trial_type == 'loss.neut' and not trial_response ==1:
             reward = 0.0
 
@@ -864,19 +864,19 @@ while run < num_runs:
 
         def trial_cash_string(r, trial_response):
             if r > 0:
-                return f"Hit!\n+${r:.2f}"
+                return f"Hit!\n+£{r:.2f}"
             elif r < 0:
-                return f"Miss!\n-${abs(r):.2f}"
+                return f"Miss!\n-£{abs(r):.2f}"
             elif trial_response == 1:
-                return f"Hit!\n${r:.2f}"
+                return f"Hit!\n£{r:.2f}"
             else:
-                return f"Miss!\n${r:.2f}"
+                return f"Miss!\n£{r:.2f}"
 
         def total_cash_string(r):
             if r < 0:
-                return f"Miss!\n${r:.2f}"
+                return f"Miss!\n£{r:.2f}"
             else:
-                return f"${r:.2f}"
+                return f"£{r:.2f}"
 
         trial_feedback.setText(trial_cash_string(reward, trial_response))
         
