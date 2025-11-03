@@ -405,13 +405,13 @@ cues = {
     'reward.neut': visual.ImageStim(win, size=0.3, pos=[0,0],
                                     image=stim_dir+"reward_neut.png"),
     'reward.low':  visual.ImageStim(win, size=0.3, pos=[0,0],
-                                    image=stim_dir+"reward_low.png"),
+                                    image=stim_dir+"reward_low_125.png"),
     'reward.high': visual.ImageStim(win, size=0.3, pos=[0,0],
                                     image=stim_dir+"reward_high.png"),
     'loss.neut':   visual.ImageStim(win, size=0.3, pos=[0,0],
                                     image=stim_dir+"loss_neut.png"),
     'loss.low':    visual.ImageStim(win, size=0.3, pos=[0,0],
-                                    image=stim_dir+"loss_low.png"),
+                                    image=stim_dir+"loss_low_125.png"),
     'loss.high':   visual.ImageStim(win, size=0.3, pos=[0,0],
                                     image=stim_dir+"loss_high.png")}
 CueClock = core.Clock()
@@ -822,13 +822,13 @@ while run < num_runs:
         if trial_type == 'reward.high' and trial_response == 1:
             reward = 5.0
         elif trial_type == 'reward.low' and trial_response == 1:
-            reward = 1.5
+            reward = 1.25
         elif trial_type == 'reward.neut' and trial_response == 1:
             reward = 0.0
         elif trial_type == 'loss.high' and not trial_response == 1:
             reward = -5.0
         elif trial_type == 'loss.low' and not trial_response == 1:
-            reward = -1.5
+            reward = -1.25
         elif trial_type == 'loss.neut' and not trial_response ==1:
             reward = 0.0
 
