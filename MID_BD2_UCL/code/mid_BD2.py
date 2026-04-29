@@ -114,23 +114,23 @@ task_screen = int(expInfo['task screen'])
 
 if expInfo['handedness'] == 'right':
     # Accepted inputs
-    forwardKeys = ['6']
-    backKey = '7'
+    forwardKeys = ['0']
+    backKey = '1'
     startKeys = ['enter','return']
     fMRI_trigger = ['t']  # This is the fMRI trigger button that starts the task
     ttlKey = "t"
-    expKeys = ['6','7', 'escape', 'esc']
+    expKeys = ['0','1', 'escape', 'esc']
     escapeKeys = ['escape', 'esc']
     rerun_MRT = 'r'
     end_MRT_Keys = startKeys + [rerun_MRT]
 elif expInfo['handedness'] == 'left':
     # Accepted inputs
-    forwardKeys = ['3']
-    backKey = '2'
+    forwardKeys = ['0']
+    backKey = '1'
     startKeys = ['enter','return']
     fMRI_trigger = ['t']  # This is the fMRI trigger button that starts the task
     ttlKey = "t"
-    expKeys = ['3','2', 'escape', 'esc']
+    expKeys = ['0','1', 'escape', 'esc']
     escapeKeys = ['escape', 'esc']
     rerun_MRT = 'r'
     end_MRT_Keys = startKeys + [rerun_MRT]
