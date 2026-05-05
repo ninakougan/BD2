@@ -500,13 +500,14 @@ def shutdown():
     win.close()
     core.quit()
 
-def show_stim(stim, duration):
+def show_stim(stim, duration, label=None):
     duration = float(duration)
     t_start = globalClock.getTime()
     routineTimer.reset()
     routineTimer.addTime(duration)
-    keyboard.clearEvents()
+    #keyboard.clearEvents()
     rt = None
+    onset_logged = False
     while routineTimer.getTime() > 0:
         key = keyboard.getKeys(keys=expKeys, etype=keyboard.KEY_PRESS)
         if any(k in [e.lower() for e in escapeKeys] for k in key):
@@ -516,12 +517,19 @@ def show_stim(stim, duration):
             rt = duration - routineTimer.getTime()
         if stim:
             stim.draw()
+        if not onset_logged and label is not None:
+            onset_time = runClock.getTime()
+            win.callOnFlip(exp.addData, f"{label}.OnsetTime", runClock.getTime())
+            onset_logged = True
         win.flip()
+    if label is not None:
+        exp.addData(f"{label}.OffsetTime", runClock.getTime())
+        exp.addData(f"{label}.Duration", runClock.getTime() - onset_time)
     return rt
-    print('TESTING...'+str(rt)+'\n')
+    #print('TESTING...'+str(rt)+'\n')
 
-def show_fixation(duration):
-    return show_stim(fix, duration)
+def show_fixation(duration, label=None):
+    return show_stim(fix, duration, label)
 
 
 
@@ -711,7 +719,7 @@ while run < num_runs:
             # Log cue onset time
             exp.addData('Cue.OnsetTime', runClock.getTime())
             #exp.addData('Cue.Duration', cue_time)
-            cue_rt = show_stim(cue, cue_time)  # Is this needed?
+            cue_rt = show_stim(cue, cue_time, label="Cue")  # Is this needed?
             if cue_rt:
                 exp.addData('trial.cue_rt', cue_rt)
             
@@ -720,14 +728,15 @@ while run < num_runs:
             fix_after_cue = random.uniform(fix_after_cue_range[0], 
                                            fix_after_cue_range[1])
             
-            too_fast_rt = show_fixation(fix_after_cue)
+            #too_fast_rt = show_fixation(fix_after_cue)
+            too_fast_rt = show_stim(fix, fix_after_cue, label="Dly")
             if too_fast_rt:
                 print('too fast rt: ', too_fast_rt)
                 trial_response = 2
                 exp.addData('trial.too_fast_rt', too_fast_rt)
             
             # Log fixation after cue onset
-            exp.addData('Dly.OnsetTime', runClock.getTime())
+            #exp.addData('Dly.OnsetTime', runClock.getTime())
         
         
         # ------Prepare to start Routine "Target"-------
@@ -753,7 +762,7 @@ while run < num_runs:
         
         # -------Start Routine "Target"-------
         # Log target onset time
-        exp.addData('Tgt.OnsetTime', runClock.getTime())
+        #exp.addData('Tgt.OnsetTime', runClock.getTime())
         
         while continueRoutine and routineTimer.getTime() > 0:
             # Get current time
@@ -764,6 +773,7 @@ while run < num_runs:
                 # Keep track of start time/frame for later
                 Target.tStart = t
                 # Display target
+                exp.addData('Tgt.OnsetTime', runClock.getTime())
                 Target.setAutoDraw(True)
                 # Open response options
                 target_response.tStart = t
@@ -796,6 +806,7 @@ while run < num_runs:
             if not continueRoutine:
                 fix.draw()
             win.flip()
+        exp.addData('Tgt.OffsetTime', runClock.getTime())
                 
                 
         # -------Ending Routine "Target"-------
@@ -870,7 +881,7 @@ while run < num_runs:
         
         # Fixation after stim target
         
-        exp.addData('Fix_after_target.OnsetTime', runClock.getTime())
+        #exp.addData('Fix_after_target.OnsetTime', runClock.getTime())
         
         # Set the fixation after target by accounting for the variable target
         # time window
@@ -879,7 +890,8 @@ while run < num_runs:
         else:
             fix_after_target = isi_target_isi_time - fix_after_cue - target_durs.loc[0,trial_type]
         
-        too_slow_rt = show_fixation(fix_after_target)
+        #too_slow_rt = show_fixation(fix_after_target)
+        too_slow_rt = show_stim(fix, fix_after_target, label="Fix_after_target")
         if too_slow_rt:
             print('too slow rt: ', too_slow_rt)
             trial_response = 3
@@ -928,8 +940,9 @@ while run < num_runs:
             # -------Start Routine "Feedback"-------
             
             # Log feedback onset time
-            exp.addData('Fb.OnsetTime', runClock.getTime())
-            
+            #exp.addData('Fb.OnsetTime', runClock.getTime())
+            fb_onset = None
+            fb_offset = None
             while continueRoutine and routineTimer.getTime() > 0:
                 # Get current time
                 t = FeedbackClock.getTime()
@@ -939,9 +952,14 @@ while run < num_runs:
                     # Keep track of start time/frame for later
                     trial_feedback.tStart = t
                     trial_feedback.setAutoDraw(True)
+                    #####
+                    win.callOnFlip(exp.addData, 'Fb.OnsetTime', runClock.getTime())
+                    fb_onset = runClock.getTime()
+                    #####
                 frameRemains = 0.0 + feedback_time - win.monitorFramePeriod * 0.75  # most of one frame period left
                 if trial_feedback.status == STARTED and t >= frameRemains:
                     trial_feedback.setAutoDraw(False)
+                    fb_offset = runClock.getTime()
 
                 # Check if all components have finished
                 if not continueRoutine:
@@ -955,6 +973,12 @@ while run < num_runs:
                 # Refresh the screen
                 if continueRoutine:  # Don't flip if this routine is over or we'll get a blank screen
                     win.flip()
+            if fb_offset is None and fb_onset is not None:
+                fb_offset = runClock.getTime()
+
+            if fb_onset is not None and fb_offset is not None:
+                exp.addData('Fb.OffsetTime', fb_offset)
+                exp.addData('Fb.Duration', fb_offset - fb_onset)
         
             # -------Ending Routine "Feedback"-------
             for thisComponent in FeedbackComponents:
@@ -968,12 +992,12 @@ while run < num_runs:
         trial_time = trialClock.getTime()
                 
         # Log inter trial interval fixation time
-        exp.addData('Fix_ITI.OnsetTime', runClock.getTime())
+        #exp.addData('Fix_ITI.OnsetTime', runClock.getTime())
         
-        show_fixation(fix_ITI[trial])
+        show_fixation(fix_ITI[trial],label='Fix_ITI')
         
         # Completed trial, add some data to log file
-        exp.addData('Fix_ITI.Duration', fix_ITI[trial])
+        #exp.addData('Fix_ITI.Duration', fix_ITI[trial])
         exp.addData('time.trial', trialClock.getTime())
         exp.addData('time.global', globalClock.getTime())
         
